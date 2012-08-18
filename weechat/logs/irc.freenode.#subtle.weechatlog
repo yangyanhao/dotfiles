@@ -1,0 +1,934 @@
+2012-07-25 21:47:51	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 21:47:51	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 21:47:51	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 21:47:51	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer_ hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 21:47:51	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 21:47:51	--	Mode #subtle [+n]
+2012-07-25 21:47:51	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 21:47:51	--	URL for #subtle: http://subtle.subforge.org
+2012-07-25 21:47:53	--	Mode #subtle [+n]
+2012-07-25 21:47:53	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 21:48:05	johnhamelink	hey guys
+2012-07-25 21:49:24	johnhamelink	I have a question: when I hold Super + lmb to drag a window, it takes a long time for the window to catch up with my mouse. Is this a GPU issue?
+2012-07-25 21:57:18	faulty	johnhamelink: does the window content follow your mouse?
+2012-07-25 21:57:25	faulty	or just those border things?
+2012-07-25 22:02:05	johnhamelink	yeah faulty there's a blinking box that follows around
+2012-07-25 22:02:21	johnhamelink	it only blinks when i move the mouse
+2012-07-25 22:26:40	johnhamelink	i have another question if anyone is about to answer: how do I tag all terminal-vim sessions within urxvt?
+2012-07-25 22:35:52	-->	gattuso (~gattuso@66.219.20.207) has joined #subtle
+2012-07-25 22:53:08		irc: disconnected from server
+2012-07-25 22:58:47	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 22:58:47	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 22:58:47	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 22:58:47	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 22:58:47	--	Channel #subtle: 41 nicks (0 ops, 0 halfops, 0 voices, 41 normals)
+2012-07-25 22:58:57	--	Mode #subtle [+n]
+2012-07-25 22:58:57	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 22:59:46	<--	floyd2 (~floyd2@17.145.34.193.static.giga-dns.com) has quit (Quit: leaving)
+2012-07-25 23:25:11	<--	Anomareh (~Anomareh@subtle/user/anomareh) has quit (Quit: g'day chaps)
+2012-07-25 23:26:31	-->	Anomareh (~Anomareh@subtle/user/anomareh) has joined #subtle
+2012-07-25 23:29:24		irc: disconnected from server
+2012-07-25 23:29:27	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:29:27	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:29:27	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:29:27	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:29:27	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 23:29:32		irc: disconnected from server
+2012-07-25 23:33:19	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:33:19	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:33:19	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:33:19	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:33:19	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 23:33:29	--	Mode #subtle [+n]
+2012-07-25 23:33:30	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 23:33:32	johnhamelink	:q
+2012-07-25 23:33:40		irc: disconnected from server
+2012-07-25 23:34:51	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:34:51	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:34:51	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:34:51	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:34:51	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 23:35:02	--	Mode #subtle [+n]
+2012-07-25 23:35:02	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 23:35:18	flasheh	johnhamelink: You can name urxvt windows if you launch them with "urxvt -name namehere"
+2012-07-25 23:35:42	flasheh	just create another keyboard shortcut to launch urxvt with some name
+2012-07-25 23:35:48	johnhamelink	flasheh: yeah I just realised that looking at someone else's config :)
+2012-07-25 23:35:49	flasheh	and then match based on that
+2012-07-25 23:35:53	flasheh	:)
+2012-07-25 23:36:04	johnhamelink	thanks :D
+2012-07-25 23:36:18	flasheh	np
+2012-07-25 23:36:18		irc: disconnected from server
+2012-07-25 23:36:23	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:36:23	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:36:23	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:36:23	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:36:23	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 23:36:33	--	Mode #subtle [+n]
+2012-07-25 23:36:33	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 23:37:09		irc: disconnected from server
+2012-07-25 23:37:11	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:37:11	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:37:11	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:37:11	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:37:11	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 23:37:20	--	Mode #subtle [+n]
+2012-07-25 23:37:20	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 23:38:03		irc: disconnected from server
+2012-07-25 23:38:16	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:38:16	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:38:16	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:38:16	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:38:16	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-25 23:38:20		irc: disconnected from server
+2012-07-25 23:40:07	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:40:07	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:40:07	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:40:07	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman isildur ixeft jey` johnhamelink jshsu L3thal ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:40:07	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-25 23:40:13		irc: disconnected from server
+2012-07-25 23:40:59	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-25 23:40:59	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-25 23:40:59	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-25 23:40:59	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd formorer_ gattuso hive-min1 Icedman isildur ixeft jey` johnhamelink jshsu L3thal ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-25 23:40:59	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-25 23:41:08	--	Mode #subtle [+n]
+2012-07-25 23:41:08	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-25 23:41:19	<--	L3thal (~quassel@41.44.191.160) has quit (Remote host closed the connection)
+2012-07-25 23:42:12	johnhamelink	oh flasheh, it's beautiful :3
+2012-07-25 23:45:21	flasheh	:)
+2012-07-25 23:47:13	<--	isildur (~Isildur@ip-178-202-75-16.unitymediagroup.de) has quit (Quit: WeeChat 0.3.8)
+2012-07-25 23:50:09	-->	skwiz0d (~AndChat71@67.129.233.51) has joined #subtle
+2012-07-25 23:54:58	faulty	what is beautiful? i wanna see it too
+2012-07-25 23:56:04	<--	skwiz0d (~AndChat71@67.129.233.51) has quit (Quit: Bye)
+2012-07-25 23:58:57	johnhamelink	faulty: ok let me try and take a snap :D
+2012-07-26 00:01:16	johnhamelink	http://d.pr/i/VTTP
+2012-07-26 00:01:17	ContextBot	Title: Droplr  2012-07-25-235951_2560x1440_scrot.png (at d.pr)
+2012-07-26 00:01:28	johnhamelink	faulty ^
+2012-07-26 00:01:47	johnhamelink	the font is a bit funky... need to look at that, but I'm really happy with how it's turning out ;D
+2012-07-26 00:02:41	faulty	is that terminus?
+2012-07-26 00:02:54	faulty	the font
+2012-07-26 00:03:57	johnhamelink	faulty: yeah it is
+2012-07-26 00:04:41	faulty	looks really weird in the upper right window
+2012-07-26 00:04:55	johnhamelink	yeah that's what I meant by funky :/
+2012-07-26 00:05:29	faulty	is that urxvt too?
+2012-07-26 00:05:32	johnhamelink	yeah it is
+2012-07-26 00:06:44	johnhamelink	faulty: here's my XDefaults if you're interested https://gist.github.com/3179257
+2012-07-26 00:09:54	flasheh	Not sure, but try disabling hinting
+2012-07-26 00:09:58	flasheh	might fix the funky font
+2012-07-26 00:10:08	johnhamelink	ok thanks :)
+2012-07-26 00:12:07	faulty	actually i'm on xfce (+ pytyle) now, http://oi50.tinypic.com/j9oroz.jpg
+2012-07-26 00:12:50	flasheh	is that irssi?
+2012-07-26 00:13:05	faulty	yes
+2012-07-26 00:13:12	johnhamelink	that's nice :D
+2012-07-26 00:13:36	johnhamelink	im using weechat, I love it :D
+2012-07-26 00:13:41	flasheh	Care to to share the windowlist plugin?
+2012-07-26 00:13:55	faulty	awl.pl
+2012-07-26 00:15:03	flasheh	that's awl?
+2012-07-26 00:15:11	flasheh	it just looked so different from mine :p
+2012-07-26 00:15:16	faulty	http://pastebin.com/nYBrf52e
+2012-07-26 00:15:20	ContextBot	Title: /set awl_all_disable OFF /set awl_automode sbar /set awl_block 20 /set awl_co - Pastebin.com (at pastebin.com)
+2012-07-26 00:15:29	flasheh	http://dotshare.it/public/images/uploads/404.png
+2012-07-26 00:15:39	flasheh	that's my irssi
+2012-07-26 00:16:05	faulty	i use irssi much from my android, so i like to keep awl minimal
+2012-07-26 00:16:35	johnhamelink	oooh #dotshare, never knew that existed :D
+2012-07-26 00:16:38	 *	johnhamelink joins
+2012-07-26 00:17:13	flasheh	:P
+2012-07-26 00:17:29	johnhamelink	^.^
+2012-07-26 00:24:18	<--	gattuso (~gattuso@66.219.20.207) has quit (Ping timeout: 245 seconds)
+2012-07-26 00:30:00	-->	floyd2 (~floyd2@17.145.34.193.static.giga-dns.com) has joined #subtle
+2012-07-26 00:31:02		irc: disconnected from server
+2012-07-26 00:31:12	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 00:31:12	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 00:31:12	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 00:31:12	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer_ hive-min1 Icedman ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak]
+2012-07-26 00:31:12	--	Channel #subtle: 40 nicks (0 ops, 0 halfops, 0 voices, 40 normals)
+2012-07-26 00:31:30	--	Mode #subtle [+n]
+2012-07-26 00:31:30	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 00:40:49	<--	Icedman (~Icey@unaffiliated/icedman) has quit (Remote host closed the connection)
+2012-07-26 00:47:26	-->	zeltak1 (~zeltak@c-50-136-63-101.hsd1.ma.comcast.net) has joined #subtle
+2012-07-26 00:47:48	<--	zeltak (~zeltak@c-50-136-63-101.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+2012-07-26 01:06:41	<--	RealEyes (~Space_Cas@unaffiliated/space-case/x-0038823) has quit (Quit: http://hologrammm.tumblr.com)
+2012-07-26 01:30:50		irc: disconnected from server
+2012-07-26 09:01:57	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:01:57	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:01:57	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:01:57	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:01:57	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:02:07	--	Mode #subtle [+n]
+2012-07-26 09:02:07	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 09:03:17		irc: disconnected from server
+2012-07-26 09:03:26	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:03:26	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:03:26	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:03:26	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:03:26	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:03:36	--	Mode #subtle [+n]
+2012-07-26 09:03:36	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 09:03:37		irc: disconnected from server
+2012-07-26 09:04:04	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:04:04	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:04:04	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:04:04	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:04:04	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:04:14	--	Mode #subtle [+n]
+2012-07-26 09:04:14	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 09:04:39		irc: disconnected from server
+2012-07-26 09:04:41	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:04:41	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:04:41	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:04:41	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:04:41	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:04:46		irc: disconnected from server
+2012-07-26 09:05:03	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:05:03	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:05:03	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:05:03	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:05:03	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:05:13	--	Mode #subtle [+n]
+2012-07-26 09:05:13	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 09:05:25		irc: disconnected from server
+2012-07-26 09:05:28	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:05:28	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:05:28	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:05:28	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:05:28	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:05:37	--	Mode #subtle [+n]
+2012-07-26 09:05:37	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 09:05:38		irc: disconnected from server
+2012-07-26 09:05:41	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:05:41	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:05:41	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:05:41	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:05:41	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:05:44		irc: disconnected from server
+2012-07-26 09:05:59	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-26 09:05:59	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-26 09:05:59	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-26 09:05:59	--	Nicks #subtle: [aiBo` Anomareh badboy_ bw_ chepaz CIA-94 ContextBot dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer gattuso hive-min1 isildur ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S_ PopeKetric radhermit Rasi RealEyes Tasser thorsten` unexist UNIXgod yosafbridge zeltak1]
+2012-07-26 09:05:59	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-07-26 09:06:09	--	Mode #subtle [+n]
+2012-07-26 09:06:09	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-26 09:27:42	<--	isildur (~Isildur@ip-178-203-11-25.unitymediagroup.de) has quit (Quit: WeeChat 0.3.8)
+2012-07-26 09:47:46	<--	RealEyes (~Space_Cas@unaffiliated/space-case/x-0038823) has quit (Quit: http://hologrammm.tumblr.com)
+2012-07-26 11:24:39	-->	Icedman (~Icey@unaffiliated/icedman) has joined #subtle
+2012-07-26 11:33:26	-->	chep4z (~chepaz@dslb-094-217-184-255.pools.arcor-ip.net) has joined #subtle
+2012-07-26 11:35:10	<--	chepaz (~chepaz@dslb-094-216-102-173.pools.arcor-ip.net) has quit (Ping timeout: 250 seconds)
+2012-07-26 11:49:32	<--	Icedman (~Icey@unaffiliated/icedman) has quit (Quit: Everyone quits one day. You just wasted 3 seconds reading this.)
+2012-07-26 12:15:43	<--	Mon_Ouie (~Mon_Ouie@subtle/user/MonOuie) has quit (Ping timeout: 252 seconds)
+2012-07-26 12:21:26	-->	Mon_Ouie (~Mon_Ouie@19.103-244-81.adsl-dyn.isp.belgacom.be) has joined #subtle
+2012-07-26 12:21:27	<--	Mon_Ouie (~Mon_Ouie@19.103-244-81.adsl-dyn.isp.belgacom.be) has quit (Changing host)
+2012-07-26 12:21:27	-->	Mon_Ouie (~Mon_Ouie@subtle/user/MonOuie) has joined #subtle
+2012-07-26 12:24:25	<--	Mon_Ouie (~Mon_Ouie@subtle/user/MonOuie) has quit (Read error: Connection reset by peer)
+2012-07-26 12:25:47	<--	chep4z (~chepaz@dslb-094-217-184-255.pools.arcor-ip.net) has quit (Ping timeout: 240 seconds)
+2012-07-26 12:30:55	-->	Mon_Ouie (~Mon_Ouie@19.103-244-81.adsl-dyn.isp.belgacom.be) has joined #subtle
+2012-07-26 12:30:55	<--	Mon_Ouie (~Mon_Ouie@19.103-244-81.adsl-dyn.isp.belgacom.be) has quit (Changing host)
+2012-07-26 12:30:55	-->	Mon_Ouie (~Mon_Ouie@subtle/user/MonOuie) has joined #subtle
+2012-07-26 12:48:48	ContextBot	Buildbots: x86_debian4: #1973 => success, x86_64_debian5: #798 => success, x86_archlinux: #801 => success
+2012-07-26 13:50:10	-->	chepaz (~chepaz@dslb-092-075-239-187.pools.arcor-ip.net) has joined #subtle
+2012-07-26 15:23:49	-->	fys (~fys@108-65-116-255.lightspeed.austtx.sbcglobal.net) has joined #subtle
+2012-07-26 15:56:05	-->	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has joined #subtle
+2012-07-26 15:56:05	<--	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has quit (Changing host)
+2012-07-26 15:56:05	-->	Icedman (~Icey@unaffiliated/icedman) has joined #subtle
+2012-07-26 16:40:37	unexist	http://i.imgur.com/qDQW2.png
+2012-07-26 16:40:46	unexist	Heh, FrOSCon ig going to be fun.
+2012-07-26 16:41:31	dominikh	could the floor plan be any smaller
+2012-07-26 16:41:43	unexist	Actually that is the biggest zoom level..
+2012-07-26 16:41:45	dominikh	next to i3 again, really?
+2012-07-26 16:41:59	unexist	Heh yeah, like the year before in a 'room' with KDE, Gnome and XFCE.
+2012-07-26 16:42:10	dominikh	so they can lock the door? :D
+2012-07-26 16:42:11	unexist	Wonder if they really wrote ]3.
+2012-07-26 16:42:17	dominikh	haha, yeah
+2012-07-26 16:43:32	unexist	Ok, now I need to decide if I want a hotel room.
+2012-07-26 16:47:46	unexist	http://thefuckingweather.com/
+2012-07-26 16:47:47	ContextBot	Title: THE FUCKING WEATHER (at thefuckingweather.com)
+2012-07-26 16:47:47	unexist	Haha
+2012-07-26 16:48:06	unexist	29°?!
+2012-07-26 16:48:09	unexist	IT'S FUCKING HOT
+2012-07-26 16:48:12	unexist	sweating my balls off
+2012-07-26 16:50:25	unexist	Fuck it, hotel room yes.
+2012-07-26 16:50:34	unexist	I don't want to drive home with all the stuff.
+2012-07-26 16:51:46	unexist	Anyone else wants to be a project exhibitor? That means free entrance and catering?
+2012-07-26 16:54:11	dominikh	where is froscon?
+2012-07-26 16:54:30	unexist	Sankt-Augustin, near Siegburg/Bonn.
+2012-07-26 16:54:34	dominikh	screw that
+2012-07-26 16:54:37	unexist	;)
+2012-07-26 16:54:44	unexist	One reason why I want a hotel room.
+2012-07-26 16:54:48	dominikh	hehe
+2012-07-26 16:55:01	unexist	Just ~1.5hrs from here but still the fuck.
+2012-07-26 16:55:18	unexist	And 25€ per night is almost a no brainer.
+2012-07-26 17:09:21	dominikh	heh
+2012-07-26 17:09:41	dominikh	so you pay for a hotel, the train ride etc, just to show other people your window manager, to talk to people who won't get it?
+2012-07-26 17:09:54	lianj	unexist: add me to your booth again :)
+2012-07-26 17:10:16	unexist	dominikh: Just for the hotel, train ride is included in the semester ticket. ;)
+2012-07-26 17:10:20	unexist	lianj: I will. :D
+2012-07-26 17:10:27	dominikh	hehe
+2012-07-26 17:10:34	dominikh	you are still studying oO
+2012-07-26 17:10:40	lianj	unexist: thanks
+2012-07-26 17:11:08	unexist	dominikh: Yeah, just need to submit my thesis. ;)
+2012-07-26 17:17:07	thorsten`	unexist: ouh maybe it was a mistake to not do an hlwm standing ;)
+2012-07-26 17:17:23	unexist	thorsten`: Heh yep indeed. :D
+2012-07-26 17:18:34	thorsten`	but i need a cool icon first ;)
+2012-07-26 17:24:24	unexist	Gimp it. ;)
+2012-07-26 17:30:29	dominikh	gimp? icons shouldn't be raster graphics :P
+2012-07-26 17:30:31	<--	nperry (~nperry@unaffiliated/nperry) has quit (Quit: ZNC - http://znc.in)
+2012-07-26 17:31:23	-->	nperry (~nperry@unaffiliated/nperry) has joined #subtle
+2012-07-26 17:32:53	unexist	Can't gimp save raster graphics nowadays?
+2012-07-26 17:33:01	Tasser	just use inkscape
+2012-07-26 17:33:11	dominikh	unexist: you might want to read over that last statement again
+2012-07-26 17:34:14	unexist	dominikh: Oh, darn. :D
+2012-07-26 17:34:17	dominikh	:D
+2012-07-26 17:42:35	dominikh	http://thefuckingweather.com/?where=oslo&unit=c hehe
+2012-07-26 17:42:36	ContextBot	Title: THE FUCKING WEATHER (at thefuckingweather.com)
+2012-07-26 17:45:38	formorer	http://thefuckingweather.com/?where=Grevenbroich&unit=c haha
+2012-07-26 17:45:39	ContextBot	Title: THE FUCKING WEATHER (at thefuckingweather.com)
+2012-07-26 17:46:17	<--	nperry (~nperry@unaffiliated/nperry) has quit (Ping timeout: 246 seconds)
+2012-07-26 17:53:54	-->	nperry (~nperry@unaffiliated/nperry) has joined #subtle
+2012-07-26 17:55:29	dominikh	"Linux/open source developers are usually not interested in fixing bugs if they cannot reproduce them. This problem plagues virtually all Open Source projects"
+2012-07-26 17:55:36	dominikh	that got to be the most stupid thing I've read today
+2012-07-26 17:55:48	flasheh	http://i.imgur.com/yD1Ma.jpg
+2012-07-26 17:56:10	unexist	Why stupid, it is true. ;)
+2012-07-26 17:56:31	unexist	flasheh: Dear God..
+2012-07-26 17:56:40	flasheh	:D
+2012-07-26 17:56:48	unexist	Where is Batman when you need him.
+2012-07-26 17:56:58	dominikh	unexist: it's stupid because it's nonsensical. how do you fix a bug that you cannot reproduce.
+2012-07-26 17:57:05	dominikh	it's so stupid I can't even think of a comparison
+2012-07-26 17:57:30	unexist	I don't, WONTFIX that is. :D
+2012-07-26 17:58:06	dominikh	my doctor was not interested in fixing an injury I wasn't showing him
+2012-07-26 17:58:36	unexist	Wouldn't it be more an injury he cannot find?
+2012-07-26 17:58:50	dominikh	needed a reason why he couldn't find it
+2012-07-26 17:58:51	unexist	Like.. You want a day off and tell him you've got headache?
+2012-07-26 17:58:57	dominikh	heh. that usually works
+2012-07-26 17:59:31	unexist	Or stomach ache.
+2012-07-26 17:59:41	flasheh	unexist: This bug http://subforge.org/issues/239 is supposed to be fixed, yet I still experience it?
+2012-07-26 17:59:42	ContextBot	Title: subtle - Bug #239: Mplayer loses focus on view switch - Subforge (at subforge.org)
+2012-07-26 17:59:43	dominikh	I wouldn't have to lie in either case
+2012-07-26 17:59:45	unexist	Fact is neither the doctor not the FOSS devel is interested in finding stuff like this.
+2012-07-26 17:59:55	unexist	s/not/nor/
+2012-07-26 18:02:02	unexist	flasheh: Haven't changed anything related to that since then, let me test.
+2012-07-26 18:04:07	dominikh	I am way more concerned by sticky floating windows changing their position when I switch views :P
+2012-07-26 18:05:24	unexist	All windows or specific ones?
+2012-07-26 18:07:29	dwfreed	don't sticky windows have a separate gravity for each view? (ie, you can change the gravity in one view, but it doesn't change it in aonther)
+2012-07-26 18:08:27	flasheh	afaik you can't change the gravity in other views, only in the original one
+2012-07-26 18:08:50	dwfreed	I really need to boot my desktop, so I can actually use subtle again
+2012-07-26 18:12:14	unexist	Sticky windows can have different gravities per view, but per default they use the same on all views.
+2012-07-26 18:13:21	flasheh	ah I see
+2012-07-26 18:20:19	dominikh	well yeah, that's what I'd love to disable
+2012-07-26 18:20:38	dominikh	e.g. for my sticky floating mplayer
+2012-07-26 18:21:06	dominikh	meh, actually I cannot reproduce it now :D
+2012-07-26 18:21:41	dominikh	ah well, never mind :P
+2012-07-26 18:25:53	unexist	;)
+2012-07-26 18:26:21	dominikh	there is some oddities when having them floating on one view, and a gravity on another, but I cant be bothered explaining that properly :P
+2012-07-26 18:26:43	unexist	No odditiy, that isn't possible. ;)
+2012-07-26 18:27:08	dominikh	okay, now you forced me to explain it
+2012-07-26 18:27:58	dominikh	view 1: mplayer is is floating. view 2: I move it to a certain gravity (say the default top right one). I go back to view 1, now it has the center gravity
+2012-07-26 18:28:05	dominikh	I guess because it had no other gravity on view 1 before?
+2012-07-26 18:28:42	unexist	Yep, center is the default gravity when none is set.
+2012-07-26 18:28:52	dominikh	ok
+2012-07-26 18:28:58	unexist	Or rather: Center is the default gravity set in your config. ;)
+2012-07-26 18:29:00	dominikh	I will just never give mplayer a gravity :P
+2012-07-26 18:35:43	unexist	Weird, there's this offer at GameStop: When you trade in your old 3DS you save 100€ on a 3DS XL. Today I went to a GameStop and I asked if the participate there. The guy told me I should hurry, because they are soon out of stock. The webpage tells me the whole thing starts at 28.7.
+2012-07-26 18:35:58	dominikh	haha
+2012-07-26 18:36:08	dominikh	can still be out of 3DS XL tho
+2012-07-26 18:36:27	unexist	Sure but the 28.7. is the release date of the 3DS XL.
+2012-07-26 18:36:30	dominikh	oh
+2012-07-26 18:36:33	dominikh	hah
+2012-07-26 18:37:19	unexist	So party tonight and I have no idea what to wear, so fucking hot. :D
+2012-07-26 18:38:35	dominikh	go nekkid
+2012-07-26 18:39:20	unexist	Nah, doubt that they let me into the club then.
+2012-07-26 18:39:29	dominikh	heh
+2012-07-26 18:41:01	unexist	And I started with the LotR books again, I fucking love the writing style and all. :)
+2012-07-26 18:41:31	dominikh	but you already know the entire story
+2012-07-26 18:41:35	dominikh	what is the point in reading it again
+2012-07-26 18:42:34	unexist	Sure I know, just my first read of this edition. ;)
+2012-07-26 19:07:35	dominikh	unexist: when I move a window around, will that stop all other windows from being redrawn, too?
+2012-07-26 19:08:38	unexist	dominikh: Yep
+2012-07-26 19:08:59	dominikh	ok
+2012-07-26 19:09:25	unexist	subtle grabs the server and masks out other events until movement stuff is done.
+2012-07-26 19:09:40	dominikh	why?
+2012-07-26 19:10:02	unexist	Less redraw overhead and easier to handle internally. ;)
+2012-07-26 19:10:09	dominikh	so lazyness
+2012-07-26 19:10:12	dominikh	:P
+2012-07-26 19:10:24	unexist	Well, the first thing is really nasty.
+2012-07-26 19:10:26	dominikh	so when I move my mplayer around now, it causes my game to freeze :P
+2012-07-26 19:10:56	unexist	When you move a window above another, it normally must redraw itself after every pixel move.
+2012-07-26 19:11:13	dominikh	I've got a powerful machine :P
+2012-07-26 19:13:34	unexist	At your current pace, you're 2 books (7%) behind.
+2012-07-26 19:13:35	unexist	Meh ;)
+2012-07-26 19:14:02	dominikh	Great work, you're on track!
+2012-07-26 19:14:08	dominikh	I haven't read any book in 2 months :D
+2012-07-26 19:14:08	unexist	Me too, now. :D
+2012-07-26 19:14:29	unexist	You have read 15 books toward your goal of 28 books.
+2012-07-26 19:14:31	dominikh	looks like 12 books a year is so easy, you don't even have to read for it
+2012-07-26 19:15:13	unexist	The problem with this challenge is you cannot add page numbers.
+2012-07-26 19:15:35	dominikh	wanna read 28 1-page books? :P
+2012-07-26 19:15:46	unexist	Sometimes a whole trilogy is counted as one book like 'His dark materials'.
+2012-07-26 19:15:52	dominikh	hehe
+2012-07-26 19:16:14	unexist	Or big volumes that include several books. ;)
+2012-07-26 19:16:38	unexist	7302 pages so far this year, hum.
+2012-07-26 19:16:52	dominikh	nice
+2012-07-26 19:16:54	unexist	11936 in 2011, 14218 in 2010.
+2012-07-26 19:17:29	unexist	And all pages are behind me in my shelf. :D
+2012-07-26 19:17:51	dominikh	:D
+2012-07-26 19:18:29	dominikh	3432 pages in 2012, 687 in 2011 and 84 in 2010 :D
+2012-07-26 19:18:38	unexist	84? Heh
+2012-07-26 19:18:45	dominikh	school
+2012-07-26 19:18:49	dominikh	some short play
+2012-07-26 19:18:54	unexist	I have 0 in 2008.
+2012-07-26 19:19:02	unexist	Too lazy to add the 50 books of this series.
+2012-07-26 19:19:23	unexist	Hm more than 50, actually.
+2012-07-26 19:19:44	dominikh	wow, using the back button once majorly and irreversibly broke the stats for me
+2012-07-26 19:19:57	dominikh	it now always shows the book count, and only for 2002 the page count
+2012-07-26 19:22:13	--	Paul-S_ is now known as Paul-S
+2012-07-26 19:22:26	<--	Paul-S (~paul@80-42-162-134.dynamic.dsl.as9105.com) has quit (Changing host)
+2012-07-26 19:22:26	-->	Paul-S (~paul@subtle/user/Paul-S) has joined #subtle
+2012-07-26 19:22:56	unexist	http://thedailywtf.com/Articles/A-Heated-Situation.aspx
+2012-07-26 19:22:56	ContextBot	Title: A Heated Situation - The Daily WTF (at thedailywtf.com)
+2012-07-26 19:22:59	unexist	Haha great.
+2012-07-26 19:23:18	unexist	I can summarize that for you if you like. ;)
+2012-07-26 19:25:10	unexist	Wtf
+2012-07-26 19:25:15	dominikh	haha wow
+2012-07-26 19:25:19	unexist	"I am now the proud owner of three awesome high resolution (2560x1440) 27" IPS LCDs, and I paid less than a thousand dollars for all three of them."
+2012-07-26 19:26:30	unexist	Not the first time that someone blogs about cheap displays from korea.
+2012-07-26 19:26:45	unexist	$250 per display is fucking cheap. :o
+2012-07-26 19:27:05	dominikh	but then it's korea
+2012-07-26 19:27:43	unexist	They usually have the same panels as expensives monitors, just lack stuff like OSDs.
+2012-07-26 19:27:53	dominikh	or warranty
+2012-07-26 19:27:58	unexist	Yeah, true.
+2012-07-26 19:31:38	unexist	Heh, Humble Music Bundle. At least I know 'They Might Be Giants'. They made the intro song of 'Malcolm in the Middle'.
+2012-07-26 19:31:44	dominikh	quite frankly I am happy with my displays. no idea what cheap technology they use, but they are good enough for my eyes
+2012-07-26 19:31:52	dominikh	I loved that show
+2012-07-26 19:33:37	unexist	Haha, my dad.. No idea what he really wrote in this SMS, autocorrect made it more funny. :D
+2012-07-26 19:33:43	dominikh	heh
+2012-07-26 19:34:01	unexist	"Hey Chris, kannst du mir Nichteinhaltung diesen Patch schicken"
+2012-07-26 19:34:09	unexist	Sure.
+2012-07-26 19:34:15	dominikh	sounds like spam
+2012-07-26 20:23:45	unexist	Off to party, laters.
+2012-07-26 20:23:54	unexist	And nope, it's thursday. ;)
+2012-07-26 20:34:30	dominikh	:D
+2012-07-26 21:10:52		irc: disconnected from server
+2012-07-27 11:37:19	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-27 11:37:19	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-27 11:37:19	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-27 11:37:19	--	Nicks #subtle: [aiBo` Anomareh badboy_ CIA-94 dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer fys gattuso hexreel hive-min1 ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S PopeKetric radhermit Rasi Tasser thorsten` UNIXgod yosafbridge zeltak1]
+2012-07-27 11:37:19	--	Channel #subtle: 38 nicks (0 ops, 0 halfops, 0 voices, 38 normals)
+2012-07-27 11:37:29	--	Mode #subtle [+n]
+2012-07-27 11:37:29	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-27 11:45:06		irc: disconnected from server
+2012-07-27 13:21:41	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-07-27 13:21:41	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-07-27 13:21:41	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-07-27 13:21:41	--	Nicks #subtle: [aiBo` Anomareh badboy_ CIA-94 dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer fys gattuso hexreel hive-min1 ixeft jey` johnhamelink jshsu ldk lianj MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S PopeKetric radhermit Rasi Tasser thorsten` UNIXgod yosafbridge zeltak1]
+2012-07-27 13:21:41	--	Channel #subtle: 38 nicks (0 ops, 0 halfops, 0 voices, 38 normals)
+2012-07-27 13:21:51	--	Mode #subtle [+n]
+2012-07-27 13:21:51	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-07-27 13:22:18	-->	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has joined #subtle
+2012-07-27 13:22:18	<--	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has quit (Changing host)
+2012-07-27 13:22:18	-->	Icedman (~Icey@unaffiliated/icedman) has joined #subtle
+2012-07-27 13:38:49	<--	Icedman (~Icey@unaffiliated/icedman) has quit (Quit: Everyone quits one day. You just wasted 3 seconds reading this.)
+2012-07-27 14:02:32	-->	manuw (~manuw@debiancenter/developer/manuw) has joined #subtle
+2012-07-27 14:41:50	dominikh	wow.
+2012-07-27 14:42:38	dominikh	so we currently have 32 MBit at unitymedia. Dad called and wanted to upgrade to 64 MBit because it was supposed to be the same price. Turns out that we are now going to get 100 MBit for 5€ less than what we paid for 32...
+2012-07-27 15:21:20	-->	chepaz (~chepaz@dslb-094-216-010-177.pools.arcor-ip.net) has joined #subtle
+2012-07-27 16:01:23	flasheh	checked their site real quick, 100/5 for €25/month?
+2012-07-27 16:01:36	flasheh	/jealous :(
+2012-07-27 16:13:35	dominikh	hehe
+2012-07-27 16:21:05	flasheh	for 25/month, I can only get 30/2.5 with 100GB data usage. or 12/1 unlimited
+2012-07-27 16:28:24	-->	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has joined #subtle
+2012-07-27 16:28:24	<--	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has quit (Changing host)
+2012-07-27 16:28:24	-->	Icedman (~Icey@unaffiliated/icedman) has joined #subtle
+2012-07-27 17:08:59	dominikh	cute
+2012-07-27 17:09:02	dominikh	where do you live
+2012-07-27 17:16:01	oddmunds	data caps are sad
+2012-07-27 17:18:30	dominikh	yeah
+2012-07-27 17:18:40	dominikh	especiallt at such speeds
+2012-07-27 17:18:45	dominikh	100GB with 30Mbit...
+2012-07-27 17:18:50	dominikh	I downloaded 2TB with 32
+2012-07-27 17:21:26	lianj	all linux isos? ;)
+2012-07-27 17:21:33	dominikh	no
+2012-07-27 17:21:35	dominikh	holiday pictures
+2012-07-27 17:26:20	<--	Icedman (~Icey@unaffiliated/icedman) has quit (Remote host closed the connection)
+2012-07-27 17:40:40	fys	i hate having expensive hobbies..
+2012-07-27 17:40:41	fys	:\
+2012-07-27 17:54:28		irc: disconnected from server
+2012-08-03 11:22:10	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-03 11:22:10	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-03 11:22:10	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-08-03 11:22:10	--	Nicks #subtle: [aiBo` badboy_ chepaz CIA-94 ContextBot Davor dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer fys gattuso hexreel hive-mind ixeft jey` johnhamelink L3thal_ ldk lianj manuw MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S PopeKetric radhermit Rasi Tasser thorsten` unexist UNIXgod wotwot yosafbridge ZadYree zeltak]
+2012-08-03 11:22:10	--	Channel #subtle: 44 nicks (0 ops, 0 halfops, 0 voices, 44 normals)
+2012-08-03 11:22:19	--	Mode #subtle [+n]
+2012-08-03 11:22:19	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-03 11:48:06	-->	L3thal (~quassel@41.44.136.28) has joined #subtle
+2012-08-03 11:50:50	<--	L3thal_ (~quassel@41.44.152.200) has quit (Ping timeout: 248 seconds)
+2012-08-03 11:53:45	<--	Paul-S (~paul@subtle/user/Paul-S) has quit (Ping timeout: 244 seconds)
+2012-08-03 11:53:45	<--	unexist (~unexist@subtle/developer/unexist) has quit (Ping timeout: 244 seconds)
+2012-08-03 11:53:54	-->	L3thal__ (~quassel@41.44.136.28) has joined #subtle
+2012-08-03 11:53:56	<--	L3thal (~quassel@41.44.136.28) has quit (Ping timeout: 244 seconds)
+2012-08-03 11:53:57	-->	Paul-S (~paul@subtle/user/Paul-S) has joined #subtle
+2012-08-03 11:54:29	-->	unexist (~unexist@dorfelite.net) has joined #subtle
+2012-08-03 11:54:30	<--	unexist (~unexist@dorfelite.net) has quit (Changing host)
+2012-08-03 11:54:30	-->	unexist (~unexist@subtle/developer/unexist) has joined #subtle
+2012-08-03 13:54:27	-->	k0i (~Fredrik@c-b21cb47a-74736162.cust.telenor.se) has joined #subtle
+2012-08-03 13:59:41	<--	k0i (~Fredrik@c-b21cb47a-74736162.cust.telenor.se) has quit (Quit: nil)
+2012-08-03 14:14:29		irc: disconnected from server
+2012-08-03 14:14:39	-->	johnhamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-03 14:14:39	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-03 14:14:39	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:14
+2012-08-03 14:14:39	--	Nicks #subtle: [aiBo` badboy_ chepaz CIA-94 ContextBot Davor dominikh dwfreed fartbox faulty flasheh flebel flexd floyd2 formorer fys gattuso hexreel hive-mind ixeft jey` johnhamelink L3thal__ ldk lianj manuw MasterofJOKers Mon_Ouie nexxus6 nokogiri nperry oddmunds Paul-S PopeKetric radhermit Rasi Tasser thorsten` unexist UNIXgod wotwot yosafbridge ZadYree zeltak]
+2012-08-03 14:14:39	--	Channel #subtle: 44 nicks (0 ops, 0 halfops, 0 voices, 44 normals)
+2012-08-03 14:15:07	--	Mode #subtle [+n]
+2012-08-03 14:15:07	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-03 14:16:12	-->	k0i (~Fredrik@c-b21cb47a-74736162.cust.telenor.se) has joined #subtle
+2012-08-03 14:16:36	unexist	Heh stupid.
+2012-08-03 14:17:08	unexist	Boss wrote into a ticket I should increase the font size of the protocol id e.g. 2011-xxxxxxxx.
+2012-08-03 14:17:22	unexist	So I increased the stuff that is in the xxxxxxx and he isn't satisfied. ;)
+2012-08-03 14:19:18	unexist	That was so complicated.. ;)
+2012-08-03 14:19:27	unexist	protocol.permalink.gsub(/([0-9]{4}-)(.*)/, "\\1<font size='9'>\\2</font>")
+2012-08-03 14:28:51	<--	k0i (~Fredrik@c-b21cb47a-74736162.cust.telenor.se) has quit (Quit: nil)
+2012-08-03 14:38:03	dominikh	yay for.. html in code, deprecated font tags, ...
+2012-08-03 14:38:49	unexist	w3c deprecated, just means it is going to outlive me. Still the only format prawn accepts.
+2012-08-03 14:51:11	unexist	Stupid smart scripts, when you press ^A on a number in vim it increases the value by one. So I thought when I do that on the five of 750 it increases that to 760, nope.
+2012-08-03 14:53:59	unexist	http://mlkshk.com/r/I7EW.gif
+2012-08-03 15:02:49	dominikh	lol
+2012-08-03 15:03:17	dominikh	lol was ^A. dafuq at the link
+2012-08-03 15:04:53	unexist	Figured as much. :D
+2012-08-03 15:06:01	dominikh	wow, first time in years I am installing Debian
+2012-08-03 15:06:07	dominikh	let's see how this goes
+2012-08-03 15:06:15	unexist	On your raspberry? ;)
+2012-08-03 15:06:22	dominikh	haha, nah
+2012-08-03 15:06:33	dominikh	virtual machine, testing my maybe future router setup
+2012-08-03 15:09:24	jey`	Just me or does it suck when you realize you have to delete stuff to make room for new? (series)
+2012-08-03 15:10:08	unexist	Yep, that sucks. Buy more hdds instead.
+2012-08-03 15:10:16	dominikh	Today, my soon-to-be stepson, 13, decided that he and I needed to spend "more quality time" together. His idea? We should start "bonding" by taking a bath together. When I said no, he told me I was being unfair, that if I really loved him, I'd do it. FML
+2012-08-03 15:10:18	dominikh	dafuq
+2012-08-03 15:11:07	unexist	Can I see the pic of the author? ;)
+2012-08-03 15:11:22	dominikh	haha, unfortunately there is none
+2012-08-03 15:11:44	unexist	Too bad.
+2012-08-03 15:12:13	dominikh	"There is no better bonding time than bathing nude with you soon to be , creeper, step son"
+2012-08-03 15:12:31	unexist	Top reply? ;)
+2012-08-03 15:12:39	dominikh	oddly enough, nope
+2012-08-03 15:13:00	dominikh	wow.. professor corrected the exams even before I got home the same day
+2012-08-03 15:13:01	unexist	Top comment on 4chan would be sticking instead of bonding.
+2012-08-03 15:13:05	dominikh	haha
+2012-08-03 15:13:07	unexist	Heh wow.
+2012-08-03 15:13:56	dominikh	okay, I think the setup is hanging already
+2012-08-03 15:13:58	dominikh	stuck at 3%
+2012-08-03 15:14:19	dominikh	ah, no, just very bad progress bar :D
+2012-08-03 15:14:41	unexist	They usually suck. ;)
+2012-08-03 15:15:03	dominikh	what I am wondering is.. how do you headlessly install debian? I don't think the installer has ssh running
+2012-08-03 15:16:02	dominikh	ah, it does, if you edit the iso
+2012-08-03 16:01:06	unexist	http://www.bildschirmarbeiter.com/content/images/picdump-12-08-03/picdump-12-08-03-003.jpg :D
+2012-08-03 16:05:26	dominikh	poor cab driver
+2012-08-03 16:08:03	unexist	http://www.bildschirmarbeiter.com/content/images/picdump-12-08-03/picdump-12-08-03-147.jpg
+2012-08-03 16:08:06	unexist	Cool car. :D
+2012-08-03 16:09:08	unexist	http://www.bildschirmarbeiter.com/content/images/picdump-12-08-03/picdump-12-08-03-156.jpg
+2012-08-03 16:09:11	unexist	Lol oh dear.
+2012-08-03 16:09:16	dominikh	haha
+2012-08-03 16:12:11	unexist	http://www.bildschirmarbeiter.com/content/images/picdump-12-08-03/picdump-12-08-03-182.jpg
+2012-08-03 16:12:22	unexist	Bored people with skill.. ;)
+2012-08-03 16:13:25	dominikh	old
+2012-08-03 16:13:42	unexist	Prolly, haven't visited 9gag etc. for a while.
+2012-08-03 16:14:00	dominikh	how can you not visit 9gag
+2012-08-03 16:14:06	unexist	http://www.bildschirmarbeiter.com/content/images/picdump-12-08-03/picdump-12-08-03-067.jpg
+2012-08-03 16:14:23	unexist	Awesome what kind of sponsors they have.
+2012-08-03 16:29:52	unexist	Nice, 457 episodes of One Piece.
+2012-08-03 17:05:03	dominikh	heh
+2012-08-03 17:05:12	dominikh	so, technically, 457 Pieces
+2012-08-03 17:05:18	unexist	Yep
+2012-08-03 17:05:54	dominikh	woohoo, NAT works
+2012-08-03 17:06:06	dominikh	and I only had to copy and paste like 5 commands without understanding them!
+2012-08-03 17:06:08	dominikh	I hate iptables
+2012-08-03 17:12:12		irc: disconnected from server
+2012-08-13 08:16:54	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-13 08:16:54	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-13 08:16:54	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:15
+2012-08-13 08:16:54	--	Nicks #subtle: [aiBo` Anomareh badboy_ CIA-94 ContextBot Davor dominikh dwfreed FabianS faulty flasheh flebel flexd floyd2 formorer fys hexreel hive-min1 ixeft jey` JohnHamelink ldk lianj manuw MasterofJOKers Mon_Ouie Moridin nexxus6 nokogiri nperry oddmunds oystetl Paul-S PopeKetric radhermit Rasi reactormonk thorsten` unexist wotwot_ yosafbridge zeltak]
+2012-08-13 08:16:54	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-08-13 08:17:04	--	Mode #subtle [+n]
+2012-08-13 08:17:04	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-13 09:14:57	--	wotwot_ is now known as wotwot
+2012-08-13 10:21:51	FabianS	Whow, it's hard to keep up with a VDSL line.
+2012-08-13 10:21:57	FabianS	Adding dlcs.
+2012-08-13 10:23:47	dominikh	tell me about it
+2012-08-13 10:24:13	FabianS	Already downloaded Starwars I-VI
+2012-08-13 10:24:17	dominikh	...
+2012-08-13 10:24:38	FabianS	Out of despiration I just added "Das Boot" 4 hour version.
+2012-08-13 10:24:50	dominikh	...
+2012-08-13 10:31:42	dominikh	I cant even saturate my line with speedtest.net :P
+2012-08-13 10:31:46	dominikh	most servers there crap out at 90
+2012-08-13 10:33:21	unexist	FabianS: That stops when you run out of disk space, trust me. ;)
+2012-08-13 10:33:43	<--	ContextBot (~ContextBo@dorfelite.net) has quit (Remote host closed the connection)
+2012-08-13 10:33:53	dominikh	:>
+2012-08-13 10:34:01	dominikh	which wont take long with vdsl :P
+2012-08-13 10:34:07	unexist	Yea
+2012-08-13 10:34:18	-->	ContextBot (~ContextBo@dorfelite.net) has joined #subtle
+2012-08-13 10:34:33	dominikh	3.88 days per 2 TB disk.
+2012-08-13 10:35:03	unexist	http://d24w6bsrhbeh9d.cloudfront.net/photo/5020146_700b.jpg ← I still like this one. :D
+2012-08-13 10:35:09	dominikh	haha
+2012-08-13 10:37:52	dominikh	http://d24w6bsrhbeh9d.cloudfront.net/photo/5017514_460s.jpg old, I know, but the floating hand makes me sad
+2012-08-13 10:38:50	unexist	Heh
+2012-08-13 10:39:55	FabianS	217/1000 GB already full.
+2012-08-13 10:40:05	FabianS	The disk was empty last evening.
+2012-08-13 10:40:55	dominikh	heh. I only managed about 20GB of traffic since I've got 100 Mbit :D
+2012-08-13 10:41:04	FabianS	:D
+2012-08-13 10:41:08	dominikh	and most of that was speedtests :D
+2012-08-13 10:41:21	FabianS	Does your ISP throttle like Kabel Deutschland?
+2012-08-13 10:41:46	dominikh	dunno. usenet gets full speed, the debian torrent got full speed
+2012-08-13 10:41:51	dominikh	I think they don't :P
+2012-08-13 10:42:00	dominikh	http://stuff.fork-bomb.org/2012-08-13_11h-41m-15s.png yay for stats
+2012-08-13 10:42:13	FabianS	Probably not.
+2012-08-13 10:42:58	FabianS	Fucking annoying when a single rar is missing.
+2012-08-13 10:43:08	FabianS	And I need to download it without premium from some ohter hoster
+2012-08-13 10:43:20	dominikh	usenet, biatch
+2012-08-13 10:43:23	dominikh	embrace the data
+2012-08-13 10:45:10	FabianS	Hm.. Let's add the three Bourne Films..
+2012-08-13 10:45:38	FabianS	Bourne Identity was great
+2012-08-13 10:45:55	unexist	Uhm
+2012-08-13 10:46:02	unexist	I hated every single movie of that series.
+2012-08-13 10:46:07	dominikh	must be fun to watch the graphs at an ISP. every month when they activate a new batch of high speed customers there got to be a huge spike in traffic
+2012-08-13 10:46:10	unexist	Especially the last one.
+2012-08-13 10:46:15	FabianS	:D
+2012-08-13 10:46:40	FabianS	I liked the first but didn't watch the others.
+2012-08-13 10:46:52	unexist	If you need some traffic download all Bond and Star Trek movies.
+2012-08-13 10:47:02	unexist	2x 11 movies, iifc.
+2012-08-13 10:47:05	unexist	iirc*
+2012-08-13 10:47:21	FabianS	Wtf. Bourne is nowhere to be found :(
+2012-08-13 10:47:31	FabianS	And I've seen most of the James Bond films already
+2012-08-13 10:47:32	unexist	Nowhere in usenet?
+2012-08-13 10:47:40	FabianS	I don't have a usenet acc
+2012-08-13 10:47:46	dominikh	I love debian. running /etc/init.d/networking prints a deprecation warning. it doesn't tell you what to use instead, it doesn't abort, it just warns you that some interfaces might not get set up properly and then you realize you are fucked and the connection is dead
+2012-08-13 10:48:00	dominikh	unexist: I'm the usenet guy. rest of you are lamers
+2012-08-13 10:48:39	unexist	!sure
+2012-08-13 10:48:39	ContextBot	http://en.memgenerator.pl/mem-image/yeah-sure-en-ffffff
+2012-08-13 10:48:44	FabianS	Fuck it
+2012-08-13 10:48:50	FabianS	Just download all James Bond.
+2012-08-13 10:49:12	dominikh	http://nzbmatrix.com/nzb-search.php?search=bourne+-german&cat=42 :>
+2012-08-13 10:49:15	dominikh	it's all right there
+2012-08-13 10:51:16	FabianS	unraring all that shit will be fun.
+2012-08-13 10:51:29	dominikh	quite fast on my raid 5 :P
+2012-08-13 10:51:53	FabianS	At least it's USB 3.
+2012-08-13 10:52:01	dominikh	lol
+2012-08-13 10:52:51	FabianS	Should I really download Quantum of Solace?
+2012-08-13 10:52:57	FabianS	That film was god awfull.
+2012-08-13 10:53:29	dominikh	you're a compulsive hoarder
+2012-08-13 10:54:43	unexist	Daniel Craig just sucks.
+2012-08-13 10:54:49	FabianS	No, he's fine.
+2012-08-13 10:54:54	FabianS	Casino Royale was great
+2012-08-13 10:54:57	unexist	Nope
+2012-08-13 10:55:02	FabianS	Yes it was.
+2012-08-13 10:55:05	FabianS	One of the best bond films.
+2012-08-13 10:55:07	unexist	Bond shouldn't be a pussy.
+2012-08-13 10:55:13	dominikh	there hasn't been a single good bond movie :P
+2012-08-13 10:55:21	FabianS	He was fucking poisoned and shocked himself!
+2012-08-13 10:55:28	FabianS	And finished a game of poker afterwards!
+2012-08-13 10:55:28	unexist	Haha
+2012-08-13 10:55:36	unexist	He was fucking gruesome.
+2012-08-13 10:55:57	unexist	I wonder that he wasn't in the cast of Prometheus, would have suited perfectly.
+2012-08-13 10:56:43	FabianS	The best Bonds were Sean Connery and Pierce Brosnan though.
+2012-08-13 10:56:53	FabianS	Roger Moore was the weakest.
+2012-08-13 10:56:54	unexist	Aye
+2012-08-13 10:57:03	unexist	Well, Moore was somehow cool too.
+2012-08-13 10:57:46	FabianS	He was ok but I prefered the other ones.
+2012-08-13 11:05:08	FabianS	Whow. So Apple now made a connector that is exactly the size of mico USB and serves the same purpose but that is not micro USB?
+2012-08-13 11:05:19	unexist	Yep
+2012-08-13 11:05:22	dominikh	source?
+2012-08-13 11:05:27	FabianS	The interwebz
+2012-08-13 11:05:28	dominikh	haven't had my daily wtf yet
+2012-08-13 11:06:09	unexist	Apple likes to fuck up standards to make something proprietary.
+2012-08-13 11:06:40	unexist	Try to recharge your e.g. iPad on a pc. ;)
+2012-08-13 11:06:56	FabianS	The battery is way too huge.
+2012-08-13 11:07:11	dominikh	try recharging your xoom on a pc :P
+2012-08-13 11:07:18	unexist	It just doesn't work properly.
+2012-08-13 11:07:18	FabianS	You can't push 20-30w through your mobo.
+2012-08-13 11:07:36	FabianS	Most Android phones don't charge properly on normal USB ports.
+2012-08-13 11:07:42	FabianS	They require too much power.
+2012-08-13 11:07:53	unexist	Mine works but slowly.
+2012-08-13 11:08:00	dominikh	wasn't there some new standard that was supposed to deliver 100W at first?
+2012-08-13 11:08:04	FabianS	Nah.
+2012-08-13 11:08:10	FabianS	USB 3 delivers a bit more.
+2012-08-13 11:08:25	unexist	Apple USB2 delivers up to 1A, iirc.
+2012-08-13 11:08:51	unexist	Fu standards. :)
+2012-08-13 11:09:08	FabianS	Every 2.5" drive breaks the standard.
+2012-08-13 11:09:10	FabianS	Every single one.
+2012-08-13 11:09:21	FabianS	You can't power a HDD motor on USB.
+2012-08-13 11:09:35	FabianS	Without pulling significantly more power.
+2012-08-13 11:09:36	dominikh	uh, pretty sure a drive can't tell the controller to go over spec ;)
+2012-08-13 11:09:42	FabianS	Er.
+2012-08-13 11:09:45	unexist	Heh yeah, they usually require two plugs.
+2012-08-13 11:09:47	FabianS	What controller?
+2012-08-13 11:09:58	FabianS	We are talking about the power supply of the port.
+2012-08-13 11:10:27	FabianS	It just depends on how strong the converters on the board are.
+2012-08-13 11:11:11	dominikh	eh yeah, let's ignore the fuses and the negotiation. so you are saying I could plug in something that pulls 10A and instant-fry the board because there's nothing to stop me?
+2012-08-13 11:11:18	FabianS	Yep
+2012-08-13 11:11:21	dominikh	nope.
+2012-08-13 11:11:29	FabianS	Try it out.
+2012-08-13 11:11:32	FabianS	Short your USB port.
+2012-08-13 11:11:37	FabianS	And report what happens.
+2012-08-13 11:13:04	FabianS	Power supplies in PCs are voltage regulated. They just deliver as much power as the device draws.
+2012-08-13 11:13:16	FabianS	(unless it exceeds their limits)
+2012-08-13 11:14:02	dominikh	http://en.wikipedia.org/wiki/Universal_Serial_Bus#Power go read this, please. especially the part where the device has to make an request and where it's not just power simply connected to the port with nothing in between...
+2012-08-13 11:14:02	ContextBot	Title: Universal Serial Bus - Wikipedia, the free encyclopedia (at en.wikipedia.org)
+2012-08-13 11:14:28	dominikh	and make an educated guess why most 2.5" disks come with two plugs instead of one. probably not because they can just go berserk and draw an amp
+2012-08-13 11:14:40	FabianS	Two connectors is not allowed in any standard.
+2012-08-13 11:14:54	dominikh	I doubt you know ANY of the standard tbh
+2012-08-13 11:15:12	FabianS	And most 2.5" devices draw much more than the "high power" limit.
+2012-08-13 11:15:27	dominikh	when did you measure that?
+2012-08-13 11:15:32	FabianS	At least on startup.
+2012-08-13 11:17:09		irc: disconnected from server
+2012-08-13 11:17:24	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-13 11:17:24	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-13 11:17:24	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:15
+2012-08-13 11:17:24	--	Nicks #subtle: [aiBo` Anomareh badboy_ CIA-94 ContextBot Davor dominikh dwfreed FabianS faulty flasheh flebel flexd floyd2 formorer fys hexreel hive-min1 ixeft jey` JohnHamelink ldk lianj manuw MasterofJOKers Mon_Ouie Moridin nexxus6 nokogiri nperry oddmunds oystetl Paul-S PopeKetric radhermit Rasi reactormonk thorsten` unexist wotwot yosafbridge zeltak]
+2012-08-13 11:17:24	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-08-13 11:17:34	--	Mode #subtle [+n]
+2012-08-13 11:17:34	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-13 11:17:43	FabianS	Google it yourself.
+2012-08-13 11:17:57	dominikh	why, I am not interested in trying to prove you right.
+2012-08-13 11:18:09	dominikh	nice type of argumentation. "go find my arguments yourself"
+2012-08-13 11:19:08	FabianS	Obviously I didn't measure it but looked up measurements.
+2012-08-13 11:20:29	FabianS	Also it seems like USB Y cables don't have data connectors.
+2012-08-13 11:20:40	FabianS	So they _can't_ request high power mode.
+2012-08-13 11:20:49	FabianS	Thus they _always_ break the standard when going over 100 mA
+2012-08-13 11:21:46	FabianS	Also many neigbouring USB ports are feeded by a single power line on the mobo anyway. So those cables are quite often completely pointless.
+2012-08-13 11:24:45	dominikh	because obviously, the power line can only handle 500mA. oh wait, the spec says per port.
+2012-08-13 11:25:01	FabianS	Right. So most ports can handle much more.
+2012-08-13 11:25:03	FabianS	As I said.
+2012-08-13 11:25:12	FabianS	That's why everyone breaks the standard.
+2012-08-13 11:26:21	FabianS	Some mainboard even have a "charge mode" for a seperate USB port.
+2012-08-13 11:26:29	FabianS	Increasing the Voltage to the maximum.
+2012-08-13 11:31:28	dominikh	http://d24w6bsrhbeh9d.cloudfront.net/photo/5028851_700b.jpg
+2012-08-13 11:45:50	dominikh	what kind of asshole uploads a discography with 128 kbps cbr mp3 rips
+2012-08-13 11:47:56	unexist	An idiot asshole? ;)
+2012-08-13 11:48:35	dominikh	yea
+2012-08-13 11:52:50	dominikh	and in the nfo he actually said how his one was proper, unlike all the other ones that just looked like a bunch of torrents thrown together...
+2012-08-13 11:53:01	dominikh	yeah, real proper. some albums were cbr, some vbr, and a different bitrate in each one of them
+2012-08-13 12:15:10	unexist	http://img4.picload.org/image/drdgwgl/000159126_fc1413.jpg
+2012-08-13 12:15:19	unexist	No idea but the cover looks like some weird porn.
+2012-08-13 12:15:33	unexist	And still it is a martial arts movie according to the plot.
+2012-08-13 12:15:39	unexist	!imdb red nights
+2012-08-13 12:15:41	ContextBot	Title: Red Nights (at http://imdb.com/title/tt1401668, 5.8/10 from 187 users)
+2012-08-13 12:15:47	unexist	Solid 5.8, yay.
+2012-08-13 12:19:55	unexist	Haha awesome, a destroyer and a tanker collide. Guess which one is more damaged. :D
+2012-08-13 12:21:43	formorer	the destroyer of course.
+2012-08-13 12:21:59	unexist	Yep ;)
+2012-08-13 12:22:29	formorer	the tanker had a tonnage of at least 302477 tons (it can load 160292), the destroyer had 8315 tons
+2012-08-13 12:22:36	formorer	everything else is math
+2012-08-13 12:23:19	unexist	Thanks for ruining the joke. :)
+2012-08-13 12:23:45	formorer	there is no joke inside, just if you ignore all facts :)
+2012-08-13 12:23:53	unexist	Ofc I do. ;)
+2012-08-13 12:24:16	formorer	I was a soldier on a german frigate, hard for me to ignore the facts
+2012-08-13 12:29:04	dominikh	and how many tankers did you collide with?
+2012-08-13 12:29:19	dominikh	is that a common thing? "fuck this evening is boring, let's collide with that tanker over there"
+2012-08-13 12:30:44	unexist	Yep. Bring it on, tanker!
+2012-08-13 12:32:16	unexist	http://d24w6bsrhbeh9d.cloudfront.net/photo/5027083_700b_v1.jpg
+2012-08-13 12:32:27	unexist	Without the comment just weird. ;)
+2012-08-13 12:32:36	dominikh	hehe
+2012-08-13 12:34:57	unexist	Hm, have to watch the 64k compo winner again, can't really remember..
+2012-08-13 12:35:17	unexist	Oh right, that one was awesome.
+2012-08-13 12:35:20	dominikh	mustve been great if you cant even remember
+2012-08-13 12:37:00	unexist	Well, you forget the titles pretty fast, it's a party after all. ;)
+2012-08-13 12:37:08	unexist	http://youtu.be/XnnPqtQcMrI
+2012-08-13 12:37:08	ContextBot	Title: YouTube - Undercut by Inque @ Evoke 2012 (at youtu.be)
+2012-08-13 12:37:14	unexist	I kinda like the tune.
+2012-08-13 12:40:11	unexist	The webGL entry was amazing.
+2012-08-13 12:41:28	unexist	http://youtu.be/geQ3qVmJMlw
+2012-08-13 12:41:28	ContextBot	Title: YouTube - 70s - Alcatraz | WebGL Evoke 2012 (at youtu.be)
+2012-08-13 12:41:32	unexist	In case you want to see it. ;)
+2012-08-13 12:50:54	unexist	Ah great, found the animation entry with the awesome tune again. <3
+2012-08-13 12:51:02	unexist	Actually it is the compo winner. >.>
+2012-08-13 13:03:46	unexist	YT still needs a sane repeat button and not just the 'single track in playlist'-hack.
+2012-08-13 13:08:06	flasheh	I use a few userscripts for stuff like that
+2012-08-13 13:08:19	flasheh	Like for always playing in HD, because fuck 480p
+2012-08-13 13:08:31	unexist	Heh
+2012-08-13 13:16:19	unexist	http://narf-archive.com/pix/fa57e13cd538a443b5f1d189766cf6a60d3a0587.gif
+2012-08-13 13:16:25	unexist	Another nice nope. :D
+2012-08-13 13:20:14	FabianS	Youtube is too slow here :/
+2012-08-13 13:20:21	FabianS	Worst thing about Telekom.
+2012-08-13 13:23:36	unexist	http://narf-archive.com/pix/a698c8879fb6515f37bf8a0a66881645d0cca3a1.jpg
+2012-08-13 13:23:38	unexist	Heh epic.
+2012-08-13 13:39:49	-->	gattuso (~gattuso@66.219.20.207) has joined #subtle
+2012-08-13 14:04:15	-->	My_Hearing (~Mon_Ouie@168.65-244-81.adsl-dyn.isp.belgacom.be) has joined #subtle
+2012-08-13 14:04:15	<--	My_Hearing (~Mon_Ouie@168.65-244-81.adsl-dyn.isp.belgacom.be) has quit (Changing host)
+2012-08-13 14:04:15	-->	My_Hearing (~Mon_Ouie@subtle/user/MonOuie) has joined #subtle
+2012-08-13 14:07:06	<--	Mon_Ouie (~Mon_Ouie@subtle/user/MonOuie) has quit (Ping timeout: 276 seconds)
+2012-08-13 14:44:02	dominikh	haha
+2012-08-13 14:57:26	dominikh	nn
+2012-08-13 14:57:37	fys	nn fgt
+2012-08-13 14:59:27	dominikh	fuck you asshole
+2012-08-13 14:59:32	fys	no thx
+2012-08-13 14:59:36	dominikh	*your
+2012-08-13 14:59:43	fys	trololol
+2012-08-13 15:17:50	unexist	http://mailman.archlinux.org/pipermail/arch-general/2012-August/029693.html
+2012-08-13 15:17:51	ContextBot	Title: [arch-general] Lennart Poettering on udev-systemd (at mailman.archlinux.org)
+2012-08-13 15:17:51	unexist	Heh
+2012-08-13 15:39:22	<--	oystetl (~fartbox@s21-04214.dsl.no.powertech.net) has quit (*.net *.split)
+2012-08-13 15:42:40	--	My_Hearing is now known as Mon_Ouie
+2012-08-13 15:44:57	-->	oystetl (~fartbox@s21-04214.dsl.no.powertech.net) has joined #subtle
+2012-08-13 16:28:12	-->	drohan (~angelux@187.241.9.3) has joined #subtle
+2012-08-13 16:28:15	-->	erikl (~Fredrik@c-b21c9bcb-74736162.cust.telenor.se) has joined #subtle
+2012-08-13 16:39:02	-->	chepaz (~chepaz@dslb-094-216-107-058.pools.arcor-ip.net) has joined #subtle
+2012-08-13 16:51:09		irc: disconnected from server
+2012-08-13 16:52:34	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-13 16:52:34	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-13 16:52:34	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:15
+2012-08-13 16:52:34	--	Nicks #subtle: [aiBo` Anomareh badboy_ chepaz CIA-94 ContextBot Davor dominikh drohan dwfreed erikl FabianS faulty flasheh flebel flexd floyd2 formorer fys gattuso hexreel hive-min1 ixeft jey` JohnHamelink ldk lianj manuw MasterofJOKers Mon_Ouie Moridin nexxus6 nokogiri nperry oddmunds oystetl Paul-S PopeKetric radhermit Rasi reactormonk thorsten` unexist wotwot yosafbridge zeltak]
+2012-08-13 16:52:34	--	Channel #subtle: 46 nicks (0 ops, 0 halfops, 0 voices, 46 normals)
+2012-08-13 16:52:44	--	Mode #subtle [+n]
+2012-08-13 16:52:44	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-13 17:11:07	--	hive-min1 is now known as hive-mind
+2012-08-13 17:47:34	-->	a-st (~a-st@unaffiliated/a-st) has joined #subtle
+2012-08-13 17:49:54	FabianS	I think Jdownloader should be classified as malware.
+2012-08-13 17:50:18	FabianS	It fucking killed Firefox that still had a DL running without asking.
+2012-08-13 17:50:33	FabianS	Just to install a motherfucking plugin nobody wants.
+2012-08-13 17:51:07	a-st	:D
+2012-08-13 17:52:50	flasheh	those filehosting sites should be classified as malware
+2012-08-13 17:52:59	FabianS	They actually are :p
+2012-08-13 17:53:05	FabianS	Google downranks them already
+2012-08-13 17:53:14	flasheh	good
+2012-08-13 17:53:54	FabianS	Also JD is probably the most buggy Software I have ever seen.
+2012-08-13 17:56:21	flasheh	also add utorrent to that list of malware
+2012-08-13 17:56:39	FabianS	utorrent is closed source anyway.
+2012-08-13 17:56:45	FabianS	Don't get it why people used it.
+2012-08-13 17:57:00	FabianS	There's transmission, deluge, vuze etc..
+2012-08-13 17:57:08	FabianS	And ppl. use some stupid proprietary crapware.
+2012-08-13 17:58:19	flasheh	closed or not, it ran pretty good
+2012-08-13 17:58:29	flasheh	until they started adding all that toolbar crap
+2012-08-13 17:58:35	FabianS	It's a torrent programm.
+2012-08-13 17:58:40	FabianS	It ran like any torrent programm.
+2012-08-13 17:58:46	FabianS	And yes, I tried it.
+2012-08-13 18:00:43	flasheh	I'm mainly talking about the interface
+2012-08-13 18:01:13	flasheh	I preferred it over others
+2012-08-13 18:01:33	FabianS	Hm. I have only seen Vuze, rtorrent, transmission and µ so far.
+2012-08-13 18:01:42	FabianS	Vuze was bloated as fuck. The other ones were ok.
+2012-08-13 18:01:54	flasheh	I've been using rtorrent since the past 2 years or so
+2012-08-13 18:02:26	FabianS	I'm usually on transmission. To lazy to read rtorrent documentation.
+2012-08-13 18:05:16	flasheh	I use it on a remote server and rtorrent has the best cli by far
+2012-08-13 18:06:08	FabianS	Hm. Why is pyload so buggy? :(
+2012-08-13 18:06:16	FabianS	I don't want to use jdownloader, but pyload is also ugly.
+2012-08-13 18:08:12	flasheh	Why use those when you got torrents.. :p
+2012-08-13 18:08:18	FabianS	Occasionally Downloads just fail without any reason.
+2012-08-13 18:08:28	FabianS	Cause torrents get you sued :p
+2012-08-13 18:08:52	flasheh	lies
+2012-08-13 18:08:58	FabianS	Nah.
+2012-08-13 18:09:13	FabianS	I know quite a few people that got sued for torrenting.
+2012-08-13 18:09:19	-->	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has joined #subtle
+2012-08-13 18:09:20	<--	Icedman (~Icey@91-64-31-221-dynip.superkabel.de) has quit (Changing host)
+2012-08-13 18:09:20	-->	Icedman (~Icey@unaffiliated/icedman) has joined #subtle
+2012-08-13 18:12:06	flasheh	well, don't use public sites
+2012-08-13 18:12:14	FabianS	I don't know any other.
+2012-08-13 18:13:46	flasheh	Not that hard to find them if you're slightly motivated
+2012-08-13 18:14:58	flasheh	But to each their own
+2012-08-13 18:15:24	flasheh	I just like not having to wait to get something because of slow speeds, download caps or whatever
+2012-08-13 18:15:35	FabianS	Premium is damn fast.
+2012-08-13 18:15:50	flasheh	but not free :p
+2012-08-13 18:16:05	FabianS	:d
+2012-08-13 18:16:28	FabianS	I already downloaded > 300 GB on a 5€ acc.
+2012-08-13 18:16:38	FabianS	And still over a day left.
+2012-08-13 18:16:43	FabianS	Worth it :p
+2012-08-13 18:23:41	-->	L3thal (~quassel@41.44.174.235) has joined #subtle
+2012-08-13 18:24:33	flasheh	:)
+2012-08-13 18:25:16	FabianS	The only really annoying thing are offline packages.
+2012-08-13 18:25:45	FabianS	When like 0.5% ruin the DL.
+2012-08-13 18:26:24	flasheh	hah
+2012-08-13 18:26:43	<--	drohan (~angelux@187.241.9.3) has quit (Quit: Saliendo)
+2012-08-13 18:46:36	Rasi	flasheh: not that enough private trackers got busted too...
+2012-08-13 18:47:40	flasheh	The owners, not the users
+2012-08-13 18:49:55	FabianS	The thing is that from the legal point of view torrent is quite different from sharehosters/usenet.
+2012-08-13 18:50:10	FabianS	Illegal downloads do hardly any damage. Uploads do.
+2012-08-13 18:51:53	flasheh	And they still aren't able to shut down the actual source, being scene groups
+2012-08-13 18:52:11	flasheh	so it really doesn't matter how many filehoster/usenet/torrent sites they try to shut down
+2012-08-13 18:52:19	FabianS	I find the movie "scene" quite ridiculous.
+2012-08-13 18:52:30	FabianS	There is little skill in ripping and uploading a bluray.
+2012-08-13 18:53:07	FabianS	All you need is a fast internet connection and 100 bucks.
+2012-08-13 18:53:57	flasheh	only the pc game scene actually requires some skills afaik
+2012-08-13 18:54:24	FabianS	Yeah, if the game does not use the same DRM as 500 before.
+2012-08-13 18:54:38	flasheh	heh true
+2012-08-13 19:02:19	erikl	well, software in general.
+2012-08-13 19:05:36	Rasi	FabianS: the movie scene defines itself by strict guidelines on the codecs and settings being used
+2012-08-13 19:06:02	Rasi	same for music scene, but here you at least have a whole lot of really unknown music - sadly often only internal
+2012-08-13 19:06:25	Rasi	and yes.. those guidelines suck.. big time
+2012-08-13 19:06:30	Rasi	mostly those are years behind
+2012-08-13 19:06:34	-->	isildur (~Isildur@ip-176-198-126-112.unitymediagroup.de) has joined #subtle
+2012-08-13 19:07:01	erikl	Sure is a lot of strict rules for movies/tv
+2012-08-13 19:07:15	erikl	Lesser for tv.
+2012-08-13 19:07:44	erikl	But some nukewars just seem sad.
+2012-08-13 19:07:56	Rasi	its pathetic that the "scene" still refuses to accept e.g. vorbis
+2012-08-13 19:07:57	flasheh	and others are hilarious :p
+2012-08-13 19:09:30	erikl	flasheh: indeed, download a movie a while ago (can't remember the group). which had a picture poof in it that said something like, "F- you group *insert group*, here's the poof. so fuck off.".
+2012-08-13 19:09:57	erikl	written ontop a postit put onto the cd.
+2012-08-13 19:10:04	erikl	or whatever the hell you call blurays
+2012-08-13 19:10:08	flasheh	:)
+2012-08-13 19:10:31	erikl	oh yeah, someone hacked a groups ftp too a few months ago.
+2012-08-13 19:10:37	flasheh	The proof rule is bullshit
+2012-08-13 19:10:43	flasheh	especially in the music scene
+2012-08-13 19:10:54	erikl	Released a lot of pictures and notes where they badmouth other groups.
+2012-08-13 19:11:03	erikl	Should be somewhere on the bay, I think.
+2012-08-13 19:11:29	erikl	I don't really download music.
+2012-08-13 19:11:43	erikl	Since most stuff I listen to is free anyway.
+2012-08-13 19:12:44	flasheh	I download more music than tv or movies
+2012-08-13 19:15:24	erikl	How many songs per month, roughly?
+2012-08-13 19:18:44	-->	a-st_ (~a-st@unaffiliated/a-st) has joined #subtle
+2012-08-13 19:20:16	flasheh	368 in rtorrent right now, and the oldest is 1 month 4 days
+2012-08-13 19:20:31	flasheh	But those are releases, not seperate songs
+2012-08-13 19:20:47	flasheh	So there are also CD's and stuff in there
+2012-08-13 19:21:36	<--	a-st (~a-st@unaffiliated/a-st) has quit (Ping timeout: 240 seconds)
+2012-08-13 19:21:48	flasheh	24GB in size
+2012-08-13 19:56:21	Davor	hi all
+2012-08-13 20:43:58	--	a-st_ is now known as a-st
+2012-08-13 20:45:05	a-st	scheiß reconnects :D
+2012-08-13 20:45:11	fys	YOU SAID SHIT
+2012-08-13 20:45:13	fys	IN GERMAN
+2012-08-13 20:45:15	fys	MAN YOU'RE COOL
+2012-08-13 20:45:37	a-st	oh damn wrong channel :D
+2012-08-13 20:46:06	fys	;)
+2012-08-13 20:56:12	<--	oddmunds (~oddmunds@t.oddmundo.com) has quit (Ping timeout: 250 seconds)
+2012-08-13 20:59:15	-->	oddmunds (~oddmunds@t.oddmundo.com) has joined #subtle
+2012-08-13 21:30:59	<--	erikl (~Fredrik@c-b21c9bcb-74736162.cust.telenor.se) has quit (Ping timeout: 265 seconds)
+2012-08-13 21:33:05	-->	erikl (~Fredrik@c-b21c9bcb-74736162.cust.telenor.se) has joined #subtle
+2012-08-13 21:36:06		irc: disconnected from server
+2012-08-14 08:56:50	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-14 08:56:50	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-14 08:56:50	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:15
+2012-08-14 08:56:50	--	Nicks #subtle: [aiBo` badboy_ CIA-94 ContextBot Davor dominikh dwfreed erikl FabianS faulty flasheh flebel flexd floyd2 formorer fys gattuso hexreel hive-mind ixeft jey` JohnHamelink ldk lianj manuw MasterofJOKers Moridin My_Hearing nexxus6 nokogiri nperry oddmunds oystetl Paul-S PopeKetric radhermit Rasi thorsten` unexist wotwot yosafbridge zeltak]
+2012-08-14 08:56:50	--	Channel #subtle: 42 nicks (0 ops, 0 halfops, 0 voices, 42 normals)
+2012-08-14 08:57:00	--	Mode #subtle [+n]
+2012-08-14 08:57:00	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-14 08:57:06	dominikh	okay, after about 24 hours of monitoring the wan interface, wireshark finally got killed for oom :>
+2012-08-14 08:57:12	dominikh	so about 24gb later
+2012-08-14 08:57:55	dominikh	or well, 12gb. rest is still chrome after all :D
+2012-08-14 09:01:26	dwfreed	lol
+2012-08-14 09:01:33	dwfreed	log to disk ftw
+2012-08-14 09:02:11	dominikh	hehe
+2012-08-14 09:02:25	dominikh	yeah, didn't really need it to persist. tbh I forgot wireshark was still running
+2012-08-14 09:02:45	dominikh	it was just reading from tcpdump piped over ssh
+2012-08-14 09:07:46	-->	Anomareh (~Anomareh@subtle/user/anomareh) has joined #subtle
+2012-08-14 09:13:37	<--	oystetl (~fartbox@s21-04214.dsl.no.powertech.net) has quit (Ping timeout: 240 seconds)
+2012-08-14 09:15:59	-->	fartbox (~fartbox@77.40.133.214) has joined #subtle
+2012-08-14 09:17:09	-->	isildur (~Isildur@ip-176-198-126-112.unitymediagroup.de) has joined #subtle
+2012-08-14 09:22:34	dwfreed	heh
+2012-08-14 09:23:06	dominikh	restarted it now though :> - maybe I should log to disk, yeah
+2012-08-14 09:23:17	dwfreed	haha
+2012-08-14 09:24:21	dominikh	been waiting for an issue to show up for over a day now... but of course, when you wait for an issue, it doesn't appear...
+2012-08-14 09:25:50	<--	fartbox (~fartbox@77.40.133.214) has quit (Ping timeout: 265 seconds)
+2012-08-14 09:27:52	-->	fartbox (~fartbox@77.40.133.214) has joined #subtle
+2012-08-14 09:29:39	--	My_Hearing is now known as Mon_Ouie
+2012-08-14 09:31:24	<--	isildur (~Isildur@ip-176-198-126-112.unitymediagroup.de) has quit (Ping timeout: 252 seconds)
+2012-08-14 09:35:35	-->	isildur (~Isildur@ip-176-198-126-112.unitymediagroup.de) has joined #subtle
+2012-08-14 10:54:15		irc: disconnected from server
+2012-08-18 14:57:46	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #subtle
+2012-08-18 14:57:46	--	Topic for #subtle is "Welcome to #subtle! | Developer releases: subtle 0.11.3231, subtle-contrib r119 | Wiki: http://subtle.subforge.org/wiki | Latest snapshot: http://hg.subforge.org/subtle/archive/tip.tar.bz2"
+2012-08-18 14:57:46	--	Topic set by unexist (~unexist@subtle/developer/unexist) on Thu, 19 Jul 2012 15:02:15
+2012-08-18 14:57:46	--	Nicks #subtle: [aiBo` Anomareh badboy_ bimozx CIA-20 ContextBot Davor dominikh dwfreed FabianS fartbox flasheh flebel flexd formorer hexreel jey` JohnHamelink ldk lianj manuw MasterofJOKers Mon_Ouie Moridin nexxus6 nokogiri nperry oddmunds Paul-S PopeKetric radhermit Rasi s4msung thorsten` unexist wotwot yosafbridge zeltak]
+2012-08-18 14:57:46	--	Channel #subtle: 38 nicks (0 ops, 0 halfops, 0 voices, 38 normals)
+2012-08-18 14:57:56	--	Mode #subtle [+n]
+2012-08-18 14:57:56	--	Channel created on Tue, 05 Jun 2007 12:59:34
+2012-08-18 15:02:58	-->	hive-mind (pranq@unaffiliated/contempt) has joined #subtle
+2012-08-18 15:09:39	<--	hive-mind (pranq@unaffiliated/contempt) has quit (Ping timeout: 244 seconds)
+2012-08-18 15:19:41	-->	hive-mind (pranq@unaffiliated/contempt) has joined #subtle
+2012-08-18 15:25:19	<--	hive-mind (pranq@unaffiliated/contempt) has quit (Ping timeout: 265 seconds)
+2012-08-18 15:37:29	-->	hive-mind (pranq@unaffiliated/contempt) has joined #subtle
+2012-08-18 15:43:39	<--	hive-mind (pranq@unaffiliated/contempt) has quit (Ping timeout: 252 seconds)
+2012-08-18 15:49:09	<--	aiBo` (~aiBo`@einar.aibor.de) has quit (Ping timeout: 246 seconds)
+2012-08-18 15:57:21	-->	hive-mind (pranq@unaffiliated/contempt) has joined #subtle
+2012-08-18 16:03:03	<--	flasheh (~flasheh@flasheh.me) has quit (Ping timeout: 245 seconds)
+2012-08-18 16:04:11	<--	hive-mind (pranq@unaffiliated/contempt) has quit (Ping timeout: 252 seconds)
+2012-08-18 16:12:00		irc: disconnected from server

@@ -1,0 +1,159 @@
+2012-08-13 08:16:54	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #dd-wrt
+2012-08-13 08:16:54	--	Topic for #dd-wrt is "Official DD-WRT Channel || Unofficial support @ ##dd-wrt || Please reset your router to defaults after upgrade. Info on how to do so is in the Wiki. | Latest news & downloads at http://www.dd-wrt.com/ | How to flash DD-WRT on a Fonera: http://www.dd-wrt.com/wiki/index.php/La_Fonera_Flashing | To flash a r2 that will not revert, view - http://stefans.datenbruch.de/lafonera/ | The generic"
+2012-08-13 08:16:54	--	Topic set by njan on Fri, 20 Jul 2007 13:47:28
+2012-08-13 08:16:54	--	Nicks #dd-wrt: [@ChanServ [Syntax] ]R[ _marix _Pontus abbaZaba Aciid aep_ Alives Alt_of_C1rl arietis badiane2 Bejgli Birdman3131 blister bran_ cali carus ccube Chappo ChrisInSydneyToo datagutt DBordello Deathvalley122 Devourz DHowett dijenerate dirtyjerz DJ_HaMsTa DJClean djinni`_ dlb76 Dreamless Driver eagles0513875 Ep5iloN_ Eric-Taff EvilJStoker FL1SK fury GH0 Gilos Gizmokid2005 GNUton-BNC guntha HarryS HeavyMetal HeXiLeD hfb Hokitojas ill13 IQless irouy_ ix Jaac Jaska_ jerrcs JoeLlama JohnHamelink JPeterson K3|Chris Kapsel Kate koaschten krababbel kraft krkhan lapistano linlin llakey localhost lupo49 Maccer Mazon Metal-E3000 MissionCritical MobiusLoop momoz mystica555 n00p3r N0BOX n3wtr4wn necreo netwoodle Nibato` OpenSys PcJamesy PhonicUK phuzion pigeon PigmonkeY psilocybin Pulec raidghost rathis roadkill rwp Screedo scriptx seait ser Silicon Some_Person sraka1 stiv2k susundberg telex TheSpirit Thom- UberDuper vith Whiskey`Wonka workbench XDS2010__ YeahRight zizzfizzix zozy zw01]
+2012-08-13 08:16:54	--	Channel #dd-wrt: 118 nicks (1 op, 0 halfops, 0 voices, 117 normals)
+2012-08-13 08:17:18	--	Mode #dd-wrt [+cnt]
+2012-08-13 08:17:18	--	Channel created on Sat, 14 Jul 2007 08:20:20
+2012-08-13 08:34:53	<--	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has quit (Remote host closed the connection)
+2012-08-13 08:35:25	-->	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has joined #dd-wrt
+2012-08-13 09:05:40	-->	shinao1 (~shinao1@41.58.39.118) has joined #dd-wrt
+2012-08-13 09:08:05	-->	sins- (~sins-@gateway/tor-sasl/sins-) has joined #dd-wrt
+2012-08-13 09:27:38	<--	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has quit (Remote host closed the connection)
+2012-08-13 09:28:12	-->	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has joined #dd-wrt
+2012-08-13 09:38:52	<--	JoeLlama (~snork@unaffiliated/joellama) has quit (Quit: nitch market :)
+2012-08-13 09:40:15	-->	Nuklearspuerhund (~Nikolaus@2001:470:1f0b:1c20:219:66ff:fe38:3067) has joined #dd-wrt
+2012-08-13 09:52:09	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-13 10:19:48	<--	arietis (~arietis@188.242.29.115) has quit (Quit: Computer has gone to sleep.)
+2012-08-13 10:50:27	<--	dlb76 (dlb76@unaffiliated/dlb76) has quit (Ping timeout: 245 seconds)
+2012-08-13 10:57:44	-->	Turingi (~devon@79.112.45.125) has joined #dd-wrt
+2012-08-13 10:57:44	<--	Turingi (~devon@79.112.45.125) has quit (Changing host)
+2012-08-13 10:57:44	-->	Turingi (~devon@unaffiliated/devon-hillard/x-7250961) has joined #dd-wrt
+2012-08-13 11:03:35	-->	LukaszST (~LukaszST@77-253-157-114.adsl.inetia.pl) has joined #dd-wrt
+2012-08-13 11:17:09		irc: disconnected from server
+2012-08-13 11:17:24	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #dd-wrt
+2012-08-13 11:17:24	--	Topic for #dd-wrt is "Official DD-WRT Channel || Unofficial support @ ##dd-wrt || Please reset your router to defaults after upgrade. Info on how to do so is in the Wiki. | Latest news & downloads at http://www.dd-wrt.com/ | How to flash DD-WRT on a Fonera: http://www.dd-wrt.com/wiki/index.php/La_Fonera_Flashing | To flash a r2 that will not revert, view - http://stefans.datenbruch.de/lafonera/ | The generic"
+2012-08-13 11:17:24	--	Topic set by njan on Fri, 20 Jul 2007 13:47:28
+2012-08-13 11:17:24	--	Nicks #dd-wrt: [@ChanServ [Syntax] ]R[ _marix _Pontus abbaZaba Aciid aep_ Alives Alt_of_C1rl badiane2 Bejgli Birdman3131 blister bran_ cali carus ccube Chappo ChrisInSydneyToo datagutt DBordello Deathvalley122 Devourz DHowett dijenerate dirtyjerz DJ_HaMsTa DJClean djinni`_ Dreamless Driver eagles0513875 Ep5iloN_ Eric-Taff EvilJStoker FL1SK fury GH0 Gilos Gizmokid2005 GNUton-BNC guntha HarryS HeavyMetal HeXiLeD hfb Hokitojas ill13 IQless irouy_ ix Jaac Jaska_ jerrcs JohnHamelink JPeterson K3|Chris Kapsel Kate koaschten krababbel kraft krkhan lapistano linlin llakey localhost LukaszST lupo49 Maccer Mazon Metal-E3000 MissionCritical MobiusLoop momoz mystica555 n00p3r N0BOX n3wtr4wn necreo netwoodle Nibato` Nuklearspuerhund OpenSys PcJamesy PhonicUK phuzion pigeon PigmonkeY psilocybin Pulec raidghost rathis roadkill rwp Sasha_ Screedo scriptx seait ser shinao1 Silicon sins- Some_Person sraka1 stiv2k susundberg telex TheSpirit Thom- Turingi UberDuper vith Whiskey`Wonka workbench XDS2010__ YeahRight zizzfizzix zozy zw01]
+2012-08-13 11:17:24	--	Channel #dd-wrt: 121 nicks (1 op, 0 halfops, 0 voices, 120 normals)
+2012-08-13 11:17:48	--	Mode #dd-wrt [+cnt]
+2012-08-13 11:17:48	--	Channel created on Sat, 14 Jul 2007 08:20:20
+2012-08-13 11:57:56	<--	Turingi (~devon@unaffiliated/devon-hillard/x-7250961) has quit (Read error: Connection reset by peer)
+2012-08-13 12:22:22	<--	LukaszST (~LukaszST@77-253-157-114.adsl.inetia.pl) has left #dd-wrt ("Wychodzi")
+2012-08-13 12:43:51	<--	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has quit (Remote host closed the connection)
+2012-08-13 12:44:52	-->	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has joined #dd-wrt
+2012-08-13 12:46:42	-->	juvenal (~juvenal@201-1-114-234.dsl.telesp.net.br) has joined #dd-wrt
+2012-08-13 13:02:06	<--	shinao1 (~shinao1@41.58.39.118) has quit (Read error: Connection reset by peer)
+2012-08-13 13:07:45	-->	ldiamond (~ldiamond@bas1-montreal43-2925256509.dsl.bell.ca) has joined #dd-wrt
+2012-08-13 13:31:17	<--	Alt_of_C1rl (~Alt_of_Ct@bl13-145-122.dsl.telepac.pt) has quit (Ping timeout: 246 seconds)
+2012-08-13 13:36:21	<--	juvenal (~juvenal@201-1-114-234.dsl.telesp.net.br) has quit (Ping timeout: 244 seconds)
+2012-08-13 13:40:22	-->	juvenal (~juvenal@187.42.234.214) has joined #dd-wrt
+2012-08-13 13:43:37	-->	Alt_of_Ctrl (~Alt_of_Ct@bl13-145-122.dsl.telepac.pt) has joined #dd-wrt
+2012-08-13 13:59:44	-->	arietis (~arietis@188.242.29.115) has joined #dd-wrt
+2012-08-13 14:01:43	<--	scriptx (~ryan@unaffiliated/ryann) has quit (Remote host closed the connection)
+2012-08-13 14:02:02	-->	scriptx (~ryan@unaffiliated/ryann) has joined #dd-wrt
+2012-08-13 14:14:05	<--	localhost (~chris@cpe-76-188-161-222.neo.res.rr.com) has quit (Remote host closed the connection)
+2012-08-13 14:21:33	-->	localhost (~chris@2002:4cbc:a1de::1) has joined #dd-wrt
+2012-08-13 14:55:26	<--	badiane2 (~badiane@cpe-72-229-36-216.nyc.res.rr.com) has quit (Ping timeout: 244 seconds)
+2012-08-13 14:55:36	<--	ldiamond (~ldiamond@bas1-montreal43-2925256509.dsl.bell.ca) has quit (Changing host)
+2012-08-13 14:55:37	-->	ldiamond (~ldiamond@unaffiliated/ldiamond) has joined #dd-wrt
+2012-08-13 15:05:35	<--	zizzfizzix (~quassel@kde/pl/kuba-serafinowski) has quit (Ping timeout: 246 seconds)
+2012-08-13 15:07:45	-->	Turingi (~devon@unaffiliated/devon-hillard/x-7250961) has joined #dd-wrt
+2012-08-13 15:08:24	-->	zizzfizzix (~quassel@quassel.jefferai.org) has joined #dd-wrt
+2012-08-13 15:08:24	<--	zizzfizzix (~quassel@quassel.jefferai.org) has quit (Changing host)
+2012-08-13 15:08:24	-->	zizzfizzix (~quassel@kde/pl/kuba-serafinowski) has joined #dd-wrt
+2012-08-13 15:14:40	<--	MissionCritical (~MissionCr@unaffiliated/missioncritical) has quit (Ping timeout: 256 seconds)
+2012-08-13 15:17:57	<--	abbaZaba (~abbaZaba@c-67-165-55-107.hsd1.pa.comcast.net) has quit (Ping timeout: 276 seconds)
+2012-08-13 15:18:01	<--	krababbel (~krababbel@91-113-36-78.adsl.highway.telekom.at) has quit (Quit: leaving)
+2012-08-13 15:24:24	-->	MissionCritical (~MissionCr@unaffiliated/missioncritical) has joined #dd-wrt
+2012-08-13 15:39:22	<--	koaschten (~koaschten@31-16-172-42-dynip.superkabel.de) has quit (*.net *.split)
+2012-08-13 15:39:22	<--	Devourz (~spamail@46.217.16.162) has quit (*.net *.split)
+2012-08-13 15:39:22	<--	_Pontus (~Pontus@ANancy-154-1-32-31.w83-194.abo.wanadoo.fr) has quit (*.net *.split)
+2012-08-13 15:39:22	<--	rathis (~rathis@b0fa94e2.bb.sky.com) has quit (*.net *.split)
+2012-08-13 15:39:22	<--	[Syntax] (~syntax@the-feds.came-for.me) has quit (*.net *.split)
+2012-08-13 15:39:22	<--	N0BOX (matt@itwannabe.com) has quit (*.net *.split)
+2012-08-13 15:39:22	<--	Gilos (~bxh2363@144.230.65.36) has quit (*.net *.split)
+2012-08-13 15:39:42	-->	Devourz (~spamail@46.217.16.162) has joined #dd-wrt
+2012-08-13 15:44:59	-->	koaschten (~koaschten@31-16-172-42-dynip.superkabel.de) has joined #dd-wrt
+2012-08-13 15:44:59	-->	_Pontus (~Pontus@ANancy-154-1-32-31.w83-194.abo.wanadoo.fr) has joined #dd-wrt
+2012-08-13 15:44:59	-->	rathis (~rathis@b0fa94e2.bb.sky.com) has joined #dd-wrt
+2012-08-13 15:44:59	-->	[Syntax] (~syntax@the-feds.came-for.me) has joined #dd-wrt
+2012-08-13 15:44:59	-->	N0BOX (matt@itwannabe.com) has joined #dd-wrt
+2012-08-13 15:44:59	-->	Gilos (~bxh2363@144.230.65.36) has joined #dd-wrt
+2012-08-13 15:46:27	<--	hfb (~hfb@cpe-98-151-249-95.socal.res.rr.com) has quit (Quit: Leaving)
+2012-08-13 15:51:53	-->	SLFCore (~SLFCore@unaffiliated/slfcore) has joined #dd-wrt
+2012-08-13 15:54:40	<--	ldiamond (~ldiamond@unaffiliated/ldiamond) has quit (Quit: Leaving)
+2012-08-13 16:03:02	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Quit: Sasha_)
+2012-08-13 16:07:14	<--	SLFCore (~SLFCore@unaffiliated/slfcore) has quit (Quit: ChatZilla 0.9.88.2 [Pale Moon 12.3/20120717155828])
+2012-08-13 16:33:16	-->	hfb (~hfb@pool-96-251-161-147.lsanca.dsl-w.verizon.net) has joined #dd-wrt
+2012-08-13 16:51:09		irc: disconnected from server
+2012-08-13 16:52:34	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #dd-wrt
+2012-08-13 16:52:34	--	Topic for #dd-wrt is "Official DD-WRT Channel || Unofficial support @ ##dd-wrt || Please reset your router to defaults after upgrade. Info on how to do so is in the Wiki. | Latest news & downloads at http://www.dd-wrt.com/ | How to flash DD-WRT on a Fonera: http://www.dd-wrt.com/wiki/index.php/La_Fonera_Flashing | To flash a r2 that will not revert, view - http://stefans.datenbruch.de/lafonera/ | The generic"
+2012-08-13 16:52:34	--	Topic set by njan on Fri, 20 Jul 2007 13:47:28
+2012-08-13 16:52:34	--	Nicks #dd-wrt: [@ChanServ [Syntax] ]R[ _marix _Pontus Aciid aep_ Alives Alt_of_Ctrl arietis Bejgli Birdman3131 blister bran_ cali carus ccube Chappo ChrisInSydneyToo datagutt DBordello Deathvalley122 Devourz DHowett dijenerate dirtyjerz DJ_HaMsTa DJClean djinni`_ Dreamless Driver eagles0513875 Ep5iloN_ Eric-Taff EvilJStoker FL1SK fury GH0 Gilos Gizmokid2005 GNUton-BNC guntha HarryS HeavyMetal HeXiLeD hfb Hokitojas ill13 IQless irouy_ ix Jaac Jaska_ jerrcs JohnHamelink JPeterson juvenal K3|Chris Kapsel Kate koaschten kraft krkhan lapistano linlin llakey localhost lupo49 Maccer Mazon Metal-E3000 MissionCritical MobiusLoop momoz mystica555 n00p3r N0BOX n3wtr4wn necreo netwoodle Nibato` Nuklearspuerhund OpenSys PcJamesy PhonicUK phuzion pigeon PigmonkeY psilocybin Pulec raidghost rathis roadkill rwp Screedo scriptx seait ser Silicon sins- Some_Person sraka1 stiv2k susundberg telex TheSpirit Thom- Turingi UberDuper vith Whiskey`Wonka workbench XDS2010__ YeahRight zizzfizzix zozy zw01]
+2012-08-13 16:52:34	--	Channel #dd-wrt: 117 nicks (1 op, 0 halfops, 0 voices, 116 normals)
+2012-08-13 16:52:58	--	Mode #dd-wrt [+cnt]
+2012-08-13 16:52:58	--	Channel created on Sat, 14 Jul 2007 08:20:20
+2012-08-13 16:56:18	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-13 17:02:38	<--	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has quit (Remote host closed the connection)
+2012-08-13 17:05:21	-->	YellowGTO (~Matt@pool-108-25-18-96.atclnj.east.verizon.net) has joined #dd-wrt
+2012-08-13 17:05:50	YellowGTO	Whats up
+2012-08-13 17:06:23	-->	Niz-8] (~niz@unaffiliated/niz-8/x-763245) has joined #dd-wrt
+2012-08-13 17:25:36	<--	arietis (~arietis@188.242.29.115) has quit (Quit: Textual IRC Client: http://www.textualapp.com/)
+2012-08-13 17:30:41	-->	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has joined #dd-wrt
+2012-08-13 17:48:09	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Read error: Connection reset by peer)
+2012-08-13 17:48:22	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-13 17:52:12	-->	badiane2 (~badiane@D8FF67fa.cst.lightpath.net) has joined #dd-wrt
+2012-08-13 18:00:26	-->	krababbel (~krababbel@91-113-36-78.adsl.highway.telekom.at) has joined #dd-wrt
+2012-08-13 18:09:36	<--	MissionCritical (~MissionCr@unaffiliated/missioncritical) has quit (Ping timeout: 252 seconds)
+2012-08-13 18:14:06	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Ping timeout: 276 seconds)
+2012-08-13 18:19:26	-->	MissionCritical (~MissionCr@unaffiliated/missioncritical) has joined #dd-wrt
+2012-08-13 18:25:49	<--	juvenal (~juvenal@187.42.234.214) has quit (Ping timeout: 276 seconds)
+2012-08-13 18:27:43	<--	HarryS (H@unaffiliated/harrys) has quit (Ping timeout: 248 seconds)
+2012-08-13 18:28:21	-->	juvenal (~juvenal@187.57.95.113) has joined #dd-wrt
+2012-08-13 18:32:21	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-13 18:45:19	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Ping timeout: 276 seconds)
+2012-08-13 18:53:07	<--	YellowGTO (~Matt@pool-108-25-18-96.atclnj.east.verizon.net) has quit (Ping timeout: 276 seconds)
+2012-08-13 19:14:34	<--	badiane2 (~badiane@D8FF67fa.cst.lightpath.net) has quit (Ping timeout: 276 seconds)
+2012-08-13 19:26:05	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-13 19:27:28	<--	localhost (~chris@2002:4cbc:a1de::1) has quit (Remote host closed the connection)
+2012-08-13 19:37:01	-->	JoeLlama (~snork@unaffiliated/joellama) has joined #dd-wrt
+2012-08-13 19:41:24	<--	MissionCritical (~MissionCr@unaffiliated/missioncritical) has quit (Ping timeout: 245 seconds)
+2012-08-13 19:49:10	-->	HarryS (H@unaffiliated/harrys) has joined #dd-wrt
+2012-08-13 19:49:29	-->	Mission-Critical (~MissionCr@unaffiliated/missioncritical) has joined #dd-wrt
+2012-08-13 19:59:36	--	Mission-Critical is now known as MissionCritical
+2012-08-13 20:01:08	<--	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has quit (Remote host closed the connection)
+2012-08-13 20:01:35	-->	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has joined #dd-wrt
+2012-08-13 20:01:37	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Quit: Sasha_)
+2012-08-13 20:04:21	-->	Asus-wl-520gu (ad16d87e@gateway/web/freenode/ip.173.22.216.126) has joined #dd-wrt
+2012-08-13 20:06:39	<--	Asus-wl-520gu (ad16d87e@gateway/web/freenode/ip.173.22.216.126) has left #dd-wrt
+2012-08-13 20:06:46	-->	Asus-wl-520gu (ad16d87e@gateway/web/freenode/ip.173.22.216.126) has joined #dd-wrt
+2012-08-13 20:10:11	<--	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has quit (Remote host closed the connection)
+2012-08-13 20:12:33	-->	AsusWL520gu (~AsusWL520@173-22-216-126.client.mchsi.com) has joined #dd-wrt
+2012-08-13 20:44:48	-->	Chappo (~chappo@CPE-124-183-155-230.lns16.ken.bigpond.net.au) has joined #dd-wrt
+2012-08-13 20:59:04	<--	AsusWL520gu (~AsusWL520@173-22-216-126.client.mchsi.com) has quit
+2012-08-13 20:59:08	<--	Asus-wl-520gu (ad16d87e@gateway/web/freenode/ip.173.22.216.126) has quit (Quit: Page closed)
+2012-08-13 21:20:37	<--	JoeLlama (~snork@unaffiliated/joellama) has quit (Quit: nitch market :)
+2012-08-13 21:21:06	-->	LukaszST (~LukaszST@77-254-81-44.adsl.inetia.pl) has joined #dd-wrt
+2012-08-13 21:29:11	<--	krababbel (~krababbel@91-113-36-78.adsl.highway.telekom.at) has quit (Quit: leaving)
+2012-08-13 21:36:06		irc: disconnected from server
+2012-08-14 08:56:50	-->	JohnHamelink (~JohnHamel@ks393762.kimsufi.com) has joined #dd-wrt
+2012-08-14 08:56:50	--	Topic for #dd-wrt is "Official DD-WRT Channel || Unofficial support @ ##dd-wrt || Please reset your router to defaults after upgrade. Info on how to do so is in the Wiki. | Latest news & downloads at http://www.dd-wrt.com/ | How to flash DD-WRT on a Fonera: http://www.dd-wrt.com/wiki/index.php/La_Fonera_Flashing | To flash a r2 that will not revert, view - http://stefans.datenbruch.de/lafonera/ | The generic"
+2012-08-14 08:56:50	--	Topic set by njan on Fri, 20 Jul 2007 13:47:28
+2012-08-14 08:56:50	--	Nicks #dd-wrt: [@ChanServ [Syntax] ]R[ _marix _Pontus Aciid aep_ Alives Alt_of_Ctrl austein Bejgli Birdman3131 blister bran_ cali carus ccube Chappo ChrisInSydneyToo DBordello Deathvalley122 Devourz DHowett dijenerate dirtyjerz DJ_HaMsTa DJClean djinni`_ Dreamless Driver eagles0513875 Ep5iloN_ Eric-Taff EvilJStoker FL1SK Frostwyrm fury GH0 Gilos Gizmokid2005 GNUton-BNC guntha HarryS HeavyMetal HeXiLeD hfb Hokitojas IQless irouy_ ix Jaac Jaska_ jerrcs JohnHamelink JPeterson K3|Chris Kapsel Kate krababbel krkhan lapistano linlin llakey localhost LukaszST lupo49 Maccer Mazon Metal-E3000 MissionCritical MobiusLoop momoz mystica555 n00p3r N0BOX naquad necreo netwoodle Nibato` Nuklearspuerhund OpenSys PcJamesy PhonicUK phuzion pigeon PigmonkeY psilocybin Pulec raidghost rathis roadkill rwp Screedo scriptx seait ser Silicon sins- Some_Person sraka1 stiv2k suprsonic susundberg telex TheSpirit Thom- UberDuper vith Whiskey`Wonka workbench XDS2010__ YeahRight YellowGTO zivester zizzfizzix zw01]
+2012-08-14 08:56:50	--	Channel #dd-wrt: 116 nicks (1 op, 0 halfops, 0 voices, 115 normals)
+2012-08-14 08:57:14	--	Mode #dd-wrt [+cnt]
+2012-08-14 08:57:14	--	Channel created on Sat, 14 Jul 2007 08:20:20
+2012-08-14 08:57:55	<--	krababbel (~krababbel@91-114-248-89.adsl.highway.telekom.at) has quit (Quit: leaving)
+2012-08-14 09:00:29	-->	krababbel (~krababbel@194-166-192-16.adsl.highway.telekom.at) has joined #dd-wrt
+2012-08-14 09:03:17	<--	krababbel (~krababbel@194-166-192-16.adsl.highway.telekom.at) has quit (Client Quit)
+2012-08-14 09:07:29	-->	krababbel (~krababbel@178-190-104-19.adsl.highway.telekom.at) has joined #dd-wrt
+2012-08-14 09:14:26	<--	Nibato` (~nibato@97-89-70-171.dhcp.jcsn.tn.charter.com) has quit (Ping timeout: 246 seconds)
+2012-08-14 09:36:08	-->	Nibato (~nibato@97-89-70-171.dhcp.jcsn.tn.charter.com) has joined #dd-wrt
+2012-08-14 09:49:37	-->	datagutt (~datagutt@unaffiliated/datagutt) has joined #dd-wrt
+2012-08-14 10:08:33	-->	JoeLlama (~snork@unaffiliated/joellama) has joined #dd-wrt
+2012-08-14 10:30:32	-->	hekel (~hekel@71.sub-70-192-128.myvzw.com) has joined #dd-wrt
+2012-08-14 10:31:17	hekel	would I be out of line asking if we could crack WPA with ddwrt?
+2012-08-14 10:31:46	<--	Devourz (~spamail@46.217.16.162) has quit (Remote host closed the connection)
+2012-08-14 10:31:47	hekel	or use a router to sniff
+2012-08-14 10:32:13	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-14 10:42:15	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Read error: Connection reset by peer)
+2012-08-14 10:42:41	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-14 10:46:52	-->	Sasha__ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-14 10:47:01	<--	Sasha__ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Remote host closed the connection)
+2012-08-14 10:49:24	-->	Sasha__ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-14 10:49:24	<--	Sasha__ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Read error: Connection reset by peer)
+2012-08-14 10:49:34	<--	hekel (~hekel@71.sub-70-192-128.myvzw.com) has quit (Remote host closed the connection)
+2012-08-14 10:49:51	<--	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has quit (Ping timeout: 252 seconds)
+2012-08-14 10:50:01	-->	Sasha_ (~Sasha@89-239.62-188.cust.bluewin.ch) has joined #dd-wrt
+2012-08-14 10:54:15		irc: disconnected from server

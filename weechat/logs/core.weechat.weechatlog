@@ -1,0 +1,1821 @@
+2012-07-25 08:54:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 09:10:00		fifo: pipe closed
+2012-07-25 09:10:01		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 09:10:39	=!=	irc: server "freenode" already exists, can't create it!
+2012-07-25 09:11:14		Option changed: irc.server.freenode.nicks = "johnhamelink,john_hamelink,johnh"
+2012-07-25 09:11:33		Option changed: irc.server.freenode.username = "johnhamelink"
+2012-07-25 09:12:01		Option changed: irc.server.freenode.realname = "John Hamelink"
+2012-07-25 09:12:26		Option changed: irc.server.freenode.autoconnect = on
+2012-07-25 09:12:46		Option changed: irc.server.freenode.command = "/msg nickserv identify nopass"
+2012-07-25 09:13:34	=!=	You can not write text in this buffer
+2012-07-25 09:13:39		Option changed: irc.server.freenode.autojoin = "#vim,#laravel,#symble"
+2012-07-25 09:14:06	=!=	Error: unknown command "go" (type /help for help)
+2012-07-25 09:17:19		python: loading script "/home/john/.weechat/python/autoload/weeget.py"
+2012-07-25 09:17:19		python: registered script "weeget", version 1.8 (WeeChat scripts manager)
+2012-07-25 09:17:25		weeget: downloading list of scripts...
+2012-07-25 09:17:25		weeget: scripts downloaded
+2012-07-25 09:17:25		Scripts for WeeChat 0.3.7:
+2012-07-25 09:17:25		    allquery              py  Execute command on all irc query buffers.
+2012-07-25 09:17:25		    alternatetz           py  Add an alternate timezone item.
+2012-07-25 09:17:25		    amarok2               pl  Amarok 2 control and now playing script.
+2012-07-25 09:17:25		    amqp_notify           rb  Send private messages and highlights to an AMQP exchange.
+2012-07-25 09:17:25		    announce_url_title    py  Announce URL title to user or to channel.
+2012-07-25 09:17:25		    arespond              py  Simple autoresponder.
+2012-07-25 09:17:25		    audacious             pl  Display which song Audacious is currently playing.
+2012-07-25 09:17:25		    auto_away             py  A simple auto-away script.
+2012-07-25 09:17:25		    autoauth              py  Permits to auto-authenticate when changing nick.
+2012-07-25 09:17:25		    autoconnect           py  Reopen servers and channels opened last time WeeChat closed.
+2012-07-25 09:17:25		    autojoin              py  Configure autojoin for all servers according to currently joined channels.
+2012-07-25 09:17:25		    autojoin_on_invite    py  Auto joins channels when invited.
+2012-07-25 09:17:25		    automode              py  Auto op/voice users when they join IRC channel.
+2012-07-25 09:17:25		    away_action           py  Run command on highlight and privmsg when away.
+2012-07-25 09:17:25		    awaylog               pl  Log highlights/private msg when you are away.
+2012-07-25 09:17:25		    bandwidth             py  Displays network interface bandwidth on a bar.
+2012-07-25 09:17:25		    bashorg               pl  Retrieve quotes from bash.org.
+2012-07-25 09:17:25		    beat                  pl  Add a bar item with the Beat-Internet-Time.
+2012-07-25 09:17:25		    beep                  pl  Beep (terminal bell) or run command on highlight/private message.
+2012-07-25 09:17:25		    bitlbee_typing_notice py  Send notice when typing message on bitlbee, display if user is writing in a bar item.
+2012-07-25 09:17:25		    buddylist             pl  A simple buddylist to show if your buddies are online/away/offline.
+2012-07-25 09:17:25		    buffer_autoclose      py  Automatically close inactive private message buffers.
+2012-07-25 09:17:25		    buffer_autoset        py  Auto-set buffer properties when a buffer is opened.
+2012-07-25 09:17:25		    buffer_swap           py  Swap two buffers.
+2012-07-25 09:17:25		    buffers               pl  Sidebar with list of buffers.
+2012-07-25 09:17:25		    bufsave               py  Save current buffer content to a file.
+2012-07-25 09:17:25		    bufsize               py  Bar item with scroll indicator and info about number of lines in buffer.
+2012-07-25 09:17:25		    chan_hl               tcl Highlight some channels on each message.
+2012-07-25 09:17:25		    chanact               py  New hotlist, use names and keybindings instead of numbers.
+2012-07-25 09:17:25		    chanmon               pl  Adds a channel monitor buffer.
+2012-07-25 09:17:25		    chanop                py  Helper script for IRC channel operators.
+2012-07-25 09:17:25		    chanpriority          py  Set channel priority.
+2012-07-25 09:17:25		    chanstat              py  Displays channel's peak, low and average users.
+2012-07-25 09:17:25		    chatters              pl  Bar item with chatters (non idle people).
+2012-07-25 09:17:25		    clemenshow            py  Display which song clementine is currently playing.
+2012-07-25 09:17:25		    clone_scanner         py  Detect multiple nicknames from the same host on irc channels.
+2012-07-25 09:17:25		    cmd_help              py  Contextual command line help.
+2012-07-25 09:17:25		    colorize_lines        pl  Color the channel text with nick color.
+2012-07-25 09:17:25		    colorize_nicks        py  Use the weechat nick colors in the chat area and command line.
+2012-07-25 09:17:25		    completion            py  Custom word completions.
+2012-07-25 09:17:25		    confversion           py  Save config files in a version control system.
+2012-07-25 09:17:25		    correction_completion py  Provides a completion for "s/typo/correct".
+2012-07-25 09:17:25		    country               py  Print user's country and local time in whois/whowas replies.
+2012-07-25 09:17:25		    cron                  py  Time-based scheduler, like cron and at.
+2012-07-25 09:17:25		    crypt                 py  Encrypt/decrypt messages using openssl.
+2012-07-25 09:17:25		    curiousignore         pl  Remove messages from a nick and only print nick.
+2012-07-25 09:17:25		    customize_bar         py  Customize bars by buffer.
+2012-07-25 09:17:25		    dcc_antispam          py  Antispam for DCC file/chat requests.
+2012-07-25 09:17:25		    dcc_send_relay        rb  Forward DCC SEND requests to a different client.
+2012-07-25 09:17:25		    dellog                pl  Delete log file of current buffer.
+2012-07-25 09:17:25		    echo                  pl  Print a line and additionally set activity level.
+2012-07-25 09:17:25		    expand_url            pl  Expand short URLs.
+2012-07-25 09:17:25		    facebook_rename       py  Rename Facebook usernames when using Bitlbee or Minbif.
+2012-07-25 09:17:25		    fileaway              py  Set away status based on presence of a file.
+2012-07-25 09:17:25		    filter_ext            pl  Extends /filter, help against spam.
+2012-07-25 09:17:25		    fish                  py  FiSH encryption/decryption.
+2012-07-25 09:17:25		    floodit               py  Flood'it game.
+2012-07-25 09:17:25		    foo_spam              pl  Show info about current song in foobar2000.
+2012-07-25 09:17:25		    fortune               pl  Sends a random fortune cookie.
+2012-07-25 09:17:25		    gnotify               py  Notifications through Growl.
+2012-07-25 09:17:25		    gntp_notify           rb  Growl notifications using ruby-gntp.
+2012-07-25 09:17:25		    gntpnotify            py  Growl notifications using python-gntp.
+2012-07-25 09:17:25		    go                    py  Quick jump to buffers.
+2012-07-25 09:17:25		    grep                  py  Search regular expression in buffers or log files.
+2012-07-25 09:17:25		    growl                 py  Send Growl notifications upon events.
+2012-07-25 09:17:25		    growl_net_notify      pl  Notifications through Net::Growl.
+2012-07-25 09:17:25		    gweather              py  Add a bar item with Google weather.
+2012-07-25 09:17:25		    highlightxmpp         py  Relay highlighted and private messages over XMPP (Jabber).
+2012-07-25 09:17:25		    highmon               pl  Adds a highlight monitor buffer.
+2012-07-25 09:17:25		    hilites               rb  Display Weechat highlights in dzen (and beep).
+2012-07-25 09:17:25		    histsearch            py  Quick search in command history.
+2012-07-25 09:17:25		    hl2file               py  Generate a file with highlights for external programs as conky.
+2012-07-25 09:17:25		    hl_nicks              py  Generate a list of nicks in input by selecting nicks using flags and patterns.
+2012-07-25 09:17:25		    hlpvitem              py  Add bar item with highlight/private messages.
+2012-07-25 09:17:25		    hotlist2extern        pl  Give hotlist to an external file/program.
+2012-07-25 09:17:25		    ichatts               py  iChat-style timestamps.
+2012-07-25 09:17:25		    identica              py  Format identi.ca bot messages.
+2012-07-25 09:17:25		    im_kayac_com_notify   py  Push notification to im.kayac.com.
+2012-07-25 09:17:25		    imap_status           py  Bar item with unread imap messages count.
+2012-07-25 09:17:25		    infolist              py  Display infolist in a buffer, useful for script developers.
+2012-07-25 09:17:25		    infos                 py  Display WeeChats infos, useful for script developers.
+2012-07-25 09:17:25		    inotify               py  Notification script using libnotify or dbus with screen support.
+2012-07-25 09:17:25		    input_lock            rb  Lock input (authorize only commands).
+2012-07-25 09:17:25		    iset                  pl  Set WeeChat and plugins options interactively.
+2012-07-25 09:17:25		    isgd                  pl  Shorten URLs with is.gd on command.
+2012-07-25 09:17:25		    jabber                py  Jabber/XMPP protocol.
+2012-07-25 09:17:25		    jnotify               pl  Start internal comand or external program if a user or one of your buddies joins a channel you are in.
+2012-07-25 09:17:25		    kbtimeout             py  Kickban nick and unban after some seconds.
+2012-07-25 09:17:25		    keepnick              py  Keep your nick and recover it in case it's stolen.
+2012-07-25 09:17:25		    kernel                pl  Display latest available kernel on kernel.org.
+2012-07-25 09:17:25		    kickban               pl  Customizable kickban command with unban timer and mask resolver.
+2012-07-25 09:17:25		    kikoo                 pl  Send a colored "kikoo" on current channel.
+2012-07-25 09:17:25		    kiloseconds           py  Adds a command and bar item for displaying the current time in kiloseconds.
+2012-07-25 09:17:25		    lastfm                py  Send your latest Last.fm track to the current buffer.
+2012-07-25 09:17:25		    launcher              pl  Launch external commands for signals.
+2012-07-25 09:17:25		    leet                  py  Convert text to leet.
+2012-07-25 09:17:25		    listbuffer            py  Show /list results in a common buffer and interact with them.
+2012-07-25 09:17:25		    listsort              pl  Sort the output of /list command by user count.
+2012-07-25 09:17:25		    lnotify               py  A libnotify script.
+2012-07-25 09:17:25		    logsize               py  Display size of current log file in a bar item.
+2012-07-25 09:17:25		    mastermind            pl  Mastermind game.
+2012-07-25 09:17:25		    memon                 py  Freenode memo notifications.
+2012-07-25 09:17:25		    menu                  pl  Bar with popup menu.
+2012-07-25 09:17:25		    minbif_typing_notice  rb  Send notice when typing message on minbif, display if user is writing in a bar item.
+2012-07-25 09:17:25		    minesweeper           py  Minesweeper game.
+2012-07-25 09:17:25		    moc                   pl  Show info about current song in moc.
+2012-07-25 09:17:25		    moc_control           py  Control and now-playing script for moc.
+2012-07-25 09:17:25		    mpc                   py  A now playing and control script for mpd.
+2012-07-25 09:17:25		    mpdnp                 py  Display which song mpd is currently playing.
+2012-07-25 09:17:25		    mpdspam               rb  Display which song mpd is currently playing.
+2012-07-25 09:17:25		    mplex                 pl  Simple remote control of multiplexer (screen or tmux), optionally set away status.
+2012-07-25 09:17:25		    mpris_np              py  A now playing script for players supporting the mpris dbus interface.
+2012-07-25 09:17:25		    msg_command           py  Run chat received in a buffer as commands.
+2012-07-25 09:17:25		    myuptime              rb  Sends machine uptime to current channel.
+2012-07-25 09:17:25		    nameday               py  Display name days in bar item and buffer (only french calendar).
+2012-07-25 09:17:25		    ncmpcpp               pl  Control and now playing script for ncmpcpp.
+2012-07-25 09:17:25		    newsbar               pl  Print highlights or text given by commands into a bar (auto popup if needed).
+2012-07-25 09:17:25		    nickregain            pl  Automatically attempts to regain IRC primary nick.
+2012-07-25 09:17:25		    nma                   py  Receive notifications in Notify My Android (android phone app).
+2012-07-25 09:17:25		    notifo                py  Send private messages and highlights as push notifications to your iPhone/Android.
+2012-07-25 09:17:25		    notifo_notify         py  Push notification to iPod touch/iPhone with notifo.
+2012-07-25 09:17:25		    notify                py  Notification on screen for highlights and private messages.
+2012-07-25 09:17:25		    otr                   py  Off-The-Record IRC messaging.
+2012-07-25 09:17:25		    pagetitle             py  Adds HTML page titles to http:// urls in your message.
+2012-07-25 09:17:25		    perlexec              pl  Execute perl code with a command or in a buffer.
+2012-07-25 09:17:25		    pop3_mail             pl  Check POP3 server for mails and display mail headers.
+2012-07-25 09:17:25		    postpone              py  Postpone written messages for later dispatching if target nick is not on channel.
+2012-07-25 09:17:25		    prism                 py  Send text using rainbow colors.
+2012-07-25 09:17:25		    purgelogs             py  Delete log files by age or size.
+2012-07-25 09:17:25		    pybuffer              py  Debugging tool for python scripts or test WeeChat's API functions.
+2012-07-25 09:17:25		    pyrnotify             py  Send notifications to remote client using ssh and libnotify.
+2012-07-25 09:17:25		    query_blocker         pl  Simple blocker for private message (i.e. spam).
+2012-07-25 09:17:25		    queue                 py  Command queuing.
+2012-07-25 09:17:25		    quick_force_color     py  Quickly add/del/change entry in option irc.look.nick_color_force.
+2012-07-25 09:17:25		    quodnp                py  A now playing and control script for Quodlibet.
+2012-07-25 09:17:25		    ragefaces             pl  Send ragefac.es URLs.
+2012-07-25 09:17:25		    recoverop             pl  Recover channel operator in empty channel.
+2012-07-25 09:17:25		    rhythmbox             pl  Display which song rhythmbox is currently playing.
+2012-07-25 09:17:25		    rhythmbus             pl  Control Rhythmbox through qdbus.
+2012-07-25 09:17:25		    rnotify               tcl Sends highlights to (remote) client using libnotify.
+2012-07-25 09:17:25		    rslap                 pl  Slaps with random messages.
+2012-07-25 09:17:25		    samegame              py  SameGame.
+2012-07-25 09:17:25		    screen_away           py  Set away status when detaching and attaching from screen or tmux.
+2012-07-25 09:17:25		    script                pl  Load/reload/unload scripts for any language.
+2012-07-25 09:17:25		    seeks                 pl  Search terms on seeks node and display results.
+2012-07-25 09:17:25		    sensors               py  Displays sensor data.
+2012-07-25 09:17:25		    server_autoswitch     py  Cycle to currently used server (for merged buffers).
+2012-07-25 09:17:25		    shell                 py  Run shell commands inside WeeChat.
+2012-07-25 09:17:25		    shortenurl            py  Shorten long urls using isgd or tinyurl.
+2012-07-25 09:17:25		    shuffle               pl  Simple text shuffler.
+2012-07-25 09:17:25		    slock_away            py  Set away status if slock (X display locker) is running.
+2012-07-25 09:17:25		    snake                 pl  Snake game.
+2012-07-25 09:17:25		    snarl_net_notify      pl  Snarl notifications for highlights.
+2012-07-25 09:17:25		    snotify               py  Play sound when messages are printed in buffers.
+2012-07-25 09:17:25		    sort_buffers          pl  Sort irc buffers alphabetically.
+2012-07-25 09:17:25		    sound                 pl  Play a sound for IRC "CTCP SOUND" message.
+2012-07-25 09:17:25		    spotify               py  Looks up meta information about spotify-URIs and posts back to channel.
+2012-07-25 09:17:25		    spotify_nowplaying    py  Current song script for Spotify on OS X.
+2012-07-25 09:17:25		    sshnotify             py  A notify script which uses ssh.
+2012-07-25 09:17:25		    stats_bar             pl  Bar items with stats about network interface, load, and free memory.
+2012-07-25 09:17:25		    strmon                pl  Monitoring of highlights, tags, buffers, nicks with optional sound and osd notifications.
+2012-07-25 09:17:25		    sysinfo               pl  System info command.
+2012-07-25 09:17:25		    tailer                py  Tail any number of files and run any command with line appended.
+2012-07-25 09:17:25		    text_effects          lua Adds effects to words surrounded by certain characters.
+2012-07-25 09:17:25		    text_replace          py  Replaces text you write with replacement text.
+2012-07-25 09:17:25		    thinklight_blink      pl  Thinklight blink on highlight/private message.
+2012-07-25 09:17:25		    tinyurl               py  Get "tinyurl.com" equivalent for URLs.
+2012-07-25 09:17:25		    title                 py  Set terminal title to active buffer name and hotlist items.
+2012-07-25 09:17:25		    toggle_nicklist       py  Auto show and hide nicklist depending on buffer name.
+2012-07-25 09:17:25		    topicdiff             py  Show differences between old and new topics.
+2012-07-25 09:17:25		    topicsed              pl  Edit channel topics by perl regular expressions or in input-line.
+2012-07-25 09:17:25		    translate             py  Translate string using Google translate API.
+2012-07-25 09:17:25		    twmn_notify           py  Notifications for twmn.
+2012-07-25 09:17:25		    typing_counter        py  Bar item showing typing count and cursor position.
+2012-07-25 09:17:25		    ubus                  pl  Ubus notification.
+2012-07-25 09:17:25		    uname                 py  Sends "uname -a" output to current channel.
+2012-07-25 09:17:25		    unset_unused          pl  Unset script option(s) fom scripts that are no longer installed.
+2012-07-25 09:17:25		    unwanted_msg          py  Avoid sending misformatted commands as messages.
+2012-07-25 09:17:25		    update_notifier       py  Notify user about WeeChat updates.
+2012-07-25 09:17:25		    uppercase             py  Transform all your input to uppercase (useful for INTERNATIONAL CAPSLOCK DAY).
+2012-07-25 09:17:25		    upside_down           py  Replaces text you write with upside down text.
+2012-07-25 09:17:25		    url_shorten           rb  Shorten long urls in channels.
+2012-07-25 09:17:25		    urlbar                py  Display a url bar for easy clicking or selecting.
+2012-07-25 09:17:25		    urlbuf                py  A common buffer for URLs.
+2012-07-25 09:17:25		    urlgrab               py  Logs url and open them in browser.
+2012-07-25 09:17:25		    urlserver             py  Shorten URLs with own HTTP server.
+2012-07-25 09:17:25		    vdm                   py  Display content of viedemerde.fr/fmylife.com website.
+2012-07-25 09:17:25		    volumeter             pl  Show volume of data on network interface in a bar.
+2012-07-25 09:17:25		    weather               py  Display weather from Google.
+2012-07-25 09:17:25		    weefish               rb  FiSH encryption/decryption.
+2012-07-25 09:17:25		ir  weeget                py  Scripts manager.
+2012-07-25 09:17:25		    weempd                py  Display which song mpd is currently playing.
+2012-07-25 09:17:25		    weenetsoul            py  Netsoul protocol.
+2012-07-25 09:17:25		    weerock               pl  A "now playing" script for several music players.
+2012-07-25 09:17:25		    weestats              py  Insert some statistics about buffers/windows on command line.
+2012-07-25 09:17:25		    weetris               pl  Tetris-like game.
+2012-07-25 09:17:25		    whatismyip            py  Display external ip address.
+2012-07-25 09:17:25		    whois_on_query        py  Send "whois" on nick when receiving new IRC query.
+2012-07-25 09:17:25		    windicate             py  Add alerts to the message menu in Ubuntu.
+2012-07-25 09:17:25		    wmiibar               pl  Wmii statusbar notification for highlights.
+2012-07-25 09:17:25		    xclip                 pl  Paste content from X11 clipboard.
+2012-07-25 09:17:25		    xfer_setip            py  Set xfer own ip with external ip.
+2012-07-25 09:17:25		    xmms2                 rb  Display which song xmms2 is currently playing.
+2012-07-25 09:17:25		    xosdnotify            tcl Show highlights and private messages with OSD.
+2012-07-25 09:17:25		    yaaa                  pl  Auto-away script.
+2012-07-25 09:17:25		    yaurls                pl  Shorten URLs with tinyURL, ls-n, or is.gd.
+2012-07-25 09:17:25		    zerotab               py  Complete empty input line with latest speaker nick in channel.
+2012-07-25 09:17:25		    zmq_notify            rb  Send notifications to a ZMQ socket.
+2012-07-25 09:19:57		weeget: downloading "beat.pl"...
+2012-07-25 09:19:58		perl: loading script "/home/john/.weechat/perl/beat.pl"
+2012-07-25 09:19:58		perl: registered script "beat", version 0.2 (Shows you the Beat-Internet-Time in Bar-Item)
+2012-07-25 09:20:03		weeget: downloading "newsbar.pl"...
+2012-07-25 09:20:04		perl: loading script "/home/john/.weechat/perl/newsbar.pl"
+2012-07-25 09:20:04		perl: registered script "newsbar", version 0.13 (Print highlights or text given by commands into bar 'NewsBar'. Auto popup on top of weechat if needed. 'beeps' can be executed local or remote)
+2012-07-25 09:20:35		[perl]  /newsbar  <always> | <away_only> | <beep> | <nobeep> | <beep_local> | <beep_remote> | <clear [regexp]>| <memo [text]> | <add [--color color] text>| <toggle> | <hide> | <show>| <scroll_home> | <scroll_page_up> | <scroll_page_down> | <scroll_up> | <scroll_down> | <scroll_end>
+2012-07-25 09:20:35		Print highlights or text given by commands into bar 'NewsBar'. Auto popup on top of weechat if needed. 'beeps' can be executed local or remote
+2012-07-25 09:20:35		Arguments:
+2012-07-25 09:20:35		    always:         enable highlights to bar always       (set config <c>away_only</c> = 'off').
+2012-07-25 09:20:35		    away_only:      enable highlights to bar if away only (set config <c>away_only</c> = 'on').
+2012-07-25 09:20:35		    beep:           enable beeps on highlights (set config <c>beeps</c> = 'on').
+2012-07-25 09:20:35		    nobeep:         disable beeps on highlights (set config <c>beeps</c> = 'off').
+2012-07-25 09:20:35		    beep_local:     execute beep cmd on localhost (set config <c>beeps_remote</c> = 'off').
+2012-07-25 09:20:35		    beep_remote:    execute beep cmd on remote host using ssh (set config <c>beeps_remote</c> = 'on').
+2012-07-25 09:20:35		    <c>clear [regexp]</c>: Clear bar 'newsbar'. Clear all messages.
+2012-07-25 09:20:35		                    If a perl regular expression is given, clear matched lines only.
+2012-07-25 09:20:35		    <c>memo [text]</c>:    Print a memo into bar 'newsbar'.
+2012-07-25 09:20:35		                    If text is not given, an empty line will be printed.
+2012-07-25 09:20:35		    <c>add [--color color] text</c>:
+2012-07-25 09:20:35		                    Print text formatted into bar 'newsbar'.
+2012-07-25 09:20:35		                    Useful to display text using the FIFO pipe of WeeChat (same
+2012-07-25 09:20:35		                    as weechat does for buffers).
+2012-07-25 09:20:35		                    Text given before an optional tab will be printed left to the
+2012-07-25 09:20:35		                    delemeter, all other text will be printed right to the
+2012-07-25 09:20:35		                    delemeter. If <c>--color weechat-color-name</c> is given, text
+2012-07-25 09:20:35		                    infront of a tab will be colored.
+2012-07-25 09:20:35		                    If text is not given, an empty line will be printed.
+2012-07-25 09:20:35		                    The best way to use this command is in a script called by e.g.
+2012-07-25 09:20:35		                    cron or newsbeuter (maybe using ssh from an other host).
+2012-07-25 09:20:35		                    Example (commandline):
+2012-07-25 09:20:35		                    $ echo -e \
+2012-07-25 09:20:35		                        "*/newsbar add --color lightred [WARN]\tgit updated! Do: git fetch, rebuild weechat" \
+2012-07-25 09:20:35		                        > ~/.weechat/weechat_fifo_4521
+2012-07-25 09:20:35		                    $ echo "*/newsbar add simple message" > ~/.weechat/weechat_fifo_4521
+2012-07-25 09:20:35		                    Example (script for newsbeuter's 'notify-program'):
+2012-07-25 09:20:35		                    #/bin/sh
+2012-07-25 09:20:35		                    # file /bin/nb2newsbar.sh
+2012-07-25 09:20:35		                    # clear old lines containing [RSS], print newsbeuters notify
+2012-07-25 09:20:35		                    # XXX This script assumes that only one weechat-client is runnig on that host
+2012-07-25 09:20:35		                    # XXX depends on pgrep
+2012-07-25 09:20:35		                    #
+2012-07-25 09:20:35		                    # Example key binding to delete lines containing [RSS] and to
+2012-07-25 09:20:35		                    # hide newsbar at once:
+2012-07-25 09:20:35		                    #   key: </> on numeric keypad (check it for you with meta-k)
+2012-07-25 09:20:35		                    #   meta-Oo => /newsbar clear [RSS]; /newsbar hide
+2012-07-25 09:20:35		                    #
+2012-07-25 09:20:35		                    # related example settings in ~/.newsbeuter/config
+2012-07-25 09:20:35		                    # notify-format  "%d new articles (%n unread articles, %f unread feeds)"
+2012-07-25 09:20:35		                    # notify-program "~/bin/nb2newsbar.sh"
+2012-07-25 09:20:35		                    WPID=`pgrep weechat-curses
+2012-07-25 09:20:35		                    [ "x$WPID" != "x" ] && echo -e "*/newsbar clear \[RSS\]\n*/newsbar add --color brown [RSS]\t$@" \
+2012-07-25 09:20:35		                                             > "$HOME/.weechat/weechat_fifo_$WPID"
+2012-07-25 09:20:35		    toggle,
+2012-07-25 09:20:35		    hide,           show,
+2012-07-25 09:20:35		    scroll_home,    scroll_end,
+2012-07-25 09:20:35		    scroll_page_up, scroll_page_down,
+2012-07-25 09:20:35		    scroll_up,      scroll_down:
+2012-07-25 09:20:35		                    Useful simple key bindings.
+2012-07-25 09:20:35		                    Example key bindings (all on numeric keypad, NUMLOCK := off):
+2012-07-25 09:20:35		                    <Return> /key bind meta-OM /newsbar <c>toggle</c>
+2012-07-25 09:20:35		                    <7>      /key bind meta-OU /newsbar <c>scroll_home</c>
+2012-07-25 09:20:35		                    <1>      /key bind meta-O\ /newsbar <c>scroll_end</c>
+2012-07-25 09:20:35		                    <9>      /key bind meta-OZ /newsbar <c>scroll_page_up</c>
+2012-07-25 09:20:35		                    <3>      /key bind meta-O[ /newsbar <c>scroll_page_down</c>
+2012-07-25 09:20:35		                    <8>      /key bind meta-OW /newsbar <c>scroll_up</c>
+2012-07-25 09:20:35		                    <2>      /key bind meta-OY /newsbar <c>scroll_down</c>
+2012-07-25 09:20:35		                    <Alt><Return> /key bind meta-OM => /newsbar <c>clear</c>  (clear and hide)
+2012-07-25 09:20:35		                    Check for your keys with <alt>-k (meta-k)!
+2012-07-25 09:20:35		Config settings:
+2012-07-25 09:20:35		    beeps:                  Beep on highlights. ('on'/'off')
+2012-07-25 09:20:35		    beep_freq_channel:      frequence of beep (highlighted on a public channel).
+2012-07-25 09:20:35		                            default: '1000'
+2012-07-25 09:20:35		    beep_freq_private:      frequence of beep (message on a private).
+2012-07-25 09:20:35		                            default: '1000'
+2012-07-25 09:20:35		    beep_freq_msg:          frequence of beep (highlighted on a private channel).
+2012-07-25 09:20:35		                            default: '1000'
+2012-07-25 09:20:35		    beep_duration:          beep duration in milliseconds
+2012-07-25 09:20:35		                            default: '20'
+2012-07-25 09:20:35		    beep_cmd:               command to be executed on 'beeps'
+2012-07-25 09:20:35		                            default: 'beep -f %F -l %L'
+2012-07-25 09:20:35		    beep_remote:            beep on a remote host (see: option <c>ssh_host</c>)
+2012-07-25 09:20:35		                            default: 'off'
+2012-07-25 09:20:35		    ssh_host:               host (and optional user) where remote beeps should
+2012-07-25 09:20:35		                            be executed
+2012-07-25 09:20:35		                            default: ''
+2012-07-25 09:20:35		    ssh_key:                ssh key (identity_file) for remote commands
+2012-07-25 09:20:35		                            (you can use ssh-agent instead, then there's no need for
+2012-07-25 09:20:35		                            this option)
+2012-07-25 09:20:35		                            default: ''
+2012-07-25 09:20:35		    away_only:              Collect highlights only if you're away.
+2012-07-25 09:20:35		                            default: 'off'
+2012-07-25 09:20:35		    show_highlights:        Enable/disable handling of public messages. ('on'/'off')
+2012-07-25 09:20:35		                            default: 'on'
+2012-07-25 09:20:35		    show_priv_msg:          Enable/disable handling of private messages. ('on'/'off')
+2012-07-25 09:20:35		                            default: 'on'
+2012-07-25 09:20:35		    show_priv_server_msg:   Enable/disable handling of private server messages. ('on'/'off')
+2012-07-25 09:20:35		                            (server responses to server commands including your nick
+2012-07-25 09:20:35		                             (i.e.: '/msg nickserv info'))
+2012-07-25 09:20:35		                            default: 'on'
+2012-07-25 09:20:35		    format_public:          Format-string for public highlights.
+2012-07-25 09:20:35		    format_private:         Format-string for private highlights.
+2012-07-25 09:20:35		                            Format-string:
+2012-07-25 09:20:35		                            %n : nick,    %N : colored nick
+2012-07-25 09:20:35		                            %c : channel, %C : colored channel  (public only)
+2012-07-25 09:20:35		                            %s : server
+2012-07-25 09:20:35		                            default public format:  '%N.%C@%s'
+2012-07-25 09:20:35		                            default private format: '%N@%s'
+2012-07-25 09:20:35		    memo_tag_color:         Color of '[memo]' e.g.: 'black,cyan' fg: black, bg: cyan
+2012-07-25 09:20:35		                            default: 'yellow'
+2012-07-25 09:20:35		    remove_bar_on_unload:   Remove bar when script will be unloaded.
+2012-07-25 09:20:35		    bar_auto_hide:          Hide bar if empty ('on'/'off')
+2012-07-25 09:20:35		                            default: 'on'
+2012-07-25 09:20:35		    bar_hidden_on_start:    Start with a hidden bar ('1'/'0')
+2012-07-25 09:20:35		                            default: '1'
+2012-07-25 09:20:35		    bar_visible_lines:      lines visible if bar is shown
+2012-07-25 09:20:35		                            default: '4'
+2012-07-25 09:20:35		    bar_seperator:          Show bar separator line ('on'/'off')
+2012-07-25 09:20:35		                            default: 'off'
+2012-07-25 09:20:35		    bar_title:              Title of info bar
+2012-07-25 09:20:35		                            default: 'Highlights'
+2012-07-25 09:20:35		    colored_help:           Display colored help. If you don't like it, do:
+2012-07-25 09:20:35		                              /set plugins.var.perl.newsbar.colored_help off
+2012-07-25 09:20:35		                            then reload the script.
+2012-07-25 09:20:35		                            default: 'on'
+2012-07-25 09:20:35		    nick_flood_protection:  Don't act on messages starting with mutiple nicks.
+2012-07-25 09:20:35		                            It's annoying if bots enter channels printing all
+2012-07-25 09:20:35		                            nicks.
+2012-07-25 09:20:35		                            default: 'off'
+2012-07-25 09:20:35		    nick_flood_max_nicks:   If messages starts with #nick_flood_max_nicks or
+2012-07-25 09:20:35		                            more nicks, then it's assumed as nick_flood
+2012-07-25 09:20:35		                            default: '4'
+2012-07-25 09:20:35		    debug:                  Show some debug/warning messages on failture. ('on'/'off').
+2012-07-25 09:20:35		                            default: 'on'
+2012-07-25 09:22:35		[core]
+2012-07-25 09:22:35		  away    buffer  command debug   help    input   layout  mute    proxy   reload  save    unset   uptime  wait   
+2012-07-25 09:22:35		  bar     color   cursor  filter  history key     mouse   plugin  quit    repeat  set     upgrade version window 
+2012-07-25 09:22:35		[guile]
+2012-07-25 09:22:35		  guile
+2012-07-25 09:22:35		[logger]
+2012-07-25 09:22:35		  logger
+2012-07-25 09:22:35		[lua]
+2012-07-25 09:22:35		  lua
+2012-07-25 09:22:35		[perl]
+2012-07-25 09:22:35		  newsbar perl   
+2012-07-25 09:22:35		[relay]
+2012-07-25 09:22:35		  relay
+2012-07-25 09:22:35		[rmodifier]
+2012-07-25 09:22:35		  rmodifier
+2012-07-25 09:22:35		[xfer]
+2012-07-25 09:22:35		  me   xfer
+2012-07-25 09:22:35		[irc]
+2012-07-25 09:22:35		  admin      ctcp       devoice    info       kickban    map        names      oper       quote      samode     service    summon     userhost   wallops   
+2012-07-25 09:22:35		  allchan    cycle      die        invite     kill       me         nick       part       reconnect  sanick     servlist   time       users      who       
+2012-07-25 09:22:35		  allserv    dcc        disconnect ison       links      mode       notice     ping       rehash     sapart     squery     topic      version    whois     
+2012-07-25 09:22:35		  ban        dehalfop   halfop     join       list       motd       notify     pong       restart    saquit     squit      trace      voice      whowas    
+2012-07-25 09:22:35		  connect    deop       ignore     kick       lusers     msg        op         query      sajoin     server     stats      unban      wallchops 
+2012-07-25 09:22:35		[tcl]
+2012-07-25 09:22:35		  tcl
+2012-07-25 09:22:35		[python]
+2012-07-25 09:22:35		  python weeget
+2012-07-25 09:22:35		[alias]
+2012-07-25 09:22:35		  AAWAY   AME     ANICK   C       CL      EXIT    J       KB      M       N       REDRAW  SIGNOFF UB      unalias W       WI      WW     
+2012-07-25 09:22:35		  alias   AMSG    BYE     CHAT    CLOSE   IG      K       LEAVE   MUB     Q       SAY     T       UMODE   V       WC      WII    
+2012-07-25 09:22:35		[charset]
+2012-07-25 09:22:35		  charset
+2012-07-25 09:22:35		[aspell]
+2012-07-25 09:22:35		  aspell
+2012-07-25 09:22:35		[ruby]
+2012-07-25 09:22:35		  ruby
+2012-07-25 09:22:47	=!=	Error: unknown command "beep" (type /help for help)
+2012-07-25 09:22:52	=!=	Error: unknown command "beat" (type /help for help)
+2012-07-25 09:22:56	=!=	No help available, "beat" is not a command or an option
+2012-07-25 09:23:17	=!=	Error: unknown command "beat" (type /help for help)
+2012-07-25 09:23:35	=!=	Error: unknown command "beat" (type /help for help)
+2012-07-25 09:23:48		[bar] (weechat.conf)
+2012-07-25 09:23:48		  weechat.bar.status.items = "[time],[buffer_count],[buffer_plugin],buffer_number+:+buffer_name+{buffer_nicklist_count}+buffer_filter,[lag],[hotlist],completion,scroll"
+2012-07-25 09:23:48		1 configuration option found matching with "weechat.bar.status.items"
+2012-07-25 09:25:12		Option changed: weechat.bar.status.items = "[time],[beat],buffer_number+:+buffer_name+buffer_filter,[lag],[hotlist],completion,scroll"
+2012-07-25 09:25:40		[var] (plugins.conf)
+2012-07-25 09:25:40		  plugins.var.perl.beat.refresh = "60"
+2012-07-25 09:25:40		1 configuration option found matching with "plugins.var.perl.beat.refresh"
+2012-07-25 09:25:46		Option changed: plugins.var.perl.beat.refresh = "20"
+2012-07-25 09:25:56		[perl]  /newsbar  <always> | <away_only> | <beep> | <nobeep> | <beep_local> | <beep_remote> | <clear [regexp]>| <memo [text]> | <add [--color color] text>| <toggle> | <hide> | <show>| <scroll_home> | <scroll_page_up> | <scroll_page_down> | <scroll_up> | <scroll_down> | <scroll_end>
+2012-07-25 09:25:56		Print highlights or text given by commands into bar 'NewsBar'. Auto popup on top of weechat if needed. 'beeps' can be executed local or remote
+2012-07-25 09:25:56		Arguments:
+2012-07-25 09:25:56		    always:         enable highlights to bar always       (set config <c>away_only</c> = 'off').
+2012-07-25 09:25:56		    away_only:      enable highlights to bar if away only (set config <c>away_only</c> = 'on').
+2012-07-25 09:25:56		    beep:           enable beeps on highlights (set config <c>beeps</c> = 'on').
+2012-07-25 09:25:56		    nobeep:         disable beeps on highlights (set config <c>beeps</c> = 'off').
+2012-07-25 09:25:56		    beep_local:     execute beep cmd on localhost (set config <c>beeps_remote</c> = 'off').
+2012-07-25 09:25:56		    beep_remote:    execute beep cmd on remote host using ssh (set config <c>beeps_remote</c> = 'on').
+2012-07-25 09:25:56		    <c>clear [regexp]</c>: Clear bar 'newsbar'. Clear all messages.
+2012-07-25 09:25:56		                    If a perl regular expression is given, clear matched lines only.
+2012-07-25 09:25:56		    <c>memo [text]</c>:    Print a memo into bar 'newsbar'.
+2012-07-25 09:25:56		                    If text is not given, an empty line will be printed.
+2012-07-25 09:25:56		    <c>add [--color color] text</c>:
+2012-07-25 09:25:56		                    Print text formatted into bar 'newsbar'.
+2012-07-25 09:25:56		                    Useful to display text using the FIFO pipe of WeeChat (same
+2012-07-25 09:25:56		                    as weechat does for buffers).
+2012-07-25 09:25:56		                    Text given before an optional tab will be printed left to the
+2012-07-25 09:25:56		                    delemeter, all other text will be printed right to the
+2012-07-25 09:25:56		                    delemeter. If <c>--color weechat-color-name</c> is given, text
+2012-07-25 09:25:56		                    infront of a tab will be colored.
+2012-07-25 09:25:56		                    If text is not given, an empty line will be printed.
+2012-07-25 09:25:56		                    The best way to use this command is in a script called by e.g.
+2012-07-25 09:25:56		                    cron or newsbeuter (maybe using ssh from an other host).
+2012-07-25 09:25:56		                    Example (commandline):
+2012-07-25 09:25:56		                    $ echo -e \
+2012-07-25 09:25:56		                        "*/newsbar add --color lightred [WARN]\tgit updated! Do: git fetch, rebuild weechat" \
+2012-07-25 09:25:56		                        > ~/.weechat/weechat_fifo_4521
+2012-07-25 09:25:56		                    $ echo "*/newsbar add simple message" > ~/.weechat/weechat_fifo_4521
+2012-07-25 09:25:56		                    Example (script for newsbeuter's 'notify-program'):
+2012-07-25 09:25:56		                    #/bin/sh
+2012-07-25 09:25:56		                    # file /bin/nb2newsbar.sh
+2012-07-25 09:25:56		                    # clear old lines containing [RSS], print newsbeuters notify
+2012-07-25 09:25:56		                    # XXX This script assumes that only one weechat-client is runnig on that host
+2012-07-25 09:25:56		                    # XXX depends on pgrep
+2012-07-25 09:25:56		                    #
+2012-07-25 09:25:56		                    # Example key binding to delete lines containing [RSS] and to
+2012-07-25 09:25:56		                    # hide newsbar at once:
+2012-07-25 09:25:56		                    #   key: </> on numeric keypad (check it for you with meta-k)
+2012-07-25 09:25:56		                    #   meta-Oo => /newsbar clear [RSS]; /newsbar hide
+2012-07-25 09:25:56		                    #
+2012-07-25 09:25:56		                    # related example settings in ~/.newsbeuter/config
+2012-07-25 09:25:56		                    # notify-format  "%d new articles (%n unread articles, %f unread feeds)"
+2012-07-25 09:25:56		                    # notify-program "~/bin/nb2newsbar.sh"
+2012-07-25 09:25:56		                    WPID=`pgrep weechat-curses
+2012-07-25 09:25:56		                    [ "x$WPID" != "x" ] && echo -e "*/newsbar clear \[RSS\]\n*/newsbar add --color brown [RSS]\t$@" \
+2012-07-25 09:25:56		                                             > "$HOME/.weechat/weechat_fifo_$WPID"
+2012-07-25 09:25:56		    toggle,
+2012-07-25 09:25:56		    hide,           show,
+2012-07-25 09:25:56		    scroll_home,    scroll_end,
+2012-07-25 09:25:56		    scroll_page_up, scroll_page_down,
+2012-07-25 09:25:56		    scroll_up,      scroll_down:
+2012-07-25 09:25:56		                    Useful simple key bindings.
+2012-07-25 09:25:56		                    Example key bindings (all on numeric keypad, NUMLOCK := off):
+2012-07-25 09:25:56		                    <Return> /key bind meta-OM /newsbar <c>toggle</c>
+2012-07-25 09:25:56		                    <7>      /key bind meta-OU /newsbar <c>scroll_home</c>
+2012-07-25 09:25:56		                    <1>      /key bind meta-O\ /newsbar <c>scroll_end</c>
+2012-07-25 09:25:56		                    <9>      /key bind meta-OZ /newsbar <c>scroll_page_up</c>
+2012-07-25 09:25:56		                    <3>      /key bind meta-O[ /newsbar <c>scroll_page_down</c>
+2012-07-25 09:25:56		                    <8>      /key bind meta-OW /newsbar <c>scroll_up</c>
+2012-07-25 09:25:56		                    <2>      /key bind meta-OY /newsbar <c>scroll_down</c>
+2012-07-25 09:25:56		                    <Alt><Return> /key bind meta-OM => /newsbar <c>clear</c>  (clear and hide)
+2012-07-25 09:25:56		                    Check for your keys with <alt>-k (meta-k)!
+2012-07-25 09:25:56		Config settings:
+2012-07-25 09:25:56		    beeps:                  Beep on highlights. ('on'/'off')
+2012-07-25 09:25:56		    beep_freq_channel:      frequence of beep (highlighted on a public channel).
+2012-07-25 09:25:56		                            default: '1000'
+2012-07-25 09:25:56		    beep_freq_private:      frequence of beep (message on a private).
+2012-07-25 09:25:56		                            default: '1000'
+2012-07-25 09:25:56		    beep_freq_msg:          frequence of beep (highlighted on a private channel).
+2012-07-25 09:25:56		                            default: '1000'
+2012-07-25 09:25:56		    beep_duration:          beep duration in milliseconds
+2012-07-25 09:25:56		                            default: '20'
+2012-07-25 09:25:56		    beep_cmd:               command to be executed on 'beeps'
+2012-07-25 09:25:56		                            default: 'beep -f %F -l %L'
+2012-07-25 09:25:56		    beep_remote:            beep on a remote host (see: option <c>ssh_host</c>)
+2012-07-25 09:25:56		                            default: 'off'
+2012-07-25 09:25:56		    ssh_host:               host (and optional user) where remote beeps should
+2012-07-25 09:25:56		                            be executed
+2012-07-25 09:25:56		                            default: ''
+2012-07-25 09:25:56		    ssh_key:                ssh key (identity_file) for remote commands
+2012-07-25 09:25:56		                            (you can use ssh-agent instead, then there's no need for
+2012-07-25 09:25:56		                            this option)
+2012-07-25 09:25:56		                            default: ''
+2012-07-25 09:25:56		    away_only:              Collect highlights only if you're away.
+2012-07-25 09:25:56		                            default: 'off'
+2012-07-25 09:25:56		    show_highlights:        Enable/disable handling of public messages. ('on'/'off')
+2012-07-25 09:25:56		                            default: 'on'
+2012-07-25 09:25:56		    show_priv_msg:          Enable/disable handling of private messages. ('on'/'off')
+2012-07-25 09:25:56		                            default: 'on'
+2012-07-25 09:25:56		    show_priv_server_msg:   Enable/disable handling of private server messages. ('on'/'off')
+2012-07-25 09:25:56		                            (server responses to server commands including your nick
+2012-07-25 09:25:56		                             (i.e.: '/msg nickserv info'))
+2012-07-25 09:25:56		                            default: 'on'
+2012-07-25 09:25:56		    format_public:          Format-string for public highlights.
+2012-07-25 09:25:56		    format_private:         Format-string for private highlights.
+2012-07-25 09:25:56		                            Format-string:
+2012-07-25 09:25:56		                            %n : nick,    %N : colored nick
+2012-07-25 09:25:56		                            %c : channel, %C : colored channel  (public only)
+2012-07-25 09:25:56		                            %s : server
+2012-07-25 09:25:56		                            default public format:  '%N.%C@%s'
+2012-07-25 09:25:56		                            default private format: '%N@%s'
+2012-07-25 09:25:56		    memo_tag_color:         Color of '[memo]' e.g.: 'black,cyan' fg: black, bg: cyan
+2012-07-25 09:25:56		                            default: 'yellow'
+2012-07-25 09:25:56		    remove_bar_on_unload:   Remove bar when script will be unloaded.
+2012-07-25 09:25:56		    bar_auto_hide:          Hide bar if empty ('on'/'off')
+2012-07-25 09:25:56		                            default: 'on'
+2012-07-25 09:25:56		    bar_hidden_on_start:    Start with a hidden bar ('1'/'0')
+2012-07-25 09:25:56		                            default: '1'
+2012-07-25 09:25:56		    bar_visible_lines:      lines visible if bar is shown
+2012-07-25 09:25:56		                            default: '4'
+2012-07-25 09:25:56		    bar_seperator:          Show bar separator line ('on'/'off')
+2012-07-25 09:25:56		                            default: 'off'
+2012-07-25 09:25:56		    bar_title:              Title of info bar
+2012-07-25 09:25:56		                            default: 'Highlights'
+2012-07-25 09:25:56		    colored_help:           Display colored help. If you don't like it, do:
+2012-07-25 09:25:56		                              /set plugins.var.perl.newsbar.colored_help off
+2012-07-25 09:25:56		                            then reload the script.
+2012-07-25 09:25:56		                            default: 'on'
+2012-07-25 09:25:56		    nick_flood_protection:  Don't act on messages starting with mutiple nicks.
+2012-07-25 09:25:56		                            It's annoying if bots enter channels printing all
+2012-07-25 09:25:56		                            nicks.
+2012-07-25 09:25:56		                            default: 'off'
+2012-07-25 09:25:56		    nick_flood_max_nicks:   If messages starts with #nick_flood_max_nicks or
+2012-07-25 09:25:56		                            more nicks, then it's assumed as nick_flood
+2012-07-25 09:25:56		                            default: '4'
+2012-07-25 09:25:56		    debug:                  Show some debug/warning messages on failture. ('on'/'off').
+2012-07-25 09:25:56		                            default: 'on'
+2012-07-25 09:28:09	=!=	Error: unknown command "sot" (type /help for help)
+2012-07-25 09:28:35		Scripts for WeeChat 0.3.7:
+2012-07-25 09:28:35		    allquery              py  Execute command on all irc query buffers.
+2012-07-25 09:28:35		    alternatetz           py  Add an alternate timezone item.
+2012-07-25 09:28:35		    amarok2               pl  Amarok 2 control and now playing script.
+2012-07-25 09:28:35		    amqp_notify           rb  Send private messages and highlights to an AMQP exchange.
+2012-07-25 09:28:35		    announce_url_title    py  Announce URL title to user or to channel.
+2012-07-25 09:28:35		    arespond              py  Simple autoresponder.
+2012-07-25 09:28:35		    audacious             pl  Display which song Audacious is currently playing.
+2012-07-25 09:28:35		    auto_away             py  A simple auto-away script.
+2012-07-25 09:28:35		    autoauth              py  Permits to auto-authenticate when changing nick.
+2012-07-25 09:28:35		    autoconnect           py  Reopen servers and channels opened last time WeeChat closed.
+2012-07-25 09:28:35		    autojoin              py  Configure autojoin for all servers according to currently joined channels.
+2012-07-25 09:28:35		    autojoin_on_invite    py  Auto joins channels when invited.
+2012-07-25 09:28:35		    automode              py  Auto op/voice users when they join IRC channel.
+2012-07-25 09:28:35		    away_action           py  Run command on highlight and privmsg when away.
+2012-07-25 09:28:35		    awaylog               pl  Log highlights/private msg when you are away.
+2012-07-25 09:28:35		    bandwidth             py  Displays network interface bandwidth on a bar.
+2012-07-25 09:28:35		    bashorg               pl  Retrieve quotes from bash.org.
+2012-07-25 09:28:35		ir  beat                  pl  Add a bar item with the Beat-Internet-Time.
+2012-07-25 09:28:35		    beep                  pl  Beep (terminal bell) or run command on highlight/private message.
+2012-07-25 09:28:35		    bitlbee_typing_notice py  Send notice when typing message on bitlbee, display if user is writing in a bar item.
+2012-07-25 09:28:35		    buddylist             pl  A simple buddylist to show if your buddies are online/away/offline.
+2012-07-25 09:28:35		    buffer_autoclose      py  Automatically close inactive private message buffers.
+2012-07-25 09:28:35		    buffer_autoset        py  Auto-set buffer properties when a buffer is opened.
+2012-07-25 09:28:35		    buffer_swap           py  Swap two buffers.
+2012-07-25 09:28:35		    buffers               pl  Sidebar with list of buffers.
+2012-07-25 09:28:35		    bufsave               py  Save current buffer content to a file.
+2012-07-25 09:28:35		    bufsize               py  Bar item with scroll indicator and info about number of lines in buffer.
+2012-07-25 09:28:35		    chan_hl               tcl Highlight some channels on each message.
+2012-07-25 09:28:35		    chanact               py  New hotlist, use names and keybindings instead of numbers.
+2012-07-25 09:28:35		    chanmon               pl  Adds a channel monitor buffer.
+2012-07-25 09:28:35		    chanop                py  Helper script for IRC channel operators.
+2012-07-25 09:28:35		    chanpriority          py  Set channel priority.
+2012-07-25 09:28:35		    chanstat              py  Displays channel's peak, low and average users.
+2012-07-25 09:28:35		    chatters              pl  Bar item with chatters (non idle people).
+2012-07-25 09:28:35		    clemenshow            py  Display which song clementine is currently playing.
+2012-07-25 09:28:35		    clone_scanner         py  Detect multiple nicknames from the same host on irc channels.
+2012-07-25 09:28:35		    cmd_help              py  Contextual command line help.
+2012-07-25 09:28:35		    colorize_lines        pl  Color the channel text with nick color.
+2012-07-25 09:28:35		    colorize_nicks        py  Use the weechat nick colors in the chat area and command line.
+2012-07-25 09:28:35		    completion            py  Custom word completions.
+2012-07-25 09:28:35		    confversion           py  Save config files in a version control system.
+2012-07-25 09:28:35		    correction_completion py  Provides a completion for "s/typo/correct".
+2012-07-25 09:28:35		    country               py  Print user's country and local time in whois/whowas replies.
+2012-07-25 09:28:35		    cron                  py  Time-based scheduler, like cron and at.
+2012-07-25 09:28:35		    crypt                 py  Encrypt/decrypt messages using openssl.
+2012-07-25 09:28:35		    curiousignore         pl  Remove messages from a nick and only print nick.
+2012-07-25 09:28:35		    customize_bar         py  Customize bars by buffer.
+2012-07-25 09:28:35		    dcc_antispam          py  Antispam for DCC file/chat requests.
+2012-07-25 09:28:35		    dcc_send_relay        rb  Forward DCC SEND requests to a different client.
+2012-07-25 09:28:35		    dellog                pl  Delete log file of current buffer.
+2012-07-25 09:28:35		    echo                  pl  Print a line and additionally set activity level.
+2012-07-25 09:28:35		    expand_url            pl  Expand short URLs.
+2012-07-25 09:28:35		    facebook_rename       py  Rename Facebook usernames when using Bitlbee or Minbif.
+2012-07-25 09:28:35		    fileaway              py  Set away status based on presence of a file.
+2012-07-25 09:28:35		    filter_ext            pl  Extends /filter, help against spam.
+2012-07-25 09:28:35		    fish                  py  FiSH encryption/decryption.
+2012-07-25 09:28:35		    floodit               py  Flood'it game.
+2012-07-25 09:28:35		    foo_spam              pl  Show info about current song in foobar2000.
+2012-07-25 09:28:35		    fortune               pl  Sends a random fortune cookie.
+2012-07-25 09:28:35		    gnotify               py  Notifications through Growl.
+2012-07-25 09:28:35		    gntp_notify           rb  Growl notifications using ruby-gntp.
+2012-07-25 09:28:35		    gntpnotify            py  Growl notifications using python-gntp.
+2012-07-25 09:28:35		    go                    py  Quick jump to buffers.
+2012-07-25 09:28:35		    grep                  py  Search regular expression in buffers or log files.
+2012-07-25 09:28:35		    growl                 py  Send Growl notifications upon events.
+2012-07-25 09:28:35		    growl_net_notify      pl  Notifications through Net::Growl.
+2012-07-25 09:28:35		    gweather              py  Add a bar item with Google weather.
+2012-07-25 09:28:35		    highlightxmpp         py  Relay highlighted and private messages over XMPP (Jabber).
+2012-07-25 09:28:35		    highmon               pl  Adds a highlight monitor buffer.
+2012-07-25 09:28:35		    hilites               rb  Display Weechat highlights in dzen (and beep).
+2012-07-25 09:28:35		    histsearch            py  Quick search in command history.
+2012-07-25 09:28:35		    hl2file               py  Generate a file with highlights for external programs as conky.
+2012-07-25 09:28:35		    hl_nicks              py  Generate a list of nicks in input by selecting nicks using flags and patterns.
+2012-07-25 09:28:35		    hlpvitem              py  Add bar item with highlight/private messages.
+2012-07-25 09:28:35		    hotlist2extern        pl  Give hotlist to an external file/program.
+2012-07-25 09:28:35		    ichatts               py  iChat-style timestamps.
+2012-07-25 09:28:35		    identica              py  Format identi.ca bot messages.
+2012-07-25 09:28:35		    im_kayac_com_notify   py  Push notification to im.kayac.com.
+2012-07-25 09:28:35		    imap_status           py  Bar item with unread imap messages count.
+2012-07-25 09:28:35		    infolist              py  Display infolist in a buffer, useful for script developers.
+2012-07-25 09:28:35		    infos                 py  Display WeeChats infos, useful for script developers.
+2012-07-25 09:28:35		    inotify               py  Notification script using libnotify or dbus with screen support.
+2012-07-25 09:28:35		    input_lock            rb  Lock input (authorize only commands).
+2012-07-25 09:28:35		    iset                  pl  Set WeeChat and plugins options interactively.
+2012-07-25 09:28:35		    isgd                  pl  Shorten URLs with is.gd on command.
+2012-07-25 09:28:35		    jabber                py  Jabber/XMPP protocol.
+2012-07-25 09:28:35		    jnotify               pl  Start internal comand or external program if a user or one of your buddies joins a channel you are in.
+2012-07-25 09:28:35		    kbtimeout             py  Kickban nick and unban after some seconds.
+2012-07-25 09:28:35		    keepnick              py  Keep your nick and recover it in case it's stolen.
+2012-07-25 09:28:35		    kernel                pl  Display latest available kernel on kernel.org.
+2012-07-25 09:28:35		    kickban               pl  Customizable kickban command with unban timer and mask resolver.
+2012-07-25 09:28:35		    kikoo                 pl  Send a colored "kikoo" on current channel.
+2012-07-25 09:28:35		    kiloseconds           py  Adds a command and bar item for displaying the current time in kiloseconds.
+2012-07-25 09:28:35		    lastfm                py  Send your latest Last.fm track to the current buffer.
+2012-07-25 09:28:35		    launcher              pl  Launch external commands for signals.
+2012-07-25 09:28:35		    leet                  py  Convert text to leet.
+2012-07-25 09:28:35		    listbuffer            py  Show /list results in a common buffer and interact with them.
+2012-07-25 09:28:35		    listsort              pl  Sort the output of /list command by user count.
+2012-07-25 09:28:35		    lnotify               py  A libnotify script.
+2012-07-25 09:28:35		    logsize               py  Display size of current log file in a bar item.
+2012-07-25 09:28:35		    mastermind            pl  Mastermind game.
+2012-07-25 09:28:35		    memon                 py  Freenode memo notifications.
+2012-07-25 09:28:35		    menu                  pl  Bar with popup menu.
+2012-07-25 09:28:35		    minbif_typing_notice  rb  Send notice when typing message on minbif, display if user is writing in a bar item.
+2012-07-25 09:28:35		    minesweeper           py  Minesweeper game.
+2012-07-25 09:28:35		    moc                   pl  Show info about current song in moc.
+2012-07-25 09:28:35		    moc_control           py  Control and now-playing script for moc.
+2012-07-25 09:28:35		    mpc                   py  A now playing and control script for mpd.
+2012-07-25 09:28:35		    mpdnp                 py  Display which song mpd is currently playing.
+2012-07-25 09:28:35		    mpdspam               rb  Display which song mpd is currently playing.
+2012-07-25 09:28:35		    mplex                 pl  Simple remote control of multiplexer (screen or tmux), optionally set away status.
+2012-07-25 09:28:35		    mpris_np              py  A now playing script for players supporting the mpris dbus interface.
+2012-07-25 09:28:35		    msg_command           py  Run chat received in a buffer as commands.
+2012-07-25 09:28:35		    myuptime              rb  Sends machine uptime to current channel.
+2012-07-25 09:28:35		    nameday               py  Display name days in bar item and buffer (only french calendar).
+2012-07-25 09:28:35		    ncmpcpp               pl  Control and now playing script for ncmpcpp.
+2012-07-25 09:28:35		ir  newsbar               pl  Print highlights or text given by commands into a bar (auto popup if needed).
+2012-07-25 09:28:35		    nickregain            pl  Automatically attempts to regain IRC primary nick.
+2012-07-25 09:28:35		    nma                   py  Receive notifications in Notify My Android (android phone app).
+2012-07-25 09:28:35		    notifo                py  Send private messages and highlights as push notifications to your iPhone/Android.
+2012-07-25 09:28:35		    notifo_notify         py  Push notification to iPod touch/iPhone with notifo.
+2012-07-25 09:28:35		    notify                py  Notification on screen for highlights and private messages.
+2012-07-25 09:28:35		    otr                   py  Off-The-Record IRC messaging.
+2012-07-25 09:28:35		    pagetitle             py  Adds HTML page titles to http:// urls in your message.
+2012-07-25 09:28:35		    perlexec              pl  Execute perl code with a command or in a buffer.
+2012-07-25 09:28:35		    pop3_mail             pl  Check POP3 server for mails and display mail headers.
+2012-07-25 09:28:35		    postpone              py  Postpone written messages for later dispatching if target nick is not on channel.
+2012-07-25 09:28:35		    prism                 py  Send text using rainbow colors.
+2012-07-25 09:28:35		    purgelogs             py  Delete log files by age or size.
+2012-07-25 09:28:35		    pybuffer              py  Debugging tool for python scripts or test WeeChat's API functions.
+2012-07-25 09:28:35		    pyrnotify             py  Send notifications to remote client using ssh and libnotify.
+2012-07-25 09:28:35		    query_blocker         pl  Simple blocker for private message (i.e. spam).
+2012-07-25 09:28:35		    queue                 py  Command queuing.
+2012-07-25 09:28:35		    quick_force_color     py  Quickly add/del/change entry in option irc.look.nick_color_force.
+2012-07-25 09:28:35		    quodnp                py  A now playing and control script for Quodlibet.
+2012-07-25 09:28:35		    ragefaces             pl  Send ragefac.es URLs.
+2012-07-25 09:28:35		    recoverop             pl  Recover channel operator in empty channel.
+2012-07-25 09:28:35		    rhythmbox             pl  Display which song rhythmbox is currently playing.
+2012-07-25 09:28:35		    rhythmbus             pl  Control Rhythmbox through qdbus.
+2012-07-25 09:28:35		    rnotify               tcl Sends highlights to (remote) client using libnotify.
+2012-07-25 09:28:35		    rslap                 pl  Slaps with random messages.
+2012-07-25 09:28:35		    samegame              py  SameGame.
+2012-07-25 09:28:35		    screen_away           py  Set away status when detaching and attaching from screen or tmux.
+2012-07-25 09:28:35		    script                pl  Load/reload/unload scripts for any language.
+2012-07-25 09:28:35		    seeks                 pl  Search terms on seeks node and display results.
+2012-07-25 09:28:35		    sensors               py  Displays sensor data.
+2012-07-25 09:28:35		    server_autoswitch     py  Cycle to currently used server (for merged buffers).
+2012-07-25 09:28:35		    shell                 py  Run shell commands inside WeeChat.
+2012-07-25 09:28:35		    shortenurl            py  Shorten long urls using isgd or tinyurl.
+2012-07-25 09:28:35		    shuffle               pl  Simple text shuffler.
+2012-07-25 09:28:35		    slock_away            py  Set away status if slock (X display locker) is running.
+2012-07-25 09:28:35		    snake                 pl  Snake game.
+2012-07-25 09:28:35		    snarl_net_notify      pl  Snarl notifications for highlights.
+2012-07-25 09:28:35		    snotify               py  Play sound when messages are printed in buffers.
+2012-07-25 09:28:35		    sort_buffers          pl  Sort irc buffers alphabetically.
+2012-07-25 09:28:35		    sound                 pl  Play a sound for IRC "CTCP SOUND" message.
+2012-07-25 09:28:35		    spotify               py  Looks up meta information about spotify-URIs and posts back to channel.
+2012-07-25 09:28:35		    spotify_nowplaying    py  Current song script for Spotify on OS X.
+2012-07-25 09:28:35		    sshnotify             py  A notify script which uses ssh.
+2012-07-25 09:28:35		    stats_bar             pl  Bar items with stats about network interface, load, and free memory.
+2012-07-25 09:28:35		    strmon                pl  Monitoring of highlights, tags, buffers, nicks with optional sound and osd notifications.
+2012-07-25 09:28:35		    sysinfo               pl  System info command.
+2012-07-25 09:28:35		    tailer                py  Tail any number of files and run any command with line appended.
+2012-07-25 09:28:35		    text_effects          lua Adds effects to words surrounded by certain characters.
+2012-07-25 09:28:35		    text_replace          py  Replaces text you write with replacement text.
+2012-07-25 09:28:35		    thinklight_blink      pl  Thinklight blink on highlight/private message.
+2012-07-25 09:28:35		    tinyurl               py  Get "tinyurl.com" equivalent for URLs.
+2012-07-25 09:28:35		    title                 py  Set terminal title to active buffer name and hotlist items.
+2012-07-25 09:28:35		    toggle_nicklist       py  Auto show and hide nicklist depending on buffer name.
+2012-07-25 09:28:35		    topicdiff             py  Show differences between old and new topics.
+2012-07-25 09:28:35		    topicsed              pl  Edit channel topics by perl regular expressions or in input-line.
+2012-07-25 09:28:35		    translate             py  Translate string using Google translate API.
+2012-07-25 09:28:35		    twmn_notify           py  Notifications for twmn.
+2012-07-25 09:28:35		    typing_counter        py  Bar item showing typing count and cursor position.
+2012-07-25 09:28:35		    ubus                  pl  Ubus notification.
+2012-07-25 09:28:35		    uname                 py  Sends "uname -a" output to current channel.
+2012-07-25 09:28:35		    unset_unused          pl  Unset script option(s) fom scripts that are no longer installed.
+2012-07-25 09:28:35		    unwanted_msg          py  Avoid sending misformatted commands as messages.
+2012-07-25 09:28:35		    update_notifier       py  Notify user about WeeChat updates.
+2012-07-25 09:28:35		    uppercase             py  Transform all your input to uppercase (useful for INTERNATIONAL CAPSLOCK DAY).
+2012-07-25 09:28:35		    upside_down           py  Replaces text you write with upside down text.
+2012-07-25 09:28:35		    url_shorten           rb  Shorten long urls in channels.
+2012-07-25 09:28:35		    urlbar                py  Display a url bar for easy clicking or selecting.
+2012-07-25 09:28:35		    urlbuf                py  A common buffer for URLs.
+2012-07-25 09:28:35		    urlgrab               py  Logs url and open them in browser.
+2012-07-25 09:28:35		    urlserver             py  Shorten URLs with own HTTP server.
+2012-07-25 09:28:35		    vdm                   py  Display content of viedemerde.fr/fmylife.com website.
+2012-07-25 09:28:35		    volumeter             pl  Show volume of data on network interface in a bar.
+2012-07-25 09:28:35		    weather               py  Display weather from Google.
+2012-07-25 09:28:35		    weefish               rb  FiSH encryption/decryption.
+2012-07-25 09:28:35		ir  weeget                py  Scripts manager.
+2012-07-25 09:28:35		    weempd                py  Display which song mpd is currently playing.
+2012-07-25 09:28:35		    weenetsoul            py  Netsoul protocol.
+2012-07-25 09:28:35		    weerock               pl  A "now playing" script for several music players.
+2012-07-25 09:28:35		    weestats              py  Insert some statistics about buffers/windows on command line.
+2012-07-25 09:28:35		    weetris               pl  Tetris-like game.
+2012-07-25 09:28:35		    whatismyip            py  Display external ip address.
+2012-07-25 09:28:35		    whois_on_query        py  Send "whois" on nick when receiving new IRC query.
+2012-07-25 09:28:35		    windicate             py  Add alerts to the message menu in Ubuntu.
+2012-07-25 09:28:35		    wmiibar               pl  Wmii statusbar notification for highlights.
+2012-07-25 09:28:35		    xclip                 pl  Paste content from X11 clipboard.
+2012-07-25 09:28:35		    xfer_setip            py  Set xfer own ip with external ip.
+2012-07-25 09:28:35		    xmms2                 rb  Display which song xmms2 is currently playing.
+2012-07-25 09:28:35		    xosdnotify            tcl Show highlights and private messages with OSD.
+2012-07-25 09:28:35		    yaaa                  pl  Auto-away script.
+2012-07-25 09:28:35		    yaurls                pl  Shorten URLs with tinyURL, ls-n, or is.gd.
+2012-07-25 09:28:35		    zerotab               py  Complete empty input line with latest speaker nick in channel.
+2012-07-25 09:28:35		    zmq_notify            rb  Send notifications to a ZMQ socket.
+2012-07-25 09:28:49		weeget: downloading "volumeter.pl"...
+2012-07-25 09:28:49		perl: loading script "/home/john/.weechat/perl/volumeter.pl"
+2012-07-25 09:28:49		perl: registered script "volumeter", version 0.2 (shows volume usage in statusbar)
+2012-07-25 09:28:59	=!=	No help available, "volumeter" is not a command or an option
+2012-07-25 09:29:27		Option changed: plugins.var.perl.volumeter.device_name = "wlan0"
+2012-07-25 09:29:53	=!=	Option "plugins.var.perl.volumeter." not found (tip: you can use "*" at beginning and/or end of option to see a sublist)
+2012-07-25 09:29:59		perl: unloading script "beat"
+2012-07-25 09:29:59		perl: unloading script "newsbar"
+2012-07-25 09:29:59		perl: unloading script "volumeter"
+2012-07-25 09:29:59		perl: loading script "/home/john/.weechat/perl/autoload/volumeter.pl"
+2012-07-25 09:29:59		perl: registered script "volumeter", version 0.2 (shows volume usage in statusbar)
+2012-07-25 09:29:59		perl: loading script "/home/john/.weechat/perl/autoload/beat.pl"
+2012-07-25 09:29:59		perl: registered script "beat", version 0.2 (Shows you the Beat-Internet-Time in Bar-Item)
+2012-07-25 09:29:59		perl: loading script "/home/john/.weechat/perl/autoload/newsbar.pl"
+2012-07-25 09:29:59		perl: registered script "newsbar", version 0.13 (Print highlights or text given by commands into bar 'NewsBar'. Auto popup on top of weechat if needed. 'beeps' can be executed local or remote)
+2012-07-25 09:30:25		Option changed: weechat.bar.status.items = "[time],[volumeter],buffer_number+:+buffer_name+buffer_filter,[lag],[hotlist],completion,scroll"
+2012-07-25 09:33:50		Option changed: weechat.bar.status.items = "[time],[beat],buffer_number+:+buffer_name+buffer_filter,[lag],[hotlist],completion,scroll"
+2012-07-25 09:44:17	=!=	irc: unknown option for "server" command
+2012-07-25 09:44:34		python: scripts unloaded
+2012-07-25 09:44:34		perl: scripts unloaded
+2012-07-25 09:44:34		fifo: pipe closed
+2012-07-25 09:44:36		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 09:44:36		python scripts loaded: weeget
+2012-07-25 09:44:36		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 09:46:27	=!=	Error with command "disconnect" (try /help disconnect)
+2012-07-25 09:46:36		python: scripts unloaded
+2012-07-25 09:46:36		perl: scripts unloaded
+2012-07-25 09:46:36		fifo: pipe closed
+2012-07-25 09:46:37		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 09:46:37		python scripts loaded: weeget
+2012-07-25 09:46:37		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 09:47:09		Option changed: irc.server.freenode.addresses = "development.illlo.eu/1337"
+2012-07-25 09:47:35		Option changed: irc.server.freenode.password = "johnhamelink:eequalsmc2"
+2012-07-25 14:10:28	=!=	Error: unknown option for "key" command
+2012-07-25 14:10:48	=!=	Error: unknown option for "key" command
+2012-07-25 14:10:52	=!=	Error: unknown command "bind" (type /help for help)
+2012-07-25 14:10:55		224 key bindings for context "default":
+2012-07-25 14:10:55		  ctrl-? => /input delete_previous_char
+2012-07-25 14:10:55		  ctrl-A => /input move_beginning_of_line
+2012-07-25 14:10:55		  ctrl-B => /input move_previous_char
+2012-07-25 14:10:55		  ctrl-Cb => /input insert \x02
+2012-07-25 14:10:55		  ctrl-Cc => /input insert \x03
+2012-07-25 14:10:55		  ctrl-Ci => /input insert \x1D
+2012-07-25 14:10:55		  ctrl-Co => /input insert \x0F
+2012-07-25 14:10:55		  ctrl-Cr => /input insert \x12
+2012-07-25 14:10:55		  ctrl-Cu => /input insert \x15
+2012-07-25 14:10:55		  ctrl-D => /input delete_next_char
+2012-07-25 14:10:55		  ctrl-E => /input move_end_of_line
+2012-07-25 14:10:55		  ctrl-F => /input move_next_char
+2012-07-25 14:10:55		  ctrl-H => /input delete_previous_char
+2012-07-25 14:10:55		  ctrl-I => /input complete_next
+2012-07-25 14:10:55		  ctrl-J => /input return
+2012-07-25 14:10:55		  ctrl-K => /input delete_end_of_line
+2012-07-25 14:10:55		  ctrl-L => /window refresh
+2012-07-25 14:10:55		  ctrl-M => /input return
+2012-07-25 14:10:55		  ctrl-N => /buffer +1
+2012-07-25 14:10:55		  ctrl-P => /buffer -1
+2012-07-25 14:10:55		  ctrl-R => /input search_text
+2012-07-25 14:10:55		  ctrl-Sctrl-U => /input set_unread
+2012-07-25 14:10:55		  ctrl-T => /input transpose_chars
+2012-07-25 14:10:55		  ctrl-U => /input delete_beginning_of_line
+2012-07-25 14:10:55		  ctrl-W => /input delete_previous_word
+2012-07-25 14:10:55		  ctrl-X => /input switch_active_buffer
+2012-07-25 14:10:55		  ctrl-Y => /input clipboard_paste
+2012-07-25 14:10:55		  meta-meta2-1~ => /window scroll_top
+2012-07-25 14:10:55		  meta-meta2-23~ => /bar scroll nicklist * b
+2012-07-25 14:10:55		  meta-meta2-24~ => /bar scroll nicklist * e
+2012-07-25 14:10:55		  meta-meta2-4~ => /window scroll_bottom
+2012-07-25 14:10:55		  meta-meta2-5~ => /window scroll_up
+2012-07-25 14:10:55		  meta-meta2-6~ => /window scroll_down
+2012-07-25 14:10:55		  meta-meta2-7~ => /window scroll_top
+2012-07-25 14:10:55		  meta-meta2-8~ => /window scroll_bottom
+2012-07-25 14:10:55		  meta-meta2-A => /buffer -1
+2012-07-25 14:10:55		  meta-meta2-B => /buffer +1
+2012-07-25 14:10:55		  meta-meta2-C => /buffer +1
+2012-07-25 14:10:55		  meta-meta2-D => /buffer -1
+2012-07-25 14:10:55		  meta-/ => /input jump_last_buffer_displayed
+2012-07-25 14:10:55		  meta-0 => /buffer *10
+2012-07-25 14:10:55		  meta-1 => /buffer *1
+2012-07-25 14:10:55		  meta-2 => /buffer *2
+2012-07-25 14:10:55		  meta-3 => /buffer *3
+2012-07-25 14:10:55		  meta-4 => /buffer *4
+2012-07-25 14:10:55		  meta-5 => /buffer *5
+2012-07-25 14:10:55		  meta-6 => /buffer *6
+2012-07-25 14:10:55		  meta-7 => /buffer *7
+2012-07-25 14:10:55		  meta-8 => /buffer *8
+2012-07-25 14:10:55		  meta-9 => /buffer *9
+2012-07-25 14:10:55		  meta-< => /input jump_previously_visited_buffer
+2012-07-25 14:10:55		  meta-= => /filter toggle
+2012-07-25 14:10:55		  meta-> => /input jump_next_visited_buffer
+2012-07-25 14:10:55		  meta-OA => /input history_global_previous
+2012-07-25 14:10:55		  meta-OB => /input history_global_next
+2012-07-25 14:10:55		  meta-OC => /input move_next_word
+2012-07-25 14:10:55		  meta-OD => /input move_previous_word
+2012-07-25 14:10:55		  meta-OF => /input move_end_of_line
+2012-07-25 14:10:55		  meta-OH => /input move_beginning_of_line
+2012-07-25 14:10:55		  meta-Oa => /input history_global_previous
+2012-07-25 14:10:55		  meta-Ob => /input history_global_next
+2012-07-25 14:10:55		  meta-Oc => /input move_next_word
+2012-07-25 14:10:55		  meta-Od => /input move_previous_word
+2012-07-25 14:10:55		  meta2-15~ => /buffer -1
+2012-07-25 14:10:55		  meta2-17~ => /buffer +1
+2012-07-25 14:10:55		  meta2-18~ => /window -1
+2012-07-25 14:10:55		  meta2-19~ => /window +1
+2012-07-25 14:10:55		  meta2-1;3A => /buffer -1
+2012-07-25 14:10:55		  meta2-1;3B => /buffer +1
+2012-07-25 14:10:55		  meta2-1;3C => /buffer +1
+2012-07-25 14:10:55		  meta2-1;3D => /buffer -1
+2012-07-25 14:10:55		  meta2-1;5A => /input history_global_previous
+2012-07-25 14:10:55		  meta2-1;5B => /input history_global_next
+2012-07-25 14:10:55		  meta2-1;5C => /input move_next_word
+2012-07-25 14:10:55		  meta2-1;5D => /input move_previous_word
+2012-07-25 14:10:55		  meta2-1~ => /input move_beginning_of_line
+2012-07-25 14:10:55		  meta2-20~ => /bar scroll title * -30%
+2012-07-25 14:10:55		  meta2-21~ => /bar scroll title * +30%
+2012-07-25 14:10:55		  meta2-23~ => /bar scroll nicklist * -100%
+2012-07-25 14:10:55		  meta2-24~ => /bar scroll nicklist * +100%
+2012-07-25 14:10:55		  meta2-3~ => /input delete_next_char
+2012-07-25 14:10:55		  meta2-4~ => /input move_end_of_line
+2012-07-25 14:10:55		  meta2-5;3~ => /window scroll_up
+2012-07-25 14:10:55		  meta2-5~ => /window page_up
+2012-07-25 14:10:55		  meta2-6;3~ => /window scroll_down
+2012-07-25 14:10:55		  meta2-6~ => /window page_down
+2012-07-25 14:10:55		  meta2-7~ => /input move_beginning_of_line
+2012-07-25 14:10:55		  meta2-8~ => /input move_end_of_line
+2012-07-25 14:10:55		  meta2-A => /input history_previous
+2012-07-25 14:10:55		  meta2-B => /input history_next
+2012-07-25 14:10:55		  meta2-C => /input move_next_char
+2012-07-25 14:10:55		  meta2-D => /input move_previous_char
+2012-07-25 14:10:55		  meta2-F => /input move_end_of_line
+2012-07-25 14:10:55		  meta2-G => /window page_down
+2012-07-25 14:10:55		  meta2-H => /input move_beginning_of_line
+2012-07-25 14:10:55		  meta2-I => /window page_up
+2012-07-25 14:10:55		  meta2-Z => /input complete_previous
+2012-07-25 14:10:55		  meta2-[E => /buffer -1
+2012-07-25 14:10:55		  meta-_ => /input redo
+2012-07-25 14:10:55		  meta-a => /input jump_smart
+2012-07-25 14:10:55		  meta-b => /input move_previous_word
+2012-07-25 14:10:55		  meta-d => /input delete_next_word
+2012-07-25 14:10:55		  meta-f => /input move_next_word
+2012-07-25 14:10:55		  meta-h => /input hotlist_clear
+2012-07-25 14:10:55		  meta-jmeta-l => /input jump_last_buffer
+2012-07-25 14:10:55		  meta-jmeta-r => /server raw
+2012-07-25 14:10:55		  meta-jmeta-s => /server jump
+2012-07-25 14:10:55		  meta-j01 => /buffer 1
+2012-07-25 14:10:55		  meta-j02 => /buffer 2
+2012-07-25 14:10:55		  meta-j03 => /buffer 3
+2012-07-25 14:10:55		  meta-j04 => /buffer 4
+2012-07-25 14:10:55		  meta-j05 => /buffer 5
+2012-07-25 14:10:55		  meta-j06 => /buffer 6
+2012-07-25 14:10:55		  meta-j07 => /buffer 7
+2012-07-25 14:10:55		  meta-j08 => /buffer 8
+2012-07-25 14:10:55		  meta-j09 => /buffer 9
+2012-07-25 14:10:55		  meta-j10 => /buffer 10
+2012-07-25 14:10:55		  meta-j11 => /buffer 11
+2012-07-25 14:10:55		  meta-j12 => /buffer 12
+2012-07-25 14:10:55		  meta-j13 => /buffer 13
+2012-07-25 14:10:55		  meta-j14 => /buffer 14
+2012-07-25 14:10:55		  meta-j15 => /buffer 15
+2012-07-25 14:10:55		  meta-j16 => /buffer 16
+2012-07-25 14:10:55		  meta-j17 => /buffer 17
+2012-07-25 14:10:55		  meta-j18 => /buffer 18
+2012-07-25 14:10:55		  meta-j19 => /buffer 19
+2012-07-25 14:10:55		  meta-j20 => /buffer 20
+2012-07-25 14:10:55		  meta-j21 => /buffer 21
+2012-07-25 14:10:55		  meta-j22 => /buffer 22
+2012-07-25 14:10:55		  meta-j23 => /buffer 23
+2012-07-25 14:10:55		  meta-j24 => /buffer 24
+2012-07-25 14:10:55		  meta-j25 => /buffer 25
+2012-07-25 14:10:55		  meta-j26 => /buffer 26
+2012-07-25 14:10:55		  meta-j27 => /buffer 27
+2012-07-25 14:10:55		  meta-j28 => /buffer 28
+2012-07-25 14:10:55		  meta-j29 => /buffer 29
+2012-07-25 14:10:55		  meta-j30 => /buffer 30
+2012-07-25 14:10:55		  meta-j31 => /buffer 31
+2012-07-25 14:10:55		  meta-j32 => /buffer 32
+2012-07-25 14:10:55		  meta-j33 => /buffer 33
+2012-07-25 14:10:55		  meta-j34 => /buffer 34
+2012-07-25 14:10:55		  meta-j35 => /buffer 35
+2012-07-25 14:10:55		  meta-j36 => /buffer 36
+2012-07-25 14:10:55		  meta-j37 => /buffer 37
+2012-07-25 14:10:55		  meta-j38 => /buffer 38
+2012-07-25 14:10:55		  meta-j39 => /buffer 39
+2012-07-25 14:10:55		  meta-j40 => /buffer 40
+2012-07-25 14:10:55		  meta-j41 => /buffer 41
+2012-07-25 14:10:55		  meta-j42 => /buffer 42
+2012-07-25 14:10:55		  meta-j43 => /buffer 43
+2012-07-25 14:10:55		  meta-j44 => /buffer 44
+2012-07-25 14:10:55		  meta-j45 => /buffer 45
+2012-07-25 14:10:55		  meta-j46 => /buffer 46
+2012-07-25 14:10:55		  meta-j47 => /buffer 47
+2012-07-25 14:10:55		  meta-j48 => /buffer 48
+2012-07-25 14:10:55		  meta-j49 => /buffer 49
+2012-07-25 14:10:55		  meta-j50 => /buffer 50
+2012-07-25 14:10:55		  meta-j51 => /buffer 51
+2012-07-25 14:10:55		  meta-j52 => /buffer 52
+2012-07-25 14:10:55		  meta-j53 => /buffer 53
+2012-07-25 14:10:55		  meta-j54 => /buffer 54
+2012-07-25 14:10:55		  meta-j55 => /buffer 55
+2012-07-25 14:10:55		  meta-j56 => /buffer 56
+2012-07-25 14:10:55		  meta-j57 => /buffer 57
+2012-07-25 14:10:55		  meta-j58 => /buffer 58
+2012-07-25 14:10:55		  meta-j59 => /buffer 59
+2012-07-25 14:10:55		  meta-j60 => /buffer 60
+2012-07-25 14:10:55		  meta-j61 => /buffer 61
+2012-07-25 14:10:55		  meta-j62 => /buffer 62
+2012-07-25 14:10:55		  meta-j63 => /buffer 63
+2012-07-25 14:10:55		  meta-j64 => /buffer 64
+2012-07-25 14:10:55		  meta-j65 => /buffer 65
+2012-07-25 14:10:55		  meta-j66 => /buffer 66
+2012-07-25 14:10:55		  meta-j67 => /buffer 67
+2012-07-25 14:10:55		  meta-j68 => /buffer 68
+2012-07-25 14:10:55		  meta-j69 => /buffer 69
+2012-07-25 14:10:55		  meta-j70 => /buffer 70
+2012-07-25 14:10:55		  meta-j71 => /buffer 71
+2012-07-25 14:10:55		  meta-j72 => /buffer 72
+2012-07-25 14:10:55		  meta-j73 => /buffer 73
+2012-07-25 14:10:55		  meta-j74 => /buffer 74
+2012-07-25 14:10:55		  meta-j75 => /buffer 75
+2012-07-25 14:10:55		  meta-j76 => /buffer 76
+2012-07-25 14:10:55		  meta-j77 => /buffer 77
+2012-07-25 14:10:55		  meta-j78 => /buffer 78
+2012-07-25 14:10:55		  meta-j79 => /buffer 79
+2012-07-25 14:10:55		  meta-j80 => /buffer 80
+2012-07-25 14:10:55		  meta-j81 => /buffer 81
+2012-07-25 14:10:55		  meta-j82 => /buffer 82
+2012-07-25 14:10:55		  meta-j83 => /buffer 83
+2012-07-25 14:10:55		  meta-j84 => /buffer 84
+2012-07-25 14:10:55		  meta-j85 => /buffer 85
+2012-07-25 14:10:55		  meta-j86 => /buffer 86
+2012-07-25 14:10:55		  meta-j87 => /buffer 87
+2012-07-25 14:10:55		  meta-j88 => /buffer 88
+2012-07-25 14:10:55		  meta-j89 => /buffer 89
+2012-07-25 14:10:55		  meta-j90 => /buffer 90
+2012-07-25 14:10:55		  meta-j91 => /buffer 91
+2012-07-25 14:10:55		  meta-j92 => /buffer 92
+2012-07-25 14:10:55		  meta-j93 => /buffer 93
+2012-07-25 14:10:55		  meta-j94 => /buffer 94
+2012-07-25 14:10:55		  meta-j95 => /buffer 95
+2012-07-25 14:10:55		  meta-j96 => /buffer 96
+2012-07-25 14:10:55		  meta-j97 => /buffer 97
+2012-07-25 14:10:55		  meta-j98 => /buffer 98
+2012-07-25 14:10:55		  meta-j99 => /buffer 99
+2012-07-25 14:10:55		  meta-k => /input grab_key_command
+2012-07-25 14:10:55		  meta-m => /mute mouse toggle
+2012-07-25 14:10:55		  meta-n => /window scroll_next_highlight
+2012-07-25 14:10:55		  meta-p => /window scroll_previous_highlight
+2012-07-25 14:10:55		  meta-r => /input delete_line
+2012-07-25 14:10:55		  meta-u => /window scroll_unread
+2012-07-25 14:10:55		  meta-wmeta-meta2-A => /window up
+2012-07-25 14:10:55		  meta-wmeta-meta2-B => /window down
+2012-07-25 14:10:55		  meta-wmeta-meta2-C => /window right
+2012-07-25 14:10:55		  meta-wmeta-meta2-D => /window left
+2012-07-25 14:10:55		  meta-wmeta2-1;3A => /window up
+2012-07-25 14:10:55		  meta-wmeta2-1;3B => /window down
+2012-07-25 14:10:55		  meta-wmeta2-1;3C => /window right
+2012-07-25 14:10:55		  meta-wmeta2-1;3D => /window left
+2012-07-25 14:10:55		  meta-wmeta-b => /window balance
+2012-07-25 14:10:55		  meta-wmeta-s => /window swap
+2012-07-25 14:10:55		  meta-z => /window zoom
+2012-07-25 14:10:55		  ctrl-_ => /input undo
+2012-07-25 14:10:55		5 key bindings for context "search":
+2012-07-25 14:10:55		  ctrl-J => /input search_stop
+2012-07-25 14:10:55		  ctrl-M => /input search_stop
+2012-07-25 14:10:55		  ctrl-R => /input search_switch_case
+2012-07-25 14:10:55		  meta2-A => /input search_previous
+2012-07-25 14:10:55		  meta2-B => /input search_next
+2012-07-25 14:10:55		22 key bindings for context "cursor":
+2012-07-25 14:10:55		  ctrl-J => /cursor stop
+2012-07-25 14:10:55		  ctrl-M => /cursor stop
+2012-07-25 14:10:55		  meta-meta2-A => /cursor move area_up
+2012-07-25 14:10:55		  meta-meta2-B => /cursor move area_down
+2012-07-25 14:10:55		  meta-meta2-C => /cursor move area_right
+2012-07-25 14:10:55		  meta-meta2-D => /cursor move area_left
+2012-07-25 14:10:55		  meta2-1;3A => /cursor move area_up
+2012-07-25 14:10:55		  meta2-1;3B => /cursor move area_down
+2012-07-25 14:10:55		  meta2-1;3C => /cursor move area_right
+2012-07-25 14:10:55		  meta2-1;3D => /cursor move area_left
+2012-07-25 14:10:55		  meta2-A => /cursor move up
+2012-07-25 14:10:55		  meta2-B => /cursor move down
+2012-07-25 14:10:55		  meta2-C => /cursor move right
+2012-07-25 14:10:55		  meta2-D => /cursor move left
+2012-07-25 14:10:55		  @item(buffer_nicklist):K => /window ${_window_number};/kickban ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):b => /window ${_window_number};/ban ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):k => /window ${_window_number};/kick ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):q => /window ${_window_number};/query ${nick};/cursor stop
+2012-07-25 14:10:55		  @item(buffer_nicklist):w => /window ${_window_number};/whois ${nick}
+2012-07-25 14:10:55		  @chat:Q => hsignal:chat_quote_time_prefix_message;/cursor stop
+2012-07-25 14:10:55		  @chat:m => hsignal:chat_quote_message;/cursor stop
+2012-07-25 14:10:55		  @chat:q => hsignal:chat_quote_prefix_message;/cursor stop
+2012-07-25 14:10:55		20 key bindings for context "mouse":
+2012-07-25 14:10:55		  @bar(input):button2 => /input grab_mouse_area
+2012-07-25 14:10:55		  @bar(nicklist):button1-gesture-down => /bar scroll nicklist ${_window_number} +100%
+2012-07-25 14:10:55		  @bar(nicklist):button1-gesture-down-long => /bar scroll nicklist ${_window_number} e
+2012-07-25 14:10:55		  @bar(nicklist):button1-gesture-up => /bar scroll nicklist ${_window_number} -100%
+2012-07-25 14:10:55		  @bar(nicklist):button1-gesture-up-long => /bar scroll nicklist ${_window_number} b
+2012-07-25 14:10:55		  @item(buffer_nicklist):button1 => /window ${_window_number};/query ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):button1-gesture-left => /window ${_window_number};/kick ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):button1-gesture-left-long => /window ${_window_number};/kickban ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):button2 => /window ${_window_number};/whois ${nick}
+2012-07-25 14:10:55		  @item(buffer_nicklist):button2-gesture-left => /window ${_window_number};/ban ${nick}
+2012-07-25 14:10:55		  @bar:wheeldown => /bar scroll ${_bar_name} ${_window_number} +20%
+2012-07-25 14:10:55		  @bar:wheelup => /bar scroll ${_bar_name} ${_window_number} -20%
+2012-07-25 14:10:55		  @chat:button1 => /window ${_window_number}
+2012-07-25 14:10:55		  @chat:button1-gesture-left => /window ${_window_number};/buffer -1
+2012-07-25 14:10:55		  @chat:button1-gesture-left-long => /window ${_window_number};/buffer 1
+2012-07-25 14:10:55		  @chat:button1-gesture-right => /window ${_window_number};/buffer +1
+2012-07-25 14:10:55		  @chat:button1-gesture-right-long => /window ${_window_number};/input jump_last_buffer
+2012-07-25 14:10:55		  @chat:wheeldown => /window scroll_down -window ${_window_number}
+2012-07-25 14:10:55		  @chat:wheelup => /window scroll_up -window ${_window_number}
+2012-07-25 14:10:55		  @*:button3 => /cursor go ${_x},${_y}
+2012-07-25 14:11:26		New key binding (context "default"): alt-c => /newsbar clear
+2012-07-25 14:12:28	=!=	Error: unable to unbind key "Alt-c"
+2012-07-25 14:12:31		225 key bindings for context "default":
+2012-07-25 14:12:31		  ctrl-? => /input delete_previous_char
+2012-07-25 14:12:31		  ctrl-A => /input move_beginning_of_line
+2012-07-25 14:12:31		  ctrl-B => /input move_previous_char
+2012-07-25 14:12:31		  ctrl-Cb => /input insert \x02
+2012-07-25 14:12:31		  ctrl-Cc => /input insert \x03
+2012-07-25 14:12:31		  ctrl-Ci => /input insert \x1D
+2012-07-25 14:12:31		  ctrl-Co => /input insert \x0F
+2012-07-25 14:12:31		  ctrl-Cr => /input insert \x12
+2012-07-25 14:12:31		  ctrl-Cu => /input insert \x15
+2012-07-25 14:12:31		  ctrl-D => /input delete_next_char
+2012-07-25 14:12:31		  ctrl-E => /input move_end_of_line
+2012-07-25 14:12:31		  ctrl-F => /input move_next_char
+2012-07-25 14:12:31		  ctrl-H => /input delete_previous_char
+2012-07-25 14:12:31		  ctrl-I => /input complete_next
+2012-07-25 14:12:31		  ctrl-J => /input return
+2012-07-25 14:12:31		  ctrl-K => /input delete_end_of_line
+2012-07-25 14:12:31		  ctrl-L => /window refresh
+2012-07-25 14:12:31		  ctrl-M => /input return
+2012-07-25 14:12:31		  ctrl-N => /buffer +1
+2012-07-25 14:12:31		  ctrl-P => /buffer -1
+2012-07-25 14:12:31		  ctrl-R => /input search_text
+2012-07-25 14:12:31		  ctrl-Sctrl-U => /input set_unread
+2012-07-25 14:12:31		  ctrl-T => /input transpose_chars
+2012-07-25 14:12:31		  ctrl-U => /input delete_beginning_of_line
+2012-07-25 14:12:31		  ctrl-W => /input delete_previous_word
+2012-07-25 14:12:31		  ctrl-X => /input switch_active_buffer
+2012-07-25 14:12:31		  ctrl-Y => /input clipboard_paste
+2012-07-25 14:12:31		  meta-meta2-1~ => /window scroll_top
+2012-07-25 14:12:31		  meta-meta2-23~ => /bar scroll nicklist * b
+2012-07-25 14:12:31		  meta-meta2-24~ => /bar scroll nicklist * e
+2012-07-25 14:12:31		  meta-meta2-4~ => /window scroll_bottom
+2012-07-25 14:12:31		  meta-meta2-5~ => /window scroll_up
+2012-07-25 14:12:31		  meta-meta2-6~ => /window scroll_down
+2012-07-25 14:12:31		  meta-meta2-7~ => /window scroll_top
+2012-07-25 14:12:31		  meta-meta2-8~ => /window scroll_bottom
+2012-07-25 14:12:31		  meta-meta2-A => /buffer -1
+2012-07-25 14:12:31		  meta-meta2-B => /buffer +1
+2012-07-25 14:12:31		  meta-meta2-C => /buffer +1
+2012-07-25 14:12:31		  meta-meta2-D => /buffer -1
+2012-07-25 14:12:31		  meta-/ => /input jump_last_buffer_displayed
+2012-07-25 14:12:31		  meta-0 => /buffer *10
+2012-07-25 14:12:31		  meta-1 => /buffer *1
+2012-07-25 14:12:31		  meta-2 => /buffer *2
+2012-07-25 14:12:31		  meta-3 => /buffer *3
+2012-07-25 14:12:31		  meta-4 => /buffer *4
+2012-07-25 14:12:31		  meta-5 => /buffer *5
+2012-07-25 14:12:31		  meta-6 => /buffer *6
+2012-07-25 14:12:31		  meta-7 => /buffer *7
+2012-07-25 14:12:31		  meta-8 => /buffer *8
+2012-07-25 14:12:31		  meta-9 => /buffer *9
+2012-07-25 14:12:31		  meta-< => /input jump_previously_visited_buffer
+2012-07-25 14:12:31		  meta-= => /filter toggle
+2012-07-25 14:12:31		  meta-> => /input jump_next_visited_buffer
+2012-07-25 14:12:31		  meta-OA => /input history_global_previous
+2012-07-25 14:12:31		  meta-OB => /input history_global_next
+2012-07-25 14:12:31		  meta-OC => /input move_next_word
+2012-07-25 14:12:31		  meta-OD => /input move_previous_word
+2012-07-25 14:12:31		  meta-OF => /input move_end_of_line
+2012-07-25 14:12:31		  meta-OH => /input move_beginning_of_line
+2012-07-25 14:12:31		  meta-Oa => /input history_global_previous
+2012-07-25 14:12:31		  meta-Ob => /input history_global_next
+2012-07-25 14:12:31		  meta-Oc => /input move_next_word
+2012-07-25 14:12:31		  meta-Od => /input move_previous_word
+2012-07-25 14:12:31		  meta2-15~ => /buffer -1
+2012-07-25 14:12:31		  meta2-17~ => /buffer +1
+2012-07-25 14:12:31		  meta2-18~ => /window -1
+2012-07-25 14:12:31		  meta2-19~ => /window +1
+2012-07-25 14:12:31		  meta2-1;3A => /buffer -1
+2012-07-25 14:12:31		  meta2-1;3B => /buffer +1
+2012-07-25 14:12:31		  meta2-1;3C => /buffer +1
+2012-07-25 14:12:31		  meta2-1;3D => /buffer -1
+2012-07-25 14:12:31		  meta2-1;5A => /input history_global_previous
+2012-07-25 14:12:31		  meta2-1;5B => /input history_global_next
+2012-07-25 14:12:31		  meta2-1;5C => /input move_next_word
+2012-07-25 14:12:31		  meta2-1;5D => /input move_previous_word
+2012-07-25 14:12:31		  meta2-1~ => /input move_beginning_of_line
+2012-07-25 14:12:31		  meta2-20~ => /bar scroll title * -30%
+2012-07-25 14:12:31		  meta2-21~ => /bar scroll title * +30%
+2012-07-25 14:12:31		  meta2-23~ => /bar scroll nicklist * -100%
+2012-07-25 14:12:31		  meta2-24~ => /bar scroll nicklist * +100%
+2012-07-25 14:12:31		  meta2-3~ => /input delete_next_char
+2012-07-25 14:12:31		  meta2-4~ => /input move_end_of_line
+2012-07-25 14:12:31		  meta2-5;3~ => /window scroll_up
+2012-07-25 14:12:31		  meta2-5~ => /window page_up
+2012-07-25 14:12:31		  meta2-6;3~ => /window scroll_down
+2012-07-25 14:12:31		  meta2-6~ => /window page_down
+2012-07-25 14:12:31		  meta2-7~ => /input move_beginning_of_line
+2012-07-25 14:12:31		  meta2-8~ => /input move_end_of_line
+2012-07-25 14:12:31		  meta2-A => /input history_previous
+2012-07-25 14:12:31		  meta2-B => /input history_next
+2012-07-25 14:12:31		  meta2-C => /input move_next_char
+2012-07-25 14:12:31		  meta2-D => /input move_previous_char
+2012-07-25 14:12:31		  meta2-F => /input move_end_of_line
+2012-07-25 14:12:31		  meta2-G => /window page_down
+2012-07-25 14:12:31		  meta2-H => /input move_beginning_of_line
+2012-07-25 14:12:31		  meta2-I => /window page_up
+2012-07-25 14:12:31		  meta2-Z => /input complete_previous
+2012-07-25 14:12:31		  meta2-[E => /buffer -1
+2012-07-25 14:12:31		  meta-_ => /input redo
+2012-07-25 14:12:31		  meta-a => /input jump_smart
+2012-07-25 14:12:31		  meta-b => /input move_previous_word
+2012-07-25 14:12:31		  meta-d => /input delete_next_word
+2012-07-25 14:12:31		  meta-f => /input move_next_word
+2012-07-25 14:12:31		  meta-h => /input hotlist_clear
+2012-07-25 14:12:31		  meta-jmeta-l => /input jump_last_buffer
+2012-07-25 14:12:31		  meta-jmeta-r => /server raw
+2012-07-25 14:12:31		  meta-jmeta-s => /server jump
+2012-07-25 14:12:31		  meta-j01 => /buffer 1
+2012-07-25 14:12:31		  meta-j02 => /buffer 2
+2012-07-25 14:12:31		  meta-j03 => /buffer 3
+2012-07-25 14:12:31		  meta-j04 => /buffer 4
+2012-07-25 14:12:31		  meta-j05 => /buffer 5
+2012-07-25 14:12:31		  meta-j06 => /buffer 6
+2012-07-25 14:12:31		  meta-j07 => /buffer 7
+2012-07-25 14:12:31		  meta-j08 => /buffer 8
+2012-07-25 14:12:31		  meta-j09 => /buffer 9
+2012-07-25 14:12:31		  meta-j10 => /buffer 10
+2012-07-25 14:12:31		  meta-j11 => /buffer 11
+2012-07-25 14:12:31		  meta-j12 => /buffer 12
+2012-07-25 14:12:31		  meta-j13 => /buffer 13
+2012-07-25 14:12:31		  meta-j14 => /buffer 14
+2012-07-25 14:12:31		  meta-j15 => /buffer 15
+2012-07-25 14:12:31		  meta-j16 => /buffer 16
+2012-07-25 14:12:31		  meta-j17 => /buffer 17
+2012-07-25 14:12:31		  meta-j18 => /buffer 18
+2012-07-25 14:12:31		  meta-j19 => /buffer 19
+2012-07-25 14:12:31		  meta-j20 => /buffer 20
+2012-07-25 14:12:31		  meta-j21 => /buffer 21
+2012-07-25 14:12:31		  meta-j22 => /buffer 22
+2012-07-25 14:12:31		  meta-j23 => /buffer 23
+2012-07-25 14:12:31		  meta-j24 => /buffer 24
+2012-07-25 14:12:31		  meta-j25 => /buffer 25
+2012-07-25 14:12:31		  meta-j26 => /buffer 26
+2012-07-25 14:12:31		  meta-j27 => /buffer 27
+2012-07-25 14:12:31		  meta-j28 => /buffer 28
+2012-07-25 14:12:31		  meta-j29 => /buffer 29
+2012-07-25 14:12:31		  meta-j30 => /buffer 30
+2012-07-25 14:12:31		  meta-j31 => /buffer 31
+2012-07-25 14:12:31		  meta-j32 => /buffer 32
+2012-07-25 14:12:31		  meta-j33 => /buffer 33
+2012-07-25 14:12:31		  meta-j34 => /buffer 34
+2012-07-25 14:12:31		  meta-j35 => /buffer 35
+2012-07-25 14:12:31		  meta-j36 => /buffer 36
+2012-07-25 14:12:31		  meta-j37 => /buffer 37
+2012-07-25 14:12:31		  meta-j38 => /buffer 38
+2012-07-25 14:12:31		  meta-j39 => /buffer 39
+2012-07-25 14:12:31		  meta-j40 => /buffer 40
+2012-07-25 14:12:31		  meta-j41 => /buffer 41
+2012-07-25 14:12:31		  meta-j42 => /buffer 42
+2012-07-25 14:12:31		  meta-j43 => /buffer 43
+2012-07-25 14:12:31		  meta-j44 => /buffer 44
+2012-07-25 14:12:31		  meta-j45 => /buffer 45
+2012-07-25 14:12:31		  meta-j46 => /buffer 46
+2012-07-25 14:12:31		  meta-j47 => /buffer 47
+2012-07-25 14:12:31		  meta-j48 => /buffer 48
+2012-07-25 14:12:31		  meta-j49 => /buffer 49
+2012-07-25 14:12:31		  meta-j50 => /buffer 50
+2012-07-25 14:12:31		  meta-j51 => /buffer 51
+2012-07-25 14:12:31		  meta-j52 => /buffer 52
+2012-07-25 14:12:31		  meta-j53 => /buffer 53
+2012-07-25 14:12:31		  meta-j54 => /buffer 54
+2012-07-25 14:12:31		  meta-j55 => /buffer 55
+2012-07-25 14:12:31		  meta-j56 => /buffer 56
+2012-07-25 14:12:31		  meta-j57 => /buffer 57
+2012-07-25 14:12:31		  meta-j58 => /buffer 58
+2012-07-25 14:12:31		  meta-j59 => /buffer 59
+2012-07-25 14:12:31		  meta-j60 => /buffer 60
+2012-07-25 14:12:31		  meta-j61 => /buffer 61
+2012-07-25 14:12:31		  meta-j62 => /buffer 62
+2012-07-25 14:12:31		  meta-j63 => /buffer 63
+2012-07-25 14:12:31		  meta-j64 => /buffer 64
+2012-07-25 14:12:31		  meta-j65 => /buffer 65
+2012-07-25 14:12:31		  meta-j66 => /buffer 66
+2012-07-25 14:12:31		  meta-j67 => /buffer 67
+2012-07-25 14:12:31		  meta-j68 => /buffer 68
+2012-07-25 14:12:31		  meta-j69 => /buffer 69
+2012-07-25 14:12:31		  meta-j70 => /buffer 70
+2012-07-25 14:12:31		  meta-j71 => /buffer 71
+2012-07-25 14:12:31		  meta-j72 => /buffer 72
+2012-07-25 14:12:31		  meta-j73 => /buffer 73
+2012-07-25 14:12:31		  meta-j74 => /buffer 74
+2012-07-25 14:12:31		  meta-j75 => /buffer 75
+2012-07-25 14:12:31		  meta-j76 => /buffer 76
+2012-07-25 14:12:31		  meta-j77 => /buffer 77
+2012-07-25 14:12:31		  meta-j78 => /buffer 78
+2012-07-25 14:12:31		  meta-j79 => /buffer 79
+2012-07-25 14:12:31		  meta-j80 => /buffer 80
+2012-07-25 14:12:31		  meta-j81 => /buffer 81
+2012-07-25 14:12:31		  meta-j82 => /buffer 82
+2012-07-25 14:12:31		  meta-j83 => /buffer 83
+2012-07-25 14:12:31		  meta-j84 => /buffer 84
+2012-07-25 14:12:31		  meta-j85 => /buffer 85
+2012-07-25 14:12:31		  meta-j86 => /buffer 86
+2012-07-25 14:12:31		  meta-j87 => /buffer 87
+2012-07-25 14:12:31		  meta-j88 => /buffer 88
+2012-07-25 14:12:31		  meta-j89 => /buffer 89
+2012-07-25 14:12:31		  meta-j90 => /buffer 90
+2012-07-25 14:12:31		  meta-j91 => /buffer 91
+2012-07-25 14:12:31		  meta-j92 => /buffer 92
+2012-07-25 14:12:31		  meta-j93 => /buffer 93
+2012-07-25 14:12:31		  meta-j94 => /buffer 94
+2012-07-25 14:12:31		  meta-j95 => /buffer 95
+2012-07-25 14:12:31		  meta-j96 => /buffer 96
+2012-07-25 14:12:31		  meta-j97 => /buffer 97
+2012-07-25 14:12:31		  meta-j98 => /buffer 98
+2012-07-25 14:12:31		  meta-j99 => /buffer 99
+2012-07-25 14:12:31		  meta-k => /input grab_key_command
+2012-07-25 14:12:31		  meta-m => /mute mouse toggle
+2012-07-25 14:12:31		  meta-n => /window scroll_next_highlight
+2012-07-25 14:12:31		  meta-p => /window scroll_previous_highlight
+2012-07-25 14:12:31		  meta-r => /input delete_line
+2012-07-25 14:12:31		  meta-u => /window scroll_unread
+2012-07-25 14:12:31		  meta-wmeta-meta2-A => /window up
+2012-07-25 14:12:31		  meta-wmeta-meta2-B => /window down
+2012-07-25 14:12:31		  meta-wmeta-meta2-C => /window right
+2012-07-25 14:12:31		  meta-wmeta-meta2-D => /window left
+2012-07-25 14:12:31		  meta-wmeta2-1;3A => /window up
+2012-07-25 14:12:31		  meta-wmeta2-1;3B => /window down
+2012-07-25 14:12:31		  meta-wmeta2-1;3C => /window right
+2012-07-25 14:12:31		  meta-wmeta2-1;3D => /window left
+2012-07-25 14:12:31		  meta-wmeta-b => /window balance
+2012-07-25 14:12:31		  meta-wmeta-s => /window swap
+2012-07-25 14:12:31		  meta-z => /window zoom
+2012-07-25 14:12:31		  ctrl-_ => /input undo
+2012-07-25 14:12:31		  alt-c => /newsbar clear
+2012-07-25 14:12:31		5 key bindings for context "search":
+2012-07-25 14:12:31		  ctrl-J => /input search_stop
+2012-07-25 14:12:31		  ctrl-M => /input search_stop
+2012-07-25 14:12:31		  ctrl-R => /input search_switch_case
+2012-07-25 14:12:31		  meta2-A => /input search_previous
+2012-07-25 14:12:31		  meta2-B => /input search_next
+2012-07-25 14:12:31		22 key bindings for context "cursor":
+2012-07-25 14:12:31		  ctrl-J => /cursor stop
+2012-07-25 14:12:31		  ctrl-M => /cursor stop
+2012-07-25 14:12:31		  meta-meta2-A => /cursor move area_up
+2012-07-25 14:12:31		  meta-meta2-B => /cursor move area_down
+2012-07-25 14:12:31		  meta-meta2-C => /cursor move area_right
+2012-07-25 14:12:31		  meta-meta2-D => /cursor move area_left
+2012-07-25 14:12:31		  meta2-1;3A => /cursor move area_up
+2012-07-25 14:12:31		  meta2-1;3B => /cursor move area_down
+2012-07-25 14:12:31		  meta2-1;3C => /cursor move area_right
+2012-07-25 14:12:31		  meta2-1;3D => /cursor move area_left
+2012-07-25 14:12:31		  meta2-A => /cursor move up
+2012-07-25 14:12:31		  meta2-B => /cursor move down
+2012-07-25 14:12:31		  meta2-C => /cursor move right
+2012-07-25 14:12:31		  meta2-D => /cursor move left
+2012-07-25 14:12:31		  @item(buffer_nicklist):K => /window ${_window_number};/kickban ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):b => /window ${_window_number};/ban ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):k => /window ${_window_number};/kick ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):q => /window ${_window_number};/query ${nick};/cursor stop
+2012-07-25 14:12:31		  @item(buffer_nicklist):w => /window ${_window_number};/whois ${nick}
+2012-07-25 14:12:31		  @chat:Q => hsignal:chat_quote_time_prefix_message;/cursor stop
+2012-07-25 14:12:31		  @chat:m => hsignal:chat_quote_message;/cursor stop
+2012-07-25 14:12:31		  @chat:q => hsignal:chat_quote_prefix_message;/cursor stop
+2012-07-25 14:12:31		20 key bindings for context "mouse":
+2012-07-25 14:12:31		  @bar(input):button2 => /input grab_mouse_area
+2012-07-25 14:12:31		  @bar(nicklist):button1-gesture-down => /bar scroll nicklist ${_window_number} +100%
+2012-07-25 14:12:31		  @bar(nicklist):button1-gesture-down-long => /bar scroll nicklist ${_window_number} e
+2012-07-25 14:12:31		  @bar(nicklist):button1-gesture-up => /bar scroll nicklist ${_window_number} -100%
+2012-07-25 14:12:31		  @bar(nicklist):button1-gesture-up-long => /bar scroll nicklist ${_window_number} b
+2012-07-25 14:12:31		  @item(buffer_nicklist):button1 => /window ${_window_number};/query ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):button1-gesture-left => /window ${_window_number};/kick ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):button1-gesture-left-long => /window ${_window_number};/kickban ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):button2 => /window ${_window_number};/whois ${nick}
+2012-07-25 14:12:31		  @item(buffer_nicklist):button2-gesture-left => /window ${_window_number};/ban ${nick}
+2012-07-25 14:12:31		  @bar:wheeldown => /bar scroll ${_bar_name} ${_window_number} +20%
+2012-07-25 14:12:31		  @bar:wheelup => /bar scroll ${_bar_name} ${_window_number} -20%
+2012-07-25 14:12:31		  @chat:button1 => /window ${_window_number}
+2012-07-25 14:12:31		  @chat:button1-gesture-left => /window ${_window_number};/buffer -1
+2012-07-25 14:12:31		  @chat:button1-gesture-left-long => /window ${_window_number};/buffer 1
+2012-07-25 14:12:31		  @chat:button1-gesture-right => /window ${_window_number};/buffer +1
+2012-07-25 14:12:31		  @chat:button1-gesture-right-long => /window ${_window_number};/input jump_last_buffer
+2012-07-25 14:12:31		  @chat:wheeldown => /window scroll_down -window ${_window_number}
+2012-07-25 14:12:31		  @chat:wheelup => /window scroll_up -window ${_window_number}
+2012-07-25 14:12:31		  @*:button3 => /cursor go ${_x},${_y}
+2012-07-25 14:12:49		python: scripts unloaded
+2012-07-25 14:12:49		perl: scripts unloaded
+2012-07-25 14:12:49		fifo: pipe closed
+2012-07-25 14:12:53		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 14:12:53		python scripts loaded: weeget
+2012-07-25 14:12:54		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 14:13:02		python: scripts unloaded
+2012-07-25 14:13:02		perl: scripts unloaded
+2012-07-25 14:13:02		fifo: pipe closed
+2012-07-25 14:14:39		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 14:14:39		python scripts loaded: weeget
+2012-07-25 14:14:39		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 18:59:12		python: scripts unloaded
+2012-07-25 18:59:12		perl: scripts unloaded
+2012-07-25 18:59:12		fifo: pipe closed
+2012-07-25 18:59:43		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 18:59:43		python scripts loaded: weeget
+2012-07-25 18:59:43		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 19:03:39		python: scripts unloaded
+2012-07-25 19:03:39		perl: scripts unloaded
+2012-07-25 19:03:39		fifo: pipe closed
+2012-07-25 21:47:30		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 21:47:30		python scripts loaded: weeget
+2012-07-25 21:47:30		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 22:53:08		python: scripts unloaded
+2012-07-25 22:53:08		perl: scripts unloaded
+2012-07-25 22:53:08		fifo: pipe closed
+2012-07-25 22:58:47		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 22:58:47		python scripts loaded: weeget
+2012-07-25 22:58:47		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:29:24		python: scripts unloaded
+2012-07-25 23:29:24		perl: scripts unloaded
+2012-07-25 23:29:24		fifo: pipe closed
+2012-07-25 23:29:26		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:29:26		python scripts loaded: weeget
+2012-07-25 23:29:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:29:32		python: scripts unloaded
+2012-07-25 23:29:32		perl: scripts unloaded
+2012-07-25 23:29:32		fifo: pipe closed
+2012-07-25 23:33:18		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:33:18		python scripts loaded: weeget
+2012-07-25 23:33:18		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:33:40		python: scripts unloaded
+2012-07-25 23:33:40		perl: scripts unloaded
+2012-07-25 23:33:40		fifo: pipe closed
+2012-07-25 23:34:50		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:34:50		python scripts loaded: weeget
+2012-07-25 23:34:50		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:36:18		python: scripts unloaded
+2012-07-25 23:36:18		perl: scripts unloaded
+2012-07-25 23:36:18		fifo: pipe closed
+2012-07-25 23:36:22		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:36:22		python scripts loaded: weeget
+2012-07-25 23:36:22		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:37:09		Options reloaded from weechat.conf
+2012-07-25 23:37:09		Options reloaded from plugins.conf
+2012-07-25 23:37:09		Options reloaded from logger.conf
+2012-07-25 23:37:09		Options reloaded from relay.conf
+2012-07-25 23:37:09		Options reloaded from rmodifier.conf
+2012-07-25 23:37:09		Options reloaded from xfer.conf
+2012-07-25 23:37:09		Options reloaded from irc.conf
+2012-07-25 23:37:09		Options reloaded from wg.conf
+2012-07-25 23:37:09		Options reloaded from alias.conf
+2012-07-25 23:37:09		Options reloaded from charset.conf
+2012-07-25 23:37:09		Options reloaded from aspell.conf
+2012-07-25 23:37:09		python: scripts unloaded
+2012-07-25 23:37:09		perl: scripts unloaded
+2012-07-25 23:37:09		fifo: pipe closed
+2012-07-25 23:37:10		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:37:10		python scripts loaded: weeget
+2012-07-25 23:37:10		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:38:03		Options reloaded from weechat.conf
+2012-07-25 23:38:03		Options reloaded from plugins.conf
+2012-07-25 23:38:03		Options reloaded from logger.conf
+2012-07-25 23:38:03		Options reloaded from relay.conf
+2012-07-25 23:38:03		Options reloaded from rmodifier.conf
+2012-07-25 23:38:03		Options reloaded from xfer.conf
+2012-07-25 23:38:03		Options reloaded from irc.conf
+2012-07-25 23:38:03		Options reloaded from wg.conf
+2012-07-25 23:38:03		Options reloaded from alias.conf
+2012-07-25 23:38:03		Options reloaded from charset.conf
+2012-07-25 23:38:03		Options reloaded from aspell.conf
+2012-07-25 23:38:03		python: scripts unloaded
+2012-07-25 23:38:03		perl: scripts unloaded
+2012-07-25 23:38:03		fifo: pipe closed
+2012-07-25 23:38:16		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:38:16		python scripts loaded: weeget
+2012-07-25 23:38:16		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:38:20		python: scripts unloaded
+2012-07-25 23:38:20		perl: scripts unloaded
+2012-07-25 23:38:20		fifo: pipe closed
+2012-07-25 23:40:07		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:40:07		python scripts loaded: weeget
+2012-07-25 23:40:07		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-25 23:40:13		Options reloaded from weechat.conf
+2012-07-25 23:40:13		Options reloaded from plugins.conf
+2012-07-25 23:40:13		Options reloaded from logger.conf
+2012-07-25 23:40:13		Options reloaded from relay.conf
+2012-07-25 23:40:13		Options reloaded from rmodifier.conf
+2012-07-25 23:40:13		Options reloaded from xfer.conf
+2012-07-25 23:40:13		Options reloaded from irc.conf
+2012-07-25 23:40:13		Options reloaded from wg.conf
+2012-07-25 23:40:13		Options reloaded from alias.conf
+2012-07-25 23:40:13		Options reloaded from charset.conf
+2012-07-25 23:40:13		Options reloaded from aspell.conf
+2012-07-25 23:40:13		python: scripts unloaded
+2012-07-25 23:40:13		perl: scripts unloaded
+2012-07-25 23:40:13		fifo: pipe closed
+2012-07-25 23:40:58		perl scripts loaded: beat, newsbar, volumeter
+2012-07-25 23:40:58		python scripts loaded: weeget
+2012-07-25 23:40:58		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 01:30:50		python: scripts unloaded
+2012-07-26 01:30:50		perl: scripts unloaded
+2012-07-26 01:30:50		fifo: pipe closed
+2012-07-26 09:01:56		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:01:57		python scripts loaded: weeget
+2012-07-26 09:01:57		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:03:17		python: scripts unloaded
+2012-07-26 09:03:17		perl: scripts unloaded
+2012-07-26 09:03:17		fifo: pipe closed
+2012-07-26 09:03:26		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:03:26		python scripts loaded: weeget
+2012-07-26 09:03:26		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:03:37		python: scripts unloaded
+2012-07-26 09:03:37		perl: scripts unloaded
+2012-07-26 09:03:37		fifo: pipe closed
+2012-07-26 09:04:04		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:04:04		python scripts loaded: weeget
+2012-07-26 09:04:04		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:04:39		python: scripts unloaded
+2012-07-26 09:04:39		perl: scripts unloaded
+2012-07-26 09:04:39		fifo: pipe closed
+2012-07-26 09:04:41		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:04:41		python scripts loaded: weeget
+2012-07-26 09:04:41		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:04:46		python: scripts unloaded
+2012-07-26 09:04:46		perl: scripts unloaded
+2012-07-26 09:04:46		fifo: pipe closed
+2012-07-26 09:05:03		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:05:03		python scripts loaded: weeget
+2012-07-26 09:05:03		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:05:25		python: scripts unloaded
+2012-07-26 09:05:25		perl: scripts unloaded
+2012-07-26 09:05:25		fifo: pipe closed
+2012-07-26 09:05:27		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:05:27		python scripts loaded: weeget
+2012-07-26 09:05:27		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:05:38		python: scripts unloaded
+2012-07-26 09:05:38		perl: scripts unloaded
+2012-07-26 09:05:38		fifo: pipe closed
+2012-07-26 09:05:41		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:05:41		python scripts loaded: weeget
+2012-07-26 09:05:41		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 09:05:44		python: scripts unloaded
+2012-07-26 09:05:44		perl: scripts unloaded
+2012-07-26 09:05:44		fifo: pipe closed
+2012-07-26 09:05:59		perl scripts loaded: beat, newsbar, volumeter
+2012-07-26 09:05:59		python scripts loaded: weeget
+2012-07-26 09:05:59		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-26 21:10:52		python: scripts unloaded
+2012-07-26 21:10:52		perl: scripts unloaded
+2012-07-26 21:10:52		fifo: pipe closed
+2012-07-27 11:37:18		perl scripts loaded: beat, newsbar, volumeter
+2012-07-27 11:37:18		python scripts loaded: weeget
+2012-07-27 11:37:18		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-27 11:45:06		python: scripts unloaded
+2012-07-27 11:45:06		perl: scripts unloaded
+2012-07-27 11:45:06		fifo: pipe closed
+2012-07-27 13:21:40		perl scripts loaded: beat, newsbar, volumeter
+2012-07-27 13:21:40		python scripts loaded: weeget
+2012-07-27 13:21:40		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-07-27 17:54:28		python: scripts unloaded
+2012-07-27 17:54:28		perl: scripts unloaded
+2012-07-27 17:54:28		fifo: pipe closed
+2012-08-03 11:22:07		perl scripts loaded: beat, newsbar, volumeter
+2012-08-03 11:22:09		python scripts loaded: weeget
+2012-08-03 11:22:09		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-08-03 17:12:12		Options reloaded from weechat.conf
+2012-08-03 17:12:12		Options reloaded from plugins.conf
+2012-08-03 17:12:12		Options reloaded from logger.conf
+2012-08-03 17:12:12		Options reloaded from relay.conf
+2012-08-03 17:12:12		Options reloaded from rmodifier.conf
+2012-08-03 17:12:12		Options reloaded from xfer.conf
+2012-08-03 17:12:12		Options reloaded from irc.conf
+2012-08-03 17:12:12		Options reloaded from wg.conf
+2012-08-03 17:12:12		Options reloaded from alias.conf
+2012-08-03 17:12:12		Options reloaded from charset.conf
+2012-08-03 17:12:12		Options reloaded from aspell.conf
+2012-08-03 17:12:12		python: scripts unloaded
+2012-08-03 17:12:12		perl: scripts unloaded
+2012-08-03 17:12:12		fifo: pipe closed
+2012-08-13 08:16:53		perl scripts loaded: beat, newsbar, volumeter
+2012-08-13 08:16:53		python scripts loaded: weeget
+2012-08-13 08:16:53		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-08-13 08:44:28		weeget: downloading list of scripts...
+2012-08-13 08:44:29		weeget: scripts downloaded
+2012-08-13 08:44:29	=!=	weeget: unknown action "beep"
+2012-08-13 08:44:32		Scripts for WeeChat 0.3.7:
+2012-08-13 08:44:32		    allquery              py  Execute command on all irc query buffers.
+2012-08-13 08:44:32		    alternatetz           py  Add an alternate timezone item.
+2012-08-13 08:44:32		    amarok2               pl  Amarok 2 control and now playing script.
+2012-08-13 08:44:32		    amqp_notify           rb  Send private messages and highlights to an AMQP exchange.
+2012-08-13 08:44:32		    announce_url_title    py  Announce URL title to user or to channel.
+2012-08-13 08:44:32		    arespond              py  Simple autoresponder.
+2012-08-13 08:44:32		    audacious             pl  Display which song Audacious is currently playing.
+2012-08-13 08:44:32		    auto_away             py  A simple auto-away script.
+2012-08-13 08:44:32		    autoauth              py  Permits to auto-authenticate when changing nick.
+2012-08-13 08:44:32		    autoconnect           py  Reopen servers and channels opened last time WeeChat closed.
+2012-08-13 08:44:32		    autojoin              py  Configure autojoin for all servers according to currently joined channels.
+2012-08-13 08:44:32		    autojoin_on_invite    py  Auto joins channels when invited.
+2012-08-13 08:44:32		    automode              py  Auto op/voice users when they join IRC channel.
+2012-08-13 08:44:32		    away_action           py  Run command on highlight and privmsg when away.
+2012-08-13 08:44:32		    awaylog               pl  Log highlights/private msg when you are away.
+2012-08-13 08:44:32		    bandwidth             py  Displays network interface bandwidth on a bar.
+2012-08-13 08:44:32		    bashorg               pl  Retrieve quotes from bash.org.
+2012-08-13 08:44:32		ir  beat                  pl  Add a bar item with the Beat-Internet-Time.
+2012-08-13 08:44:32		    beep                  pl  Beep (terminal bell) or run command on highlight/private message.
+2012-08-13 08:44:32		    bitlbee_typing_notice py  Send notice when typing message on bitlbee, display if user is writing in a bar item.
+2012-08-13 08:44:32		    buddylist             pl  A simple buddylist to show if your buddies are online/away/offline.
+2012-08-13 08:44:32		    buffer_autoclose      py  Automatically close inactive private message buffers.
+2012-08-13 08:44:32		    buffer_autoset        py  Auto-set buffer properties when a buffer is opened.
+2012-08-13 08:44:32		    buffer_swap           py  Swap two buffers.
+2012-08-13 08:44:32		    buffers               pl  Sidebar with list of buffers.
+2012-08-13 08:44:32		    bufsave               py  Save current buffer content to a file.
+2012-08-13 08:44:32		    bufsize               py  Bar item with scroll indicator and info about number of lines in buffer.
+2012-08-13 08:44:32		    chan_hl               tcl Highlight some channels on each message.
+2012-08-13 08:44:32		    chanact               py  New hotlist, use names and keybindings instead of numbers.
+2012-08-13 08:44:32		    chanmon               pl  Adds a channel monitor buffer.
+2012-08-13 08:44:32		    chanop                py  Helper script for IRC channel operators.
+2012-08-13 08:44:32		    chanpriority          py  Set channel priority.
+2012-08-13 08:44:32		    chanstat              py  Displays channel's peak, low and average users.
+2012-08-13 08:44:32		    chatters              pl  Bar item with chatters (non idle people).
+2012-08-13 08:44:32		    clemenshow            py  Display which song clementine is currently playing.
+2012-08-13 08:44:32		    clone_scanner         py  Detect multiple nicknames from the same host on irc channels.
+2012-08-13 08:44:32		    cmd_help              py  Contextual command line help.
+2012-08-13 08:44:32		    colorize_lines        pl  Color the channel text with nick color.
+2012-08-13 08:44:32		    colorize_nicks        py  Use the weechat nick colors in the chat area and command line.
+2012-08-13 08:44:32		    completion            py  Custom word completions.
+2012-08-13 08:44:32		    confversion           py  Save config files in a version control system.
+2012-08-13 08:44:32		    correction_completion py  Provides a completion for "s/typo/correct".
+2012-08-13 08:44:32		    country               py  Print user's country and local time in whois/whowas replies.
+2012-08-13 08:44:32		    cron                  py  Time-based scheduler, like cron and at.
+2012-08-13 08:44:32		    crypt                 py  Encrypt/decrypt messages using openssl.
+2012-08-13 08:44:32		    curiousignore         pl  Remove messages from a nick and only print nick.
+2012-08-13 08:44:32		    customize_bar         py  Customize bars by buffer.
+2012-08-13 08:44:32		    dcc_antispam          py  Antispam for DCC file/chat requests.
+2012-08-13 08:44:32		    dcc_send_relay        rb  Forward DCC SEND requests to a different client.
+2012-08-13 08:44:32		    dellog                pl  Delete log file of current buffer.
+2012-08-13 08:44:32		    echo                  pl  Print a line and additionally set activity level.
+2012-08-13 08:44:32		    expand_url            pl  Expand short URLs.
+2012-08-13 08:44:32		    facebook_rename       py  Rename Facebook usernames when using Bitlbee or Minbif.
+2012-08-13 08:44:32		    fileaway              py  Set away status based on presence of a file.
+2012-08-13 08:44:32		    filter_ext            pl  Extends /filter, help against spam.
+2012-08-13 08:44:32		    fish                  py  FiSH encryption/decryption.
+2012-08-13 08:44:32		    floodit               py  Flood'it game.
+2012-08-13 08:44:32		    foo_spam              pl  Show info about current song in foobar2000.
+2012-08-13 08:44:32		    fortune               pl  Sends a random fortune cookie.
+2012-08-13 08:44:32		    gnotify               py  Notifications through Growl.
+2012-08-13 08:44:32		    gntp_notify           rb  Growl notifications using ruby-gntp.
+2012-08-13 08:44:32		    gntpnotify            py  Growl notifications using python-gntp.
+2012-08-13 08:44:32		    go                    py  Quick jump to buffers.
+2012-08-13 08:44:32		    grep                  py  Search regular expression in buffers or log files.
+2012-08-13 08:44:32		    growl                 py  Send Growl notifications upon events.
+2012-08-13 08:44:32		    growl_net_notify      pl  Notifications through Net::Growl.
+2012-08-13 08:44:32		    gweather              py  Add a bar item with Google weather.
+2012-08-13 08:44:32		    highlightxmpp         py  Relay highlighted and private messages over XMPP (Jabber).
+2012-08-13 08:44:32		    highmon               pl  Adds a highlight monitor buffer.
+2012-08-13 08:44:32		    hilites               rb  Display Weechat highlights in dzen (and beep).
+2012-08-13 08:44:32		    histsearch            py  Quick search in command history.
+2012-08-13 08:44:32		    hl2file               py  Generate a file with highlights for external programs as conky.
+2012-08-13 08:44:32		    hl_nicks              py  Generate a list of nicks in input by selecting nicks using flags and patterns.
+2012-08-13 08:44:32		    hlpvitem              py  Add bar item with highlight/private messages.
+2012-08-13 08:44:32		    hotlist2extern        pl  Give hotlist to an external file/program.
+2012-08-13 08:44:32		    ichatts               py  iChat-style timestamps.
+2012-08-13 08:44:32		    identica              py  Format identi.ca bot messages.
+2012-08-13 08:44:32		    im_kayac_com_notify   py  Push notification to im.kayac.com.
+2012-08-13 08:44:32		    imap_status           py  Bar item with unread imap messages count.
+2012-08-13 08:44:32		    infolist              py  Display infolist in a buffer, useful for script developers.
+2012-08-13 08:44:32		    infos                 py  Display WeeChats infos, useful for script developers.
+2012-08-13 08:44:32		    inotify               py  Notification script using libnotify or dbus with screen support.
+2012-08-13 08:44:32		    input_lock            rb  Lock input (authorize only commands).
+2012-08-13 08:44:32		    iset                  pl  Set WeeChat and plugins options interactively.
+2012-08-13 08:44:32		    isgd                  pl  Shorten URLs with is.gd on command.
+2012-08-13 08:44:32		    itunes                rb  iTunes control and now playing script.
+2012-08-13 08:44:32		    jabber                py  Jabber/XMPP protocol.
+2012-08-13 08:44:32		    jnotify               pl  Start command/program if a user joins a channel you are in.
+2012-08-13 08:44:32		    kbtimeout             py  Kickban nick and unban after some seconds.
+2012-08-13 08:44:32		    keepnick              py  Keep your nick and recover it in case it's stolen.
+2012-08-13 08:44:32		    kernel                pl  Display latest available kernel on kernel.org.
+2012-08-13 08:44:32		    kickban               pl  Customizable kickban command with unban timer and mask resolver.
+2012-08-13 08:44:32		    kikoo                 pl  Send a colored "kikoo" on current channel.
+2012-08-13 08:44:32		    kiloseconds           py  Adds a command and bar item for displaying the current time in kiloseconds.
+2012-08-13 08:44:32		    lastfm                py  Send your latest Last.fm track to the current buffer.
+2012-08-13 08:44:32		    launcher              pl  Launch external commands for signals.
+2012-08-13 08:44:32		    leet                  py  Convert text to leet.
+2012-08-13 08:44:32		    listbuffer            py  Show /list results in a common buffer and interact with them.
+2012-08-13 08:44:32		    listsort              pl  Sort the output of /list command by user count.
+2012-08-13 08:44:32		    lnotify               py  A libnotify script.
+2012-08-13 08:44:32		    logsize               py  Display size of current log file in a bar item.
+2012-08-13 08:44:32		    mastermind            pl  Mastermind game.
+2012-08-13 08:44:32		    memon                 py  Freenode memo notifications.
+2012-08-13 08:44:32		    menu                  pl  Bar with popup menu.
+2012-08-13 08:44:32		    minbif_typing_notice  rb  Send notice when typing message on minbif, display if user is writing in a bar item.
+2012-08-13 08:44:32		    minesweeper           py  Minesweeper game.
+2012-08-13 08:44:32		    moc                   pl  Show info about current song in moc.
+2012-08-13 08:44:32		    moc_control           py  Control and now-playing script for moc.
+2012-08-13 08:44:32		    mpc                   py  A now playing and control script for mpd.
+2012-08-13 08:44:32		    mpdnp                 py  Display which song mpd is currently playing.
+2012-08-13 08:44:32		    mpdspam               rb  Display which song mpd is currently playing.
+2012-08-13 08:44:32		    mplex                 pl  Simple remote control of multiplexer (screen or tmux), optionally set away status.
+2012-08-13 08:44:32		    mpris_np              py  A now playing script for players supporting the mpris dbus interface.
+2012-08-13 08:44:32		    msg_command           py  Run chat received in a buffer as commands.
+2012-08-13 08:44:32		    myuptime              rb  Sends machine uptime to current channel.
+2012-08-13 08:44:32		    nameday               py  Display name days in bar item and buffer (only french calendar).
+2012-08-13 08:44:32		    ncmpcpp               pl  Control and now playing script for ncmpcpp.
+2012-08-13 08:44:32		ir  newsbar               pl  Print highlights or text given by commands into a bar (auto popup if needed).
+2012-08-13 08:44:32		    nickregain            pl  Automatically attempts to regain IRC primary nick.
+2012-08-13 08:44:32		    nma                   py  Receive notifications in Notify My Android (android phone app).
+2012-08-13 08:44:32		    notifo                py  Send private messages and highlights as push notifications to your iPhone/Android.
+2012-08-13 08:44:32		    notifo_notify         py  Push notification to iPod touch/iPhone with notifo.
+2012-08-13 08:44:32		    notify                py  Notification on screen for highlights and private messages.
+2012-08-13 08:44:32		    otr                   py  Off-The-Record IRC messaging.
+2012-08-13 08:44:32		    pagetitle             py  Adds HTML page titles to http:// urls in your message.
+2012-08-13 08:44:32		    perlexec              pl  Execute perl code with a command or in a buffer.
+2012-08-13 08:44:32		    pop3_mail             pl  Check POP3 server for mails and display mail headers.
+2012-08-13 08:44:32		    postpone              py  Postpone written messages for later dispatching if target nick is not on channel.
+2012-08-13 08:44:32		    prism                 py  Send text using rainbow colors.
+2012-08-13 08:44:32		    purgelogs             py  Delete log files by age or size.
+2012-08-13 08:44:32		    pybuffer              py  Debugging tool for python scripts or test WeeChat's API functions.
+2012-08-13 08:44:32		    pyrnotify             py  Send notifications to remote client using ssh and libnotify.
+2012-08-13 08:44:32		    query_blocker         pl  Simple blocker for private message (i.e. spam).
+2012-08-13 08:44:32		    queue                 py  Command queuing.
+2012-08-13 08:44:32		    quick_force_color     py  Quickly add/del/change entry in option irc.look.nick_color_force.
+2012-08-13 08:44:32		    quodnp                py  A now playing and control script for Quodlibet.
+2012-08-13 08:44:32		    ragefaces             pl  Send ragefac.es URLs.
+2012-08-13 08:44:32		    recoverop             pl  Recover channel operator in empty channel.
+2012-08-13 08:44:32		    rhythmbox             pl  Display which song rhythmbox is currently playing.
+2012-08-13 08:44:32		    rhythmbus             pl  Control Rhythmbox through qdbus.
+2012-08-13 08:44:32		    rnotify               tcl Sends highlights to (remote) client using libnotify.
+2012-08-13 08:44:32		    rslap                 pl  Slaps with random messages.
+2012-08-13 08:44:32		    samegame              py  SameGame.
+2012-08-13 08:44:32		    screen_away           py  Set away status when detaching and attaching from screen or tmux.
+2012-08-13 08:44:32		    script                pl  Load/reload/unload scripts for any language.
+2012-08-13 08:44:32		    seeks                 pl  Search terms on seeks node and display results.
+2012-08-13 08:44:32		    sensors               py  Displays sensor data.
+2012-08-13 08:44:32		    server_autoswitch     py  Cycle to currently used server (for merged buffers).
+2012-08-13 08:44:32		    shell                 py  Run shell commands inside WeeChat.
+2012-08-13 08:44:32		    shortenurl            py  Shorten long urls using isgd or tinyurl.
+2012-08-13 08:44:32		    shuffle               pl  Simple text shuffler.
+2012-08-13 08:44:32		    slock_away            py  Set away status if slock (X display locker) is running.
+2012-08-13 08:44:32		    snake                 pl  Snake game.
+2012-08-13 08:44:32		    snarl_net_notify      pl  Snarl notifications for highlights.
+2012-08-13 08:44:32		    snotify               py  Play sound when messages are printed in buffers.
+2012-08-13 08:44:32		    sort_buffers          pl  Sort irc buffers alphabetically.
+2012-08-13 08:44:32		    sound                 pl  Play a sound for IRC "CTCP SOUND" message.
+2012-08-13 08:44:32		    spotify               py  Looks up meta information about spotify-URIs and posts back to channel.
+2012-08-13 08:44:32		    spotify_nowplaying    py  Current song script for Spotify on OS X.
+2012-08-13 08:44:32		    sshnotify             py  A notify script which uses ssh.
+2012-08-13 08:44:32		    stats_bar             pl  Bar items with stats about network interface, load, and free memory.
+2012-08-13 08:44:32		    strmon                pl  Monitoring of highlights/tags/buffers/nicks with sound/osd notifications.
+2012-08-13 08:44:32		    sysinfo               pl  System info command.
+2012-08-13 08:44:32		    tailer                py  Tail any number of files and run any command with line appended.
+2012-08-13 08:44:32		    text_effects          lua Adds effects to words surrounded by certain characters.
+2012-08-13 08:44:32		    text_replace          py  Replaces text you write with replacement text.
+2012-08-13 08:44:32		    thinklight_blink      pl  Thinklight blink on highlight/private message.
+2012-08-13 08:44:32		    tinyurl               py  Get "tinyurl.com" equivalent for URLs.
+2012-08-13 08:44:32		    title                 py  Set terminal title to active buffer name and hotlist items.
+2012-08-13 08:44:32		    toggle_nicklist       py  Auto show and hide nicklist depending on buffer name.
+2012-08-13 08:44:32		    topicdiff             py  Show differences between old and new topics.
+2012-08-13 08:44:32		    topicsed              pl  Edit channel topics by perl regular expressions or in input-line.
+2012-08-13 08:44:32		    translate             py  Translate string using Google translate API.
+2012-08-13 08:44:32		    twmn_notify           py  Notifications for twmn.
+2012-08-13 08:44:32		    typing_counter        py  Bar item showing typing count and cursor position.
+2012-08-13 08:44:32		    ubus                  pl  Ubus notification.
+2012-08-13 08:44:32		    uname                 py  Sends "uname -a" output to current channel.
+2012-08-13 08:44:32		    unset_unused          pl  Unset script option(s) fom scripts that are no longer installed.
+2012-08-13 08:44:32		    unwanted_msg          py  Avoid sending misformatted commands as messages.
+2012-08-13 08:44:32		    update_notifier       py  Notify user about WeeChat updates.
+2012-08-13 08:44:32		    uppercase             py  Transform all your input to uppercase (useful for INTERNATIONAL CAPSLOCK DAY).
+2012-08-13 08:44:32		    upside_down           py  Replaces text you write with upside down text.
+2012-08-13 08:44:32		    url_shorten           rb  Shorten long urls in channels.
+2012-08-13 08:44:32		    urlbar                py  Display a url bar for easy clicking or selecting.
+2012-08-13 08:44:32		    urlbuf                py  A common buffer for URLs.
+2012-08-13 08:44:32		    urlgrab               py  Logs url and open them in browser.
+2012-08-13 08:44:32		    urlserver             py  Shorten URLs with own HTTP server.
+2012-08-13 08:44:32		    vdm                   py  Display content of viedemerde.fr/fmylife.com website.
+2012-08-13 08:44:32		ir  volumeter             pl  Show volume of data on network interface in a bar.
+2012-08-13 08:44:32		    weather               py  Display weather from Google.
+2012-08-13 08:44:32		    weefish               rb  FiSH encryption/decryption.
+2012-08-13 08:44:32		ir  weeget                py  Scripts manager.
+2012-08-13 08:44:32		    weempd                py  Display which song mpd is currently playing.
+2012-08-13 08:44:32		    weenetsoul            py  Netsoul protocol.
+2012-08-13 08:44:32		    weerock               pl  A "now playing" script for several music players.
+2012-08-13 08:44:32		    weestats              py  Insert some statistics about buffers/windows on command line.
+2012-08-13 08:44:32		    weetris               pl  Tetris-like game.
+2012-08-13 08:44:32		    whatismyip            py  Display external ip address.
+2012-08-13 08:44:32		    whois_on_query        py  Send "whois" on nick when receiving new IRC query.
+2012-08-13 08:44:32		    windicate             py  Add alerts to the message menu in Ubuntu.
+2012-08-13 08:44:32		    wmiibar               pl  Wmii statusbar notification for highlights.
+2012-08-13 08:44:32		    xclip                 pl  Paste content from X11 clipboard.
+2012-08-13 08:44:32		    xfer_setip            py  Set xfer own ip with external ip.
+2012-08-13 08:44:32		    xmms2                 rb  Display which song xmms2 is currently playing.
+2012-08-13 08:44:32		    xosdnotify            tcl Show highlights and private messages with OSD.
+2012-08-13 08:44:32		    yaaa                  pl  Auto-away script.
+2012-08-13 08:44:32		    yaurls                pl  Shorten URLs with tinyURL, ls-n, or is.gd.
+2012-08-13 08:44:32		    zerotab               py  Complete empty input line with latest speaker nick in channel.
+2012-08-13 08:44:32		    zmq_notify            rb  Send notifications to a ZMQ socket.
+2012-08-13 08:47:25		weeget: downloading "beep.pl"...
+2012-08-13 08:47:26		weeget: downloading "colorize_nicks.py"...
+2012-08-13 08:47:26		perl: loading script "/home/john/.weechat/perl/beep.pl"
+2012-08-13 08:47:26		perl: registered script "beep", version 1.1 (Beep (terminal bell) and/or run command on highlight/private message or new DCC)
+2012-08-13 08:47:26		python: loading script "/home/john/.weechat/python/colorize_nicks.py"
+2012-08-13 08:47:26		python: registered script "colorize_nicks", version 12 (Use the weechat nick colors in the chat area)
+2012-08-13 09:01:38	=!=	weeget: unknown action "uninstall"
+2012-08-13 09:01:42		perl: unloading script "beep"
+2012-08-13 09:01:42		perl: script removed: /home/john/.weechat/perl/autoload/beep.pl
+2012-08-13 09:01:42		perl: script removed: /home/john/.weechat/perl/beep.pl
+2012-08-13 09:02:05		weeget: downloading "rnotify.tcl"...
+2012-08-13 09:02:05		tcl: loading script "/home/john/.weechat/tcl/rnotify.tcl"
+2012-08-13 09:02:05		tcl: registered script "rnotify", version 1.2 (Sends highlights to (remote) client)
+2012-08-13 09:03:05		Option created: plugins.var.tcl.notify.privmessage = "all"
+2012-08-13 09:03:40		Option created: plugins.var.tcl.rnotify.port = "local"
+2012-08-13 09:03:52		tcl: loading script "/home/john/.weechat/tcl/autoload/rnotify.tcl"
+2012-08-13 09:03:52	=!=	tcl: unable to register script "rnotify" (another script already exists with this name)
+2012-08-13 09:03:52	=!=	tcl: error occurred while parsing file "/home/john/.weechat/tcl/autoload/rnotify.tcl": 0
+2012-08-13 09:03:52	=!=	tcl: function "register" not found (or failed) in file "/home/john/.weechat/tcl/autoload/rnotify.tcl"
+2012-08-13 11:17:09		Options reloaded from weechat.conf
+2012-08-13 11:17:09		Options reloaded from plugins.conf
+2012-08-13 11:17:09		Options reloaded from logger.conf
+2012-08-13 11:17:09		Options reloaded from relay.conf
+2012-08-13 11:17:09		Options reloaded from rmodifier.conf
+2012-08-13 11:17:09		Options reloaded from xfer.conf
+2012-08-13 11:17:09		Options reloaded from irc.conf
+2012-08-13 11:17:09		Options reloaded from wg.conf
+2012-08-13 11:17:09		Options reloaded from alias.conf
+2012-08-13 11:17:09		Options reloaded from charset.conf
+2012-08-13 11:17:09		Options reloaded from aspell.conf
+2012-08-13 11:17:09	=!=	Error with option min_nick_length, should be a integer
+2012-08-13 11:17:09	=!=	Error with option colorize_input, should be on or off
+2012-08-13 11:17:09		python: scripts unloaded
+2012-08-13 11:17:09		tcl: scripts unloaded
+2012-08-13 11:17:09		perl: scripts unloaded
+2012-08-13 11:17:09		fifo: pipe closed
+2012-08-13 11:17:24		perl scripts loaded: beat, newsbar, volumeter
+2012-08-13 11:17:24		tcl scripts loaded: rnotify
+2012-08-13 11:17:24		python scripts loaded: colorize_nicks, weeget
+2012-08-13 11:17:24		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-08-13 16:51:08		Options reloaded from weechat.conf
+2012-08-13 16:51:09		Options reloaded from plugins.conf
+2012-08-13 16:51:09		Options reloaded from logger.conf
+2012-08-13 16:51:09		Options reloaded from relay.conf
+2012-08-13 16:51:09		Options reloaded from rmodifier.conf
+2012-08-13 16:51:09		Options reloaded from xfer.conf
+2012-08-13 16:51:09		Options reloaded from irc.conf
+2012-08-13 16:51:09		Options reloaded from wg.conf
+2012-08-13 16:51:09		Options reloaded from alias.conf
+2012-08-13 16:51:09		Options reloaded from charset.conf
+2012-08-13 16:51:09		Options reloaded from aspell.conf
+2012-08-13 16:51:09		python: scripts unloaded
+2012-08-13 16:51:09		tcl: scripts unloaded
+2012-08-13 16:51:09		perl: scripts unloaded
+2012-08-13 16:51:09		fifo: pipe closed
+2012-08-13 16:52:33		perl scripts loaded: beat, newsbar, volumeter
+2012-08-13 16:52:33		tcl scripts loaded: rnotify
+2012-08-13 16:52:33		python scripts loaded: colorize_nicks, weeget
+2012-08-13 16:52:33		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-08-13 21:36:06		python: scripts unloaded
+2012-08-13 21:36:06		tcl: scripts unloaded
+2012-08-13 21:36:06		perl: scripts unloaded
+2012-08-13 21:36:06		fifo: pipe closed
+2012-08-14 08:53:54		perl scripts loaded: beat, newsbar, volumeter
+2012-08-14 08:53:54		tcl scripts loaded: rnotify
+2012-08-14 08:53:55		python scripts loaded: colorize_nicks, weeget
+2012-08-14 08:53:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-08-14 10:54:15		python: scripts unloaded
+2012-08-14 10:54:15		tcl: scripts unloaded
+2012-08-14 10:54:15		perl: scripts unloaded
+2012-08-14 10:54:15		fifo: pipe closed
+2012-08-18 14:57:46		perl scripts loaded: beat, newsbar, volumeter
+2012-08-18 14:57:46		tcl scripts loaded: rnotify
+2012-08-18 14:57:46		python scripts loaded: colorize_nicks, weeget
+2012-08-18 14:57:46		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, tcl, xfer
+2012-08-18 16:12:00		python: scripts unloaded
+2012-08-18 16:12:00		tcl: scripts unloaded
+2012-08-18 16:12:00		perl: scripts unloaded
+2012-08-18 16:12:00		fifo: pipe closed

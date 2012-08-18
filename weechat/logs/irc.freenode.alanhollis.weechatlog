@@ -1,0 +1,66 @@
+2012-08-14 08:56:50	alanhollis	[09:44:27] JohnHamelink, when you "get in" :) Could we review what you want me to work on for this sprint. Might need trello updating :) Thanks!
+2012-08-14 08:56:50	alanhollis	[09:50:02] I've had one idea about how we should be handling events / interactions too.
+2012-08-14 08:58:58	johnhamelink	I'm in now ;) Had to reboot my router >_>
+2012-08-14 08:59:18	alanhollis	Morning :)
+2012-08-14 08:59:19	johnhamelink	yes lets do the sprint shizzle now
+2012-08-14 08:59:27	johnhamelink	g'morning :)
+2012-08-14 09:00:41	alanhollis	So they way I see it, we have to do in this order Interaction Points Screen -> Make points work -> Graphs
+2012-08-14 09:01:26	johnhamelink	for me it's Interaction points screen -> make points work -> revenue data -> graphs
+2012-08-14 09:01:31	alanhollis	ahh yes
+2012-08-14 09:01:33	alanhollis	revenue data
+2012-08-14 09:01:35	alanhollis	forgots about that
+2012-08-14 09:01:38	johnhamelink	^.^
+2012-08-14 09:02:13	johnhamelink	did you get a login for trello? I don't think I did...
+2012-08-14 09:02:43	alanhollis	It was a bit weird, you visit the page, register and then find the board again
+2012-08-14 09:02:45	alanhollis	and join that
+2012-08-14 09:03:23	alanhollis	you're listed under members
+2012-08-14 09:03:32	alanhollis	so I'm assuming you've registered at some point
+2012-08-14 09:03:40	johnhamelink	aah yes I have it
+2012-08-14 09:03:54	johnhamelink	yeah I registered ages ago; CD used trello for ages
+2012-08-14 09:04:05	johnhamelink	there are some parts of it i find really not scrum-like
+2012-08-14 09:04:42	alanhollis	To be honest I had nothing against sprint.ly but it wasn't managed properly and was a mess
+2012-08-14 09:04:52	alanhollis	the same thing could happen with Trello
+2012-08-14 09:04:56	johnhamelink	Yeah
+2012-08-14 09:05:02	alanhollis	they're both similar tools, it's how you use them that counts
+2012-08-14 09:05:15	johnhamelink	I like sprint.ly but it has a few key drawbacks that trello has
+2012-08-14 09:05:25	johnhamelink	*does not have
+2012-08-14 09:07:35	alanhollis	In terms of "make interactions" work. My suggestion would be to store points against the events. I'd also store the interaction against the event to remove duplication. For speed it's probably better to have the interaction as an embedded document against the event.
+2012-08-14 09:08:36	johnhamelink	Interaction in this case being what exactly? :)
+2012-08-14 09:09:04	alanhollis	One of the 12 (or more/or less) interactions
+2012-08-14 09:09:32	johnhamelink	ok
+2012-08-14 09:09:35	alanhollis	once the interactions have been decided on :)
+2012-08-14 09:10:09	johnhamelink	Yeah I'm not sure what's going on with all that... The icons are one thing but the logic is another entirely >_>
+2012-08-14 09:11:01	alanhollis	yeah, a couple of questions prop up, like if the point value for an interaction chanages
+2012-08-14 09:11:18	alanhollis	should that cause the existing points assigned to change
+2012-08-14 09:11:40	johnhamelink	oh that's an easy one: no
+2012-08-14 09:11:52	alanhollis	cool, so points aren't retrospective?
+2012-08-14 09:12:00	alanhollis	update to points*
+2012-08-14 09:12:10	johnhamelink	nope, they're defined based on current settings :)
+2012-08-14 09:12:28	alanhollis	coolio, in which case storing the interaction against the even is definitely the way forwards
+2012-08-14 09:12:29	johnhamelink	so if everything changes, then previous points are uneffective
+2012-08-14 09:12:34	alanhollis	event*
+2012-08-14 09:12:35	johnhamelink	*uneffected
+2012-08-14 09:12:45	johnhamelink	cool
+2012-08-14 09:13:53	alanhollis	then if we want to get all the points for a staff member we can find events by staff id, and count up all the interactions
+2012-08-14 09:14:18	alanhollis	might be cool to have some routes which do that automagically but still use events
+2012-08-14 09:14:59	alanhollis	Just seen sylvains email
+2012-08-14 09:15:05	alanhollis	get's even more complicated :)
+2012-08-14 09:15:12	johnhamelink	which email?
+2012-08-14 09:15:20	johnhamelink	ahh that one lol
+2012-08-14 09:18:18	johnhamelink	i see
+2012-08-14 09:19:17	johnhamelink	yeah embedding interaction inside event seems the most sensible thing to do
+2012-08-14 09:23:05	alanhollis	and as we're storing account inside the event now we can get the appropriate points out
+2012-08-14 09:23:18	johnhamelink	yep
+2012-08-14 09:24:33	alanhollis	So the next question is
+2012-08-14 09:24:45	alanhollis	What do you want me to work on :)? Are you sorting out trello now?
+2012-08-14 09:24:54	johnhamelink	Yep I am
+2012-08-14 09:30:17	johnhamelink	added the interaction points screen card to trello, can you do that first?
+2012-08-14 09:33:38	alanhollis	yeah, i'll get the basics done, that task is now there twice btw one assigned to me one assigned to max
+2012-08-14 09:36:19	johnhamelink	oh ok
+2012-08-14 09:36:54	johnhamelink	Can you drag the task into the WIP column so we all know what each other are working on?
+2012-08-14 09:37:23	johnhamelink	Cheers :P
+2012-08-14 09:37:30	alanhollis	Yeah so that move staff points thing
+2012-08-14 09:37:33	alanhollis	should probably just be
+2012-08-14 09:37:36	alanhollis	remove staff points
+2012-08-14 09:37:45	johnhamelink	k
+2012-08-14 10:54:15		irc: disconnected from server

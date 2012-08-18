@@ -1,0 +1,2299 @@
+2012-07-25 09:13:45		irc: connecting to server chat.freenode.net/6667...
+2012-07-25 09:13:45		irc: connected to chat.freenode.net/6667 (140.211.167.99)
+2012-07-25 09:13:46	--	zelazny.freenode.net (zelazny.freenode.net): *** Looking up your hostname...
+2012-07-25 09:13:46	--	zelazny.freenode.net (zelazny.freenode.net): *** Checking Ident
+2012-07-25 09:13:46	--	zelazny.freenode.net (zelazny.freenode.net): *** Couldn't look up your hostname
+2012-07-25 09:13:54	--	zelazny.freenode.net (zelazny.freenode.net): *** No Ident response
+2012-07-25 09:13:54		irc: nickname "johnhamelink" is already in use, trying nickname #2 ("john_hamelink")
+2012-07-25 09:13:54	--	Welcome to the freenode Internet Relay Chat Network john_hamelink
+2012-07-25 09:13:54	--	MSG(nickserv): identify ******
+2012-07-25 09:13:54	--	Your host is zelazny.freenode.net[140.211.167.99/6667], running version ircd-seven-1.1.3
+2012-07-25 09:13:54	--	This server was created Sun Nov 13 2011 at 13:42:34 UTC
+2012-07-25 09:13:54	--	zelazny.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 09:13:54	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 09:13:54	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 09:13:54	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 09:13:54	--	There are 242 users and 69810 invisible on 34 servers
+2012-07-25 09:13:54	--	48 :IRC Operators online
+2012-07-25 09:13:54	--	7 :unknown connection(s)
+2012-07-25 09:13:54	--	39621 :channels formed
+2012-07-25 09:13:54	--	I have 4404 clients and 1 servers
+2012-07-25 09:13:54	--	4404 7606 :Current local users 4404, max 7606
+2012-07-25 09:13:54	--	70052 83501 :Current global users 70052, max 83501
+2012-07-25 09:13:54	--	Highest connection count: 7607 (7606 clients) (3488162 connections received)
+2012-07-25 09:13:54	--	- zelazny.freenode.net Message of the Day -
+2012-07-25 09:13:54	--	- Welcome to zelazny.freenode.net in Corvallis, Oregon, US.
+2012-07-25 09:13:54	--	- Our thanks to Oregon State University for sponsoring this
+2012-07-25 09:13:54	--	- server!
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- ZELAZNY, ROGER JOSEPH [1937-1995].  Roger Zelazny was a
+2012-07-25 09:13:54	--	- leading light in the New Wave of science fiction.  He began
+2012-07-25 09:13:54	--	- writing in 1962.  Known for such works as This Immortal,
+2012-07-25 09:13:54	--	- Lord of Light, The Dream Master and the Amber books,
+2012-07-25 09:13:54	--	- Zelazny is best known for his idiomatic American
+2012-07-25 09:13:54	--	- protagonists, embodying the mythological figures of the
+2012-07-25 09:13:54	--	- Trickster and the Hero of a Thousand Faces.
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 09:13:54	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- By connecting to freenode you indicate that you have read
+2012-07-25 09:13:54	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 09:13:54	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 09:13:54	--	- you that unauthorized public logging of channels on the
+2012-07-25 09:13:54	--	- network is prohibited. Public channel logging should only
+2012-07-25 09:13:54	--	- take place where the channel owner(s) has requested this
+2012-07-25 09:13:54	--	- and users of the channel are all made aware (if you are
+2012-07-25 09:13:54	--	- publically logging your channel, you may wish to keep a
+2012-07-25 09:13:54	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 09:13:54	--	- indicates your acceptance of this policy. For details on
+2012-07-25 09:13:54	--	- freenode network policy, please take a look at our policy
+2012-07-25 09:13:54	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 09:13:54	--	- the network!
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 09:13:54	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 09:13:54	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 09:13:54	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 09:13:54	--	- [http://geeknic.org]
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 09:13:54	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 09:13:54	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- Thank you for using freenode!
+2012-07-25 09:13:54	--	-
+2012-07-25 09:13:54	--	- ***************************************************************
+2012-07-25 09:13:54	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 09:13:54	--	- ***************************************************************
+2012-07-25 09:13:54	--	End of /MOTD command.
+2012-07-25 09:13:54	--	User mode [+i] by john_hamelink
+2012-07-25 09:14:09	--	NickServ (NickServ@services.): john_hamelink is not a registered nickname.
+2012-07-25 09:14:09	--	ChanServ (ChanServ@services.): [#vim] vim discussion .. www.vim.org, vim.sf.net, :help
+2012-07-25 09:14:09	--	ChanServ (ChanServ@services.): [#laravel] Welcome to the official IRC home of Laravel
+2012-07-25 09:43:57		irc: disconnected from server
+2012-07-25 09:44:27		irc: connecting to server chat.freenode.net/6667...
+2012-07-25 09:44:27		irc: connected to chat.freenode.net/6667 (89.16.176.16)
+2012-07-25 09:44:27	--	wolfe.freenode.net (wolfe.freenode.net): *** Looking up your hostname...
+2012-07-25 09:44:27	--	wolfe.freenode.net (wolfe.freenode.net): *** Checking Ident
+2012-07-25 09:44:27	--	wolfe.freenode.net (wolfe.freenode.net): *** Couldn't look up your hostname
+2012-07-25 09:44:32		irc: disconnected from server
+2012-07-25 09:44:34		irc: disconnected from server
+2012-07-25 09:44:36		irc: connecting to server chat.freenode.net/6667...
+2012-07-25 09:44:36		irc: connected to chat.freenode.net/6667 (140.211.167.99)
+2012-07-25 09:44:36	--	zelazny.freenode.net (zelazny.freenode.net): *** Looking up your hostname...
+2012-07-25 09:44:36	--	zelazny.freenode.net (zelazny.freenode.net): *** Checking Ident
+2012-07-25 09:44:36	--	zelazny.freenode.net (zelazny.freenode.net): *** Couldn't look up your hostname
+2012-07-25 09:44:40		irc: disconnected from server
+2012-07-25 09:46:27	=!=	irc: not connected to server "freenode"!
+2012-07-25 09:46:31		irc: connecting to server chat.freenode.net/6667...
+2012-07-25 09:46:34		irc: disconnected from server
+2012-07-25 09:46:36		irc: disconnected from server
+2012-07-25 09:46:37		irc: connecting to server chat.freenode.net/6667...
+2012-07-25 09:46:37		irc: connected to chat.freenode.net/6667 (216.155.130.130)
+2012-07-25 09:46:38	--	verne.freenode.net (verne.freenode.net): *** Looking up your hostname...
+2012-07-25 09:46:38	--	verne.freenode.net (verne.freenode.net): *** Checking Ident
+2012-07-25 09:46:38	--	verne.freenode.net (verne.freenode.net): *** Couldn't look up your hostname
+2012-07-25 09:46:41		irc: disconnected from server
+2012-07-25 09:47:39		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 09:47:39		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 09:47:39	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 09:47:39	--	MSG(nickserv): identify ******
+2012-07-25 09:47:39	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 09:47:39	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 09:47:39	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 09:47:39	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 09:47:39	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 09:47:39	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 09:47:39	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 09:47:39	--	41 :IRC Operators online
+2012-07-25 09:47:39	--	38704 :channels formed
+2012-07-25 09:47:39	--	I have 6727 clients and 2 servers
+2012-07-25 09:47:39	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 09:47:39	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 09:47:39	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 09:47:39	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 09:47:39	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 09:47:39	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 09:47:39	--	- this server!
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 09:47:39	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 09:47:39	--	- credited with having written the first novel to introduce
+2012-07-25 09:47:39	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 09:47:39	--	- 'Le Voyageur imprudent'.
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 09:47:39	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- By connecting to freenode you indicate that you have read
+2012-07-25 09:47:39	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 09:47:39	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 09:47:39	--	- you that unauthorized public logging of channels on the
+2012-07-25 09:47:39	--	- network is prohibited. Public channel logging should only
+2012-07-25 09:47:39	--	- take place where the channel owner(s) has requested this
+2012-07-25 09:47:39	--	- and users of the channel are all made aware (if you are
+2012-07-25 09:47:39	--	- publically logging your channel, you may wish to keep a
+2012-07-25 09:47:39	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 09:47:39	--	- indicates your acceptance of this policy. For details on
+2012-07-25 09:47:39	--	- freenode network policy, please take a look at our policy
+2012-07-25 09:47:39	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 09:47:39	--	- the network!
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 09:47:39	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 09:47:39	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 09:47:39	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 09:47:39	--	- [http://geeknic.org]
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 09:47:39	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 09:47:39	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- Thank you for using freenode!
+2012-07-25 09:47:39	--	-
+2012-07-25 09:47:39	--	- ***************************************************************
+2012-07-25 09:47:39	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 09:47:39	--	- ***************************************************************
+2012-07-25 09:47:39	--	End of /MOTD command.
+2012-07-25 09:47:39	--	User mode [+i] by johnhamelink
+2012-07-25 09:47:40	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 09:47:41	--	ChanServ (ChanServ@services.): [#laravel] Welcome to the official IRC home of Laravel
+2012-07-25 14:12:47		irc: disconnected from server
+2012-07-25 14:12:49		irc: disconnected from server
+2012-07-25 14:12:53		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 14:12:54		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 14:12:54	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 14:12:54	--	MSG(nickserv): identify ******
+2012-07-25 14:12:54	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 14:12:54	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 14:12:54	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 14:12:54	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 14:12:54	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 14:12:54	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 14:12:54	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 14:12:54	--	41 :IRC Operators online
+2012-07-25 14:12:54	--	38704 :channels formed
+2012-07-25 14:12:54	--	I have 6727 clients and 2 servers
+2012-07-25 14:12:54	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 14:12:54	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 14:12:54	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 14:12:54	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 14:12:54	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 14:12:54	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 14:12:54	--	- this server!
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 14:12:54	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 14:12:54	--	- credited with having written the first novel to introduce
+2012-07-25 14:12:54	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 14:12:54	--	- 'Le Voyageur imprudent'.
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 14:12:54	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- By connecting to freenode you indicate that you have read
+2012-07-25 14:12:54	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 14:12:54	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 14:12:54	--	- you that unauthorized public logging of channels on the
+2012-07-25 14:12:54	--	- network is prohibited. Public channel logging should only
+2012-07-25 14:12:54	--	- take place where the channel owner(s) has requested this
+2012-07-25 14:12:54	--	- and users of the channel are all made aware (if you are
+2012-07-25 14:12:54	--	- publically logging your channel, you may wish to keep a
+2012-07-25 14:12:54	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 14:12:54	--	- indicates your acceptance of this policy. For details on
+2012-07-25 14:12:54	--	- freenode network policy, please take a look at our policy
+2012-07-25 14:12:54	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 14:12:54	--	- the network!
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 14:12:54	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 14:12:54	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 14:12:54	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 14:12:54	--	- [http://geeknic.org]
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 14:12:54	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 14:12:54	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- Thank you for using freenode!
+2012-07-25 14:12:54	--	-
+2012-07-25 14:12:54	--	- ***************************************************************
+2012-07-25 14:12:54	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 14:12:54	--	- ***************************************************************
+2012-07-25 14:12:54	--	End of /MOTD command.
+2012-07-25 14:12:54	--	User mode [+i] by johnhamelink
+2012-07-25 14:12:54	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 14:13:02		irc: disconnected from server
+2012-07-25 14:14:39		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 14:14:39		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 14:14:40	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 14:14:40	--	MSG(nickserv): identify ******
+2012-07-25 14:14:40	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 14:14:40	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 14:14:40	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 14:14:40	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 14:14:40	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 14:14:40	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 14:14:40	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 14:14:40	--	41 :IRC Operators online
+2012-07-25 14:14:40	--	38704 :channels formed
+2012-07-25 14:14:40	--	I have 6727 clients and 2 servers
+2012-07-25 14:14:40	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 14:14:40	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 14:14:40	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 14:14:40	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 14:14:40	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 14:14:40	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 14:14:40	--	- this server!
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 14:14:40	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 14:14:40	--	- credited with having written the first novel to introduce
+2012-07-25 14:14:40	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 14:14:40	--	- 'Le Voyageur imprudent'.
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 14:14:40	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- By connecting to freenode you indicate that you have read
+2012-07-25 14:14:40	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 14:14:40	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 14:14:40	--	- you that unauthorized public logging of channels on the
+2012-07-25 14:14:40	--	- network is prohibited. Public channel logging should only
+2012-07-25 14:14:40	--	- take place where the channel owner(s) has requested this
+2012-07-25 14:14:40	--	- and users of the channel are all made aware (if you are
+2012-07-25 14:14:40	--	- publically logging your channel, you may wish to keep a
+2012-07-25 14:14:40	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 14:14:40	--	- indicates your acceptance of this policy. For details on
+2012-07-25 14:14:40	--	- freenode network policy, please take a look at our policy
+2012-07-25 14:14:40	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 14:14:40	--	- the network!
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 14:14:40	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 14:14:40	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 14:14:40	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 14:14:40	--	- [http://geeknic.org]
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 14:14:40	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 14:14:40	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- Thank you for using freenode!
+2012-07-25 14:14:40	--	-
+2012-07-25 14:14:40	--	- ***************************************************************
+2012-07-25 14:14:40	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 14:14:40	--	- ***************************************************************
+2012-07-25 14:14:40	--	End of /MOTD command.
+2012-07-25 14:14:40	--	User mode [+i] by johnhamelink
+2012-07-25 14:14:40	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 18:59:12		irc: disconnected from server
+2012-07-25 18:59:43		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 18:59:43		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 18:59:44	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 18:59:44	--	MSG(nickserv): identify ******
+2012-07-25 18:59:44	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 18:59:44	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 18:59:44	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 18:59:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 18:59:44	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 18:59:44	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 18:59:44	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 18:59:44	--	41 :IRC Operators online
+2012-07-25 18:59:44	--	38704 :channels formed
+2012-07-25 18:59:44	--	I have 6727 clients and 2 servers
+2012-07-25 18:59:44	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 18:59:44	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 18:59:44	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 18:59:44	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 18:59:44	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 18:59:44	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 18:59:44	--	- this server!
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 18:59:44	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 18:59:44	--	- credited with having written the first novel to introduce
+2012-07-25 18:59:44	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 18:59:44	--	- 'Le Voyageur imprudent'.
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 18:59:44	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- By connecting to freenode you indicate that you have read
+2012-07-25 18:59:44	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 18:59:44	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 18:59:44	--	- you that unauthorized public logging of channels on the
+2012-07-25 18:59:44	--	- network is prohibited. Public channel logging should only
+2012-07-25 18:59:44	--	- take place where the channel owner(s) has requested this
+2012-07-25 18:59:44	--	- and users of the channel are all made aware (if you are
+2012-07-25 18:59:44	--	- publically logging your channel, you may wish to keep a
+2012-07-25 18:59:44	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 18:59:44	--	- indicates your acceptance of this policy. For details on
+2012-07-25 18:59:44	--	- freenode network policy, please take a look at our policy
+2012-07-25 18:59:44	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 18:59:44	--	- the network!
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 18:59:44	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 18:59:44	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 18:59:44	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 18:59:44	--	- [http://geeknic.org]
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 18:59:44	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 18:59:44	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- Thank you for using freenode!
+2012-07-25 18:59:44	--	-
+2012-07-25 18:59:44	--	- ***************************************************************
+2012-07-25 18:59:44	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 18:59:44	--	- ***************************************************************
+2012-07-25 18:59:44	--	End of /MOTD command.
+2012-07-25 18:59:44	--	User mode [+i] by johnhamelink
+2012-07-25 18:59:44	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 19:03:39		irc: disconnected from server
+2012-07-25 21:47:30		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 21:47:30		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 21:47:30	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 21:47:30	--	MSG(nickserv): identify ******
+2012-07-25 21:47:30	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 21:47:30	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 21:47:30	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 21:47:30	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 21:47:30	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 21:47:30	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 21:47:30	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 21:47:30	--	41 :IRC Operators online
+2012-07-25 21:47:30	--	38704 :channels formed
+2012-07-25 21:47:30	--	I have 6727 clients and 2 servers
+2012-07-25 21:47:30	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 21:47:30	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 21:47:30	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 21:47:30	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 21:47:30	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 21:47:30	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 21:47:30	--	- this server!
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 21:47:30	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 21:47:30	--	- credited with having written the first novel to introduce
+2012-07-25 21:47:30	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 21:47:30	--	- 'Le Voyageur imprudent'.
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 21:47:30	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- By connecting to freenode you indicate that you have read
+2012-07-25 21:47:30	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 21:47:30	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 21:47:30	--	- you that unauthorized public logging of channels on the
+2012-07-25 21:47:30	--	- network is prohibited. Public channel logging should only
+2012-07-25 21:47:30	--	- take place where the channel owner(s) has requested this
+2012-07-25 21:47:30	--	- and users of the channel are all made aware (if you are
+2012-07-25 21:47:30	--	- publically logging your channel, you may wish to keep a
+2012-07-25 21:47:30	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 21:47:30	--	- indicates your acceptance of this policy. For details on
+2012-07-25 21:47:30	--	- freenode network policy, please take a look at our policy
+2012-07-25 21:47:30	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 21:47:30	--	- the network!
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 21:47:30	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 21:47:30	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 21:47:30	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 21:47:30	--	- [http://geeknic.org]
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 21:47:30	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 21:47:30	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- Thank you for using freenode!
+2012-07-25 21:47:30	--	-
+2012-07-25 21:47:30	--	- ***************************************************************
+2012-07-25 21:47:30	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 21:47:30	--	- ***************************************************************
+2012-07-25 21:47:30	--	End of /MOTD command.
+2012-07-25 21:47:30	--	User mode [+i] by johnhamelink
+2012-07-25 21:47:31	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 22:53:08		irc: disconnected from server
+2012-07-25 22:58:47		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 22:58:47		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 22:58:47	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 22:58:47	--	MSG(nickserv): identify ******
+2012-07-25 22:58:47	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 22:58:47	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 22:58:47	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 22:58:47	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 22:58:47	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 22:58:47	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 22:58:47	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 22:58:47	--	41 :IRC Operators online
+2012-07-25 22:58:47	--	38704 :channels formed
+2012-07-25 22:58:47	--	I have 6727 clients and 2 servers
+2012-07-25 22:58:47	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 22:58:47	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 22:58:47	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 22:58:47	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 22:58:47	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 22:58:47	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 22:58:47	--	- this server!
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 22:58:47	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 22:58:47	--	- credited with having written the first novel to introduce
+2012-07-25 22:58:47	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 22:58:47	--	- 'Le Voyageur imprudent'.
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 22:58:47	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- By connecting to freenode you indicate that you have read
+2012-07-25 22:58:47	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 22:58:47	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 22:58:47	--	- you that unauthorized public logging of channels on the
+2012-07-25 22:58:47	--	- network is prohibited. Public channel logging should only
+2012-07-25 22:58:47	--	- take place where the channel owner(s) has requested this
+2012-07-25 22:58:47	--	- and users of the channel are all made aware (if you are
+2012-07-25 22:58:47	--	- publically logging your channel, you may wish to keep a
+2012-07-25 22:58:47	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 22:58:47	--	- indicates your acceptance of this policy. For details on
+2012-07-25 22:58:47	--	- freenode network policy, please take a look at our policy
+2012-07-25 22:58:47	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 22:58:47	--	- the network!
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 22:58:47	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 22:58:47	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 22:58:47	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 22:58:47	--	- [http://geeknic.org]
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 22:58:47	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 22:58:47	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- Thank you for using freenode!
+2012-07-25 22:58:47	--	-
+2012-07-25 22:58:47	--	- ***************************************************************
+2012-07-25 22:58:47	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 22:58:47	--	- ***************************************************************
+2012-07-25 22:58:47	--	End of /MOTD command.
+2012-07-25 22:58:47	--	User mode [+i] by johnhamelink
+2012-07-25 22:58:47	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:29:24		irc: disconnected from server
+2012-07-25 23:29:26		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:29:27		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:29:27	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:29:27	--	MSG(nickserv): identify ******
+2012-07-25 23:29:27	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:29:27	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:29:27	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:29:27	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:29:27	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:29:27	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:29:27	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:29:27	--	41 :IRC Operators online
+2012-07-25 23:29:27	--	38704 :channels formed
+2012-07-25 23:29:27	--	I have 6727 clients and 2 servers
+2012-07-25 23:29:27	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:29:27	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:29:27	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:29:27	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:29:27	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:29:27	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:29:27	--	- this server!
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:29:27	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:29:27	--	- credited with having written the first novel to introduce
+2012-07-25 23:29:27	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:29:27	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:29:27	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:29:27	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:29:27	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:29:27	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:29:27	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:29:27	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:29:27	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:29:27	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:29:27	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:29:27	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:29:27	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:29:27	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:29:27	--	- the network!
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:29:27	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:29:27	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:29:27	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:29:27	--	- [http://geeknic.org]
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:29:27	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:29:27	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- Thank you for using freenode!
+2012-07-25 23:29:27	--	-
+2012-07-25 23:29:27	--	- ***************************************************************
+2012-07-25 23:29:27	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:29:27	--	- ***************************************************************
+2012-07-25 23:29:27	--	End of /MOTD command.
+2012-07-25 23:29:27	--	User mode [+i] by johnhamelink
+2012-07-25 23:29:27	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:29:32		irc: disconnected from server
+2012-07-25 23:33:18		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:33:19		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:33:19	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:33:19	--	MSG(nickserv): identify ******
+2012-07-25 23:33:19	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:33:19	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:33:19	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:33:19	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:33:19	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:33:19	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:33:19	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:33:19	--	41 :IRC Operators online
+2012-07-25 23:33:19	--	38704 :channels formed
+2012-07-25 23:33:19	--	I have 6727 clients and 2 servers
+2012-07-25 23:33:19	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:33:19	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:33:19	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:33:19	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:33:19	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:33:19	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:33:19	--	- this server!
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:33:19	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:33:19	--	- credited with having written the first novel to introduce
+2012-07-25 23:33:19	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:33:19	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:33:19	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:33:19	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:33:19	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:33:19	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:33:19	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:33:19	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:33:19	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:33:19	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:33:19	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:33:19	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:33:19	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:33:19	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:33:19	--	- the network!
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:33:19	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:33:19	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:33:19	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:33:19	--	- [http://geeknic.org]
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:33:19	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:33:19	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- Thank you for using freenode!
+2012-07-25 23:33:19	--	-
+2012-07-25 23:33:19	--	- ***************************************************************
+2012-07-25 23:33:19	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:33:19	--	- ***************************************************************
+2012-07-25 23:33:19	--	End of /MOTD command.
+2012-07-25 23:33:19	--	User mode [+i] by johnhamelink
+2012-07-25 23:33:19	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:33:40		irc: disconnected from server
+2012-07-25 23:34:50		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:34:51		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:34:51	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:34:51	--	MSG(nickserv): identify ******
+2012-07-25 23:34:51	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:34:51	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:34:51	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:34:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:34:51	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:34:51	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:34:51	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:34:51	--	41 :IRC Operators online
+2012-07-25 23:34:51	--	38704 :channels formed
+2012-07-25 23:34:51	--	I have 6727 clients and 2 servers
+2012-07-25 23:34:51	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:34:51	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:34:51	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:34:51	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:34:51	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:34:51	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:34:51	--	- this server!
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:34:51	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:34:51	--	- credited with having written the first novel to introduce
+2012-07-25 23:34:51	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:34:51	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:34:51	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:34:51	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:34:51	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:34:51	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:34:51	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:34:51	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:34:51	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:34:51	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:34:51	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:34:51	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:34:51	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:34:51	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:34:51	--	- the network!
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:34:51	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:34:51	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:34:51	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:34:51	--	- [http://geeknic.org]
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:34:51	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:34:51	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- Thank you for using freenode!
+2012-07-25 23:34:51	--	-
+2012-07-25 23:34:51	--	- ***************************************************************
+2012-07-25 23:34:51	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:34:51	--	- ***************************************************************
+2012-07-25 23:34:51	--	End of /MOTD command.
+2012-07-25 23:34:51	--	User mode [+i] by johnhamelink
+2012-07-25 23:34:51	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:36:18		irc: disconnected from server
+2012-07-25 23:36:22		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:36:23		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:36:23	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:36:23	--	MSG(nickserv): identify ******
+2012-07-25 23:36:23	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:36:23	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:36:23	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:36:23	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:36:23	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:36:23	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:36:23	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:36:23	--	41 :IRC Operators online
+2012-07-25 23:36:23	--	38704 :channels formed
+2012-07-25 23:36:23	--	I have 6727 clients and 2 servers
+2012-07-25 23:36:23	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:36:23	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:36:23	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:36:23	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:36:23	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:36:23	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:36:23	--	- this server!
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:36:23	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:36:23	--	- credited with having written the first novel to introduce
+2012-07-25 23:36:23	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:36:23	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:36:23	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:36:23	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:36:23	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:36:23	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:36:23	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:36:23	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:36:23	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:36:23	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:36:23	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:36:23	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:36:23	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:36:23	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:36:23	--	- the network!
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:36:23	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:36:23	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:36:23	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:36:23	--	- [http://geeknic.org]
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:36:23	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:36:23	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- Thank you for using freenode!
+2012-07-25 23:36:23	--	-
+2012-07-25 23:36:23	--	- ***************************************************************
+2012-07-25 23:36:23	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:36:23	--	- ***************************************************************
+2012-07-25 23:36:23	--	End of /MOTD command.
+2012-07-25 23:36:23	--	User mode [+i] by johnhamelink
+2012-07-25 23:36:23	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:37:09		irc: disconnected from server
+2012-07-25 23:37:10		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:37:10		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:37:10	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:37:10	--	MSG(nickserv): identify ******
+2012-07-25 23:37:10	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:37:10	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:37:10	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:37:10	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:37:10	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:37:10	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:37:10	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:37:10	--	41 :IRC Operators online
+2012-07-25 23:37:10	--	38704 :channels formed
+2012-07-25 23:37:10	--	I have 6727 clients and 2 servers
+2012-07-25 23:37:10	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:37:10	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:37:10	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:37:10	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:37:10	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:37:10	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:37:10	--	- this server!
+2012-07-25 23:37:10	--	-
+2012-07-25 23:37:10	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:37:10	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:37:10	--	- credited with having written the first novel to introduce
+2012-07-25 23:37:10	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:37:10	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:37:10	--	-
+2012-07-25 23:37:10	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:37:10	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:37:10	--	-
+2012-07-25 23:37:10	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:37:11	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:37:11	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:37:11	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:37:11	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:37:11	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:37:11	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:37:11	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:37:11	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:37:11	--	-
+2012-07-25 23:37:11	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:37:11	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:37:11	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:37:11	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:37:11	--	- the network!
+2012-07-25 23:37:11	--	-
+2012-07-25 23:37:11	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:37:11	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:37:11	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:37:11	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:37:11	--	- [http://geeknic.org]
+2012-07-25 23:37:11	--	-
+2012-07-25 23:37:11	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:37:11	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:37:11	--	-
+2012-07-25 23:37:11	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:37:11	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:37:11	--	-
+2012-07-25 23:37:11	--	- Thank you for using freenode!
+2012-07-25 23:37:11	--	-
+2012-07-25 23:37:11	--	- ***************************************************************
+2012-07-25 23:37:11	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:37:11	--	- ***************************************************************
+2012-07-25 23:37:11	--	End of /MOTD command.
+2012-07-25 23:37:11	--	User mode [+i] by johnhamelink
+2012-07-25 23:37:11	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:38:03		irc: disconnected from server
+2012-07-25 23:38:16		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:38:16		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:38:16	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:38:16	--	MSG(nickserv): identify ******
+2012-07-25 23:38:16	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:38:16	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:38:16	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:38:16	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:38:16	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:38:16	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:38:16	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:38:16	--	41 :IRC Operators online
+2012-07-25 23:38:16	--	38704 :channels formed
+2012-07-25 23:38:16	--	I have 6727 clients and 2 servers
+2012-07-25 23:38:16	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:38:16	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:38:16	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:38:16	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:38:16	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:38:16	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:38:16	--	- this server!
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:38:16	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:38:16	--	- credited with having written the first novel to introduce
+2012-07-25 23:38:16	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:38:16	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:38:16	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:38:16	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:38:16	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:38:16	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:38:16	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:38:16	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:38:16	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:38:16	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:38:16	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:38:16	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:38:16	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:38:16	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:38:16	--	- the network!
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:38:16	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:38:16	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:38:16	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:38:16	--	- [http://geeknic.org]
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:38:16	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:38:16	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- Thank you for using freenode!
+2012-07-25 23:38:16	--	-
+2012-07-25 23:38:16	--	- ***************************************************************
+2012-07-25 23:38:16	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:38:16	--	- ***************************************************************
+2012-07-25 23:38:16	--	End of /MOTD command.
+2012-07-25 23:38:16	--	User mode [+i] by johnhamelink
+2012-07-25 23:38:16	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:38:20		irc: disconnected from server
+2012-07-25 23:40:07		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:40:07		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:40:07	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:40:07	--	MSG(nickserv): identify ******
+2012-07-25 23:40:07	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:40:07	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:40:07	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:40:07	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:40:07	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:40:07	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:40:07	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:40:07	--	41 :IRC Operators online
+2012-07-25 23:40:07	--	38704 :channels formed
+2012-07-25 23:40:07	--	I have 6727 clients and 2 servers
+2012-07-25 23:40:07	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:40:07	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:40:07	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:40:07	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:40:07	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:40:07	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:40:07	--	- this server!
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:40:07	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:40:07	--	- credited with having written the first novel to introduce
+2012-07-25 23:40:07	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:40:07	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:40:07	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:40:07	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:40:07	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:40:07	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:40:07	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:40:07	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:40:07	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:40:07	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:40:07	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:40:07	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:40:07	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:40:07	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:40:07	--	- the network!
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:40:07	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:40:07	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:40:07	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:40:07	--	- [http://geeknic.org]
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:40:07	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:40:07	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- Thank you for using freenode!
+2012-07-25 23:40:07	--	-
+2012-07-25 23:40:07	--	- ***************************************************************
+2012-07-25 23:40:07	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:40:07	--	- ***************************************************************
+2012-07-25 23:40:07	--	End of /MOTD command.
+2012-07-25 23:40:07	--	User mode [+i] by johnhamelink
+2012-07-25 23:40:07	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-25 23:40:13		irc: disconnected from server
+2012-07-25 23:40:58		irc: connecting to server development.illlo.eu/1337...
+2012-07-25 23:40:58		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-25 23:40:58	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-25 23:40:58	--	MSG(nickserv): identify ******
+2012-07-25 23:40:58	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-25 23:40:58	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-25 23:40:58	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-25 23:40:58	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-25 23:40:58	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-25 23:40:58	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-25 23:40:58	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-25 23:40:58	--	41 :IRC Operators online
+2012-07-25 23:40:58	--	38704 :channels formed
+2012-07-25 23:40:58	--	I have 6727 clients and 2 servers
+2012-07-25 23:40:58	--	6727 10199 :Current local users 6727, max 10199
+2012-07-25 23:40:58	--	66923 83501 :Current global users 66923, max 83501
+2012-07-25 23:40:58	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-25 23:40:58	--	- barjavel.freenode.net Message of the Day -
+2012-07-25 23:40:58	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-25 23:40:58	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-25 23:40:58	--	- this server!
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-25 23:40:58	--	- science-fiction author, a journalist and a critic. He is
+2012-07-25 23:40:58	--	- credited with having written the first novel to introduce
+2012-07-25 23:40:58	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-25 23:40:58	--	- 'Le Voyageur imprudent'.
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-25 23:40:58	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- By connecting to freenode you indicate that you have read
+2012-07-25 23:40:58	--	- and agree to adhere to our policies and procedures as per
+2012-07-25 23:40:58	--	- the website (http://freenode.net). We would like to remind
+2012-07-25 23:40:58	--	- you that unauthorized public logging of channels on the
+2012-07-25 23:40:58	--	- network is prohibited. Public channel logging should only
+2012-07-25 23:40:58	--	- take place where the channel owner(s) has requested this
+2012-07-25 23:40:58	--	- and users of the channel are all made aware (if you are
+2012-07-25 23:40:58	--	- publically logging your channel, you may wish to keep a
+2012-07-25 23:40:58	--	- notice in topic and perhaps as a on-join message).
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-25 23:40:58	--	- indicates your acceptance of this policy. For details on
+2012-07-25 23:40:58	--	- freenode network policy, please take a look at our policy
+2012-07-25 23:40:58	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-25 23:40:58	--	- the network!
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-25 23:40:58	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-25 23:40:58	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-25 23:40:58	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-25 23:40:58	--	- [http://geeknic.org]
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-25 23:40:58	--	- a not for profit organisation registered in England and Wales.
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-25 23:40:58	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- Thank you for using freenode!
+2012-07-25 23:40:58	--	-
+2012-07-25 23:40:58	--	- ***************************************************************
+2012-07-25 23:40:58	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-25 23:40:58	--	- ***************************************************************
+2012-07-25 23:40:58	--	End of /MOTD command.
+2012-07-25 23:40:58	--	User mode [+i] by johnhamelink
+2012-07-25 23:40:59	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 00:31:02	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2012-07-26 00:31:02		irc: disconnecting from server...
+2012-07-26 00:31:02		irc: disconnected from server
+2012-07-26 00:31:02		irc: reconnecting to server in 10 seconds
+2012-07-26 00:31:12		irc: reconnecting to server...
+2012-07-26 00:31:12		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 00:31:12		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 00:31:12	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 00:31:12	--	MSG(nickserv): identify ******
+2012-07-26 00:31:12	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 00:31:12	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 00:31:12	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 00:31:12	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 00:31:12	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 00:31:12	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 00:31:12	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 00:31:12	--	41 :IRC Operators online
+2012-07-26 00:31:12	--	38704 :channels formed
+2012-07-26 00:31:12	--	I have 6727 clients and 2 servers
+2012-07-26 00:31:12	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 00:31:12	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 00:31:12	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 00:31:12	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 00:31:12	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 00:31:12	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 00:31:12	--	- this server!
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 00:31:12	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 00:31:12	--	- credited with having written the first novel to introduce
+2012-07-26 00:31:12	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 00:31:12	--	- 'Le Voyageur imprudent'.
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 00:31:12	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- By connecting to freenode you indicate that you have read
+2012-07-26 00:31:12	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 00:31:12	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 00:31:12	--	- you that unauthorized public logging of channels on the
+2012-07-26 00:31:12	--	- network is prohibited. Public channel logging should only
+2012-07-26 00:31:12	--	- take place where the channel owner(s) has requested this
+2012-07-26 00:31:12	--	- and users of the channel are all made aware (if you are
+2012-07-26 00:31:12	--	- publically logging your channel, you may wish to keep a
+2012-07-26 00:31:12	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 00:31:12	--	- indicates your acceptance of this policy. For details on
+2012-07-26 00:31:12	--	- freenode network policy, please take a look at our policy
+2012-07-26 00:31:12	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 00:31:12	--	- the network!
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 00:31:12	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 00:31:12	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 00:31:12	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 00:31:12	--	- [http://geeknic.org]
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 00:31:12	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 00:31:12	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- Thank you for using freenode!
+2012-07-26 00:31:12	--	-
+2012-07-26 00:31:12	--	- ***************************************************************
+2012-07-26 00:31:12	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 00:31:12	--	- ***************************************************************
+2012-07-26 00:31:12	--	End of /MOTD command.
+2012-07-26 00:31:12	--	User mode [+i] by johnhamelink
+2012-07-26 00:31:13	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 01:30:50		irc: disconnected from server
+2012-07-26 09:01:56		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:01:57		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:01:57	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:01:57	--	MSG(nickserv): identify ******
+2012-07-26 09:01:57	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:01:57	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:01:57	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:01:57	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:01:57	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:01:57	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:01:57	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:01:57	--	41 :IRC Operators online
+2012-07-26 09:01:57	--	38704 :channels formed
+2012-07-26 09:01:57	--	I have 6727 clients and 2 servers
+2012-07-26 09:01:57	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:01:57	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:01:57	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:01:57	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:01:57	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:01:57	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:01:57	--	- this server!
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:01:57	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:01:57	--	- credited with having written the first novel to introduce
+2012-07-26 09:01:57	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:01:57	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:01:57	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:01:57	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:01:57	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:01:57	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:01:57	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:01:57	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:01:57	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:01:57	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:01:57	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:01:57	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:01:57	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:01:57	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:01:57	--	- the network!
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:01:57	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:01:57	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:01:57	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:01:57	--	- [http://geeknic.org]
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:01:57	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:01:57	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- Thank you for using freenode!
+2012-07-26 09:01:57	--	-
+2012-07-26 09:01:57	--	- ***************************************************************
+2012-07-26 09:01:57	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:01:57	--	- ***************************************************************
+2012-07-26 09:01:57	--	End of /MOTD command.
+2012-07-26 09:01:57	--	User mode [+i] by johnhamelink
+2012-07-26 09:01:57	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:03:17		irc: disconnected from server
+2012-07-26 09:03:26		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:03:26		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:03:26	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:03:26	--	MSG(nickserv): identify ******
+2012-07-26 09:03:26	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:03:26	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:03:26	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:03:26	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:03:26	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:03:26	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:03:26	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:03:26	--	41 :IRC Operators online
+2012-07-26 09:03:26	--	38704 :channels formed
+2012-07-26 09:03:26	--	I have 6727 clients and 2 servers
+2012-07-26 09:03:26	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:03:26	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:03:26	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:03:26	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:03:26	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:03:26	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:03:26	--	- this server!
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:03:26	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:03:26	--	- credited with having written the first novel to introduce
+2012-07-26 09:03:26	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:03:26	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:03:26	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:03:26	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:03:26	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:03:26	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:03:26	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:03:26	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:03:26	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:03:26	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:03:26	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:03:26	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:03:26	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:03:26	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:03:26	--	- the network!
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:03:26	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:03:26	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:03:26	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:03:26	--	- [http://geeknic.org]
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:03:26	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:03:26	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- Thank you for using freenode!
+2012-07-26 09:03:26	--	-
+2012-07-26 09:03:26	--	- ***************************************************************
+2012-07-26 09:03:26	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:03:26	--	- ***************************************************************
+2012-07-26 09:03:26	--	End of /MOTD command.
+2012-07-26 09:03:26	--	User mode [+i] by johnhamelink
+2012-07-26 09:03:26	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:03:37		irc: disconnected from server
+2012-07-26 09:04:04		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:04:04		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:04:04	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:04:04	--	MSG(nickserv): identify ******
+2012-07-26 09:04:04	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:04:04	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:04:04	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:04:04	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:04:04	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:04:04	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:04:04	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:04:04	--	41 :IRC Operators online
+2012-07-26 09:04:04	--	38704 :channels formed
+2012-07-26 09:04:04	--	I have 6727 clients and 2 servers
+2012-07-26 09:04:04	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:04:04	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:04:04	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:04:04	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:04:04	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:04:04	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:04:04	--	- this server!
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:04:04	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:04:04	--	- credited with having written the first novel to introduce
+2012-07-26 09:04:04	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:04:04	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:04:04	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:04:04	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:04:04	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:04:04	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:04:04	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:04:04	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:04:04	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:04:04	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:04:04	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:04:04	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:04:04	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:04:04	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:04:04	--	- the network!
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:04:04	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:04:04	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:04:04	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:04:04	--	- [http://geeknic.org]
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:04:04	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:04:04	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- Thank you for using freenode!
+2012-07-26 09:04:04	--	-
+2012-07-26 09:04:04	--	- ***************************************************************
+2012-07-26 09:04:04	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:04:04	--	- ***************************************************************
+2012-07-26 09:04:04	--	End of /MOTD command.
+2012-07-26 09:04:04	--	User mode [+i] by johnhamelink
+2012-07-26 09:04:06	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:04:39		irc: disconnected from server
+2012-07-26 09:04:41		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:04:41		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:04:41	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:04:41	--	MSG(nickserv): identify ******
+2012-07-26 09:04:41	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:04:41	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:04:41	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:04:41	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:04:41	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:04:41	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:04:41	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:04:41	--	41 :IRC Operators online
+2012-07-26 09:04:41	--	38704 :channels formed
+2012-07-26 09:04:41	--	I have 6727 clients and 2 servers
+2012-07-26 09:04:41	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:04:41	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:04:41	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:04:41	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:04:41	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:04:41	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:04:41	--	- this server!
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:04:41	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:04:41	--	- credited with having written the first novel to introduce
+2012-07-26 09:04:41	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:04:41	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:04:41	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:04:41	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:04:41	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:04:41	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:04:41	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:04:41	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:04:41	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:04:41	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:04:41	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:04:41	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:04:41	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:04:41	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:04:41	--	- the network!
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:04:41	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:04:41	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:04:41	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:04:41	--	- [http://geeknic.org]
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:04:41	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:04:41	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- Thank you for using freenode!
+2012-07-26 09:04:41	--	-
+2012-07-26 09:04:41	--	- ***************************************************************
+2012-07-26 09:04:41	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:04:41	--	- ***************************************************************
+2012-07-26 09:04:41	--	End of /MOTD command.
+2012-07-26 09:04:41	--	User mode [+i] by johnhamelink
+2012-07-26 09:04:41	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:04:46		irc: disconnected from server
+2012-07-26 09:05:03		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:05:03		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:05:03	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:05:03	--	MSG(nickserv): identify ******
+2012-07-26 09:05:03	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:05:03	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:05:03	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:05:03	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:05:03	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:05:03	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:05:03	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:05:03	--	41 :IRC Operators online
+2012-07-26 09:05:03	--	38704 :channels formed
+2012-07-26 09:05:03	--	I have 6727 clients and 2 servers
+2012-07-26 09:05:03	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:05:03	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:05:03	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:05:03	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:05:03	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:05:03	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:05:03	--	- this server!
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:05:03	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:05:03	--	- credited with having written the first novel to introduce
+2012-07-26 09:05:03	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:05:03	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:05:03	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:05:03	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:05:03	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:05:03	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:05:03	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:05:03	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:05:03	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:05:03	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:05:03	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:05:03	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:05:03	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:05:03	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:05:03	--	- the network!
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:05:03	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:05:03	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:05:03	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:05:03	--	- [http://geeknic.org]
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:05:03	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:05:03	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- Thank you for using freenode!
+2012-07-26 09:05:03	--	-
+2012-07-26 09:05:03	--	- ***************************************************************
+2012-07-26 09:05:03	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:05:03	--	- ***************************************************************
+2012-07-26 09:05:03	--	End of /MOTD command.
+2012-07-26 09:05:03	--	User mode [+i] by johnhamelink
+2012-07-26 09:05:04	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:05:25		irc: disconnected from server
+2012-07-26 09:05:27		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:05:27		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:05:27	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:05:27	--	MSG(nickserv): identify ******
+2012-07-26 09:05:27	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:05:27	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:05:27	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:05:27	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:05:27	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:05:27	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:05:27	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:05:27	--	41 :IRC Operators online
+2012-07-26 09:05:27	--	38704 :channels formed
+2012-07-26 09:05:27	--	I have 6727 clients and 2 servers
+2012-07-26 09:05:27	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:05:27	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:05:27	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:05:27	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:05:27	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:05:27	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:05:27	--	- this server!
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:05:27	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:05:27	--	- credited with having written the first novel to introduce
+2012-07-26 09:05:27	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:05:27	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:05:27	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:05:27	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:05:27	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:05:27	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:05:27	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:05:27	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:05:27	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:05:27	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:05:27	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:05:27	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:05:27	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:05:27	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:05:27	--	- the network!
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:05:27	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:05:27	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:05:27	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:05:27	--	- [http://geeknic.org]
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:05:27	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:05:27	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- Thank you for using freenode!
+2012-07-26 09:05:27	--	-
+2012-07-26 09:05:27	--	- ***************************************************************
+2012-07-26 09:05:27	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:05:27	--	- ***************************************************************
+2012-07-26 09:05:27	--	End of /MOTD command.
+2012-07-26 09:05:27	--	User mode [+i] by johnhamelink
+2012-07-26 09:05:28	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:05:38		irc: disconnected from server
+2012-07-26 09:05:41		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:05:41		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:05:41	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:05:41	--	MSG(nickserv): identify ******
+2012-07-26 09:05:41	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:05:41	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:05:41	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:05:41	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:05:41	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:05:41	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:05:41	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:05:41	--	41 :IRC Operators online
+2012-07-26 09:05:41	--	38704 :channels formed
+2012-07-26 09:05:41	--	I have 6727 clients and 2 servers
+2012-07-26 09:05:41	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:05:41	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:05:41	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:05:41	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:05:41	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:05:41	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:05:41	--	- this server!
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:05:41	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:05:41	--	- credited with having written the first novel to introduce
+2012-07-26 09:05:41	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:05:41	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:05:41	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:05:41	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:05:41	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:05:41	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:05:41	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:05:41	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:05:41	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:05:41	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:05:41	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:05:41	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:05:41	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:05:41	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:05:41	--	- the network!
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:05:41	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:05:41	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:05:41	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:05:41	--	- [http://geeknic.org]
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:05:41	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:05:41	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- Thank you for using freenode!
+2012-07-26 09:05:41	--	-
+2012-07-26 09:05:41	--	- ***************************************************************
+2012-07-26 09:05:41	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:05:41	--	- ***************************************************************
+2012-07-26 09:05:41	--	End of /MOTD command.
+2012-07-26 09:05:41	--	User mode [+i] by johnhamelink
+2012-07-26 09:05:41	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 09:05:44		irc: disconnected from server
+2012-07-26 09:05:59		irc: connecting to server development.illlo.eu/1337...
+2012-07-26 09:05:59		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-26 09:05:59	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-26 09:05:59	--	MSG(nickserv): identify ******
+2012-07-26 09:05:59	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-26 09:05:59	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-26 09:05:59	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-26 09:05:59	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-26 09:05:59	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-26 09:05:59	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-26 09:05:59	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-26 09:05:59	--	41 :IRC Operators online
+2012-07-26 09:05:59	--	38704 :channels formed
+2012-07-26 09:05:59	--	I have 6727 clients and 2 servers
+2012-07-26 09:05:59	--	6727 10199 :Current local users 6727, max 10199
+2012-07-26 09:05:59	--	66923 83501 :Current global users 66923, max 83501
+2012-07-26 09:05:59	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-26 09:05:59	--	- barjavel.freenode.net Message of the Day -
+2012-07-26 09:05:59	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-26 09:05:59	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-26 09:05:59	--	- this server!
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-26 09:05:59	--	- science-fiction author, a journalist and a critic. He is
+2012-07-26 09:05:59	--	- credited with having written the first novel to introduce
+2012-07-26 09:05:59	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-26 09:05:59	--	- 'Le Voyageur imprudent'.
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-26 09:05:59	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- By connecting to freenode you indicate that you have read
+2012-07-26 09:05:59	--	- and agree to adhere to our policies and procedures as per
+2012-07-26 09:05:59	--	- the website (http://freenode.net). We would like to remind
+2012-07-26 09:05:59	--	- you that unauthorized public logging of channels on the
+2012-07-26 09:05:59	--	- network is prohibited. Public channel logging should only
+2012-07-26 09:05:59	--	- take place where the channel owner(s) has requested this
+2012-07-26 09:05:59	--	- and users of the channel are all made aware (if you are
+2012-07-26 09:05:59	--	- publically logging your channel, you may wish to keep a
+2012-07-26 09:05:59	--	- notice in topic and perhaps as a on-join message).
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-26 09:05:59	--	- indicates your acceptance of this policy. For details on
+2012-07-26 09:05:59	--	- freenode network policy, please take a look at our policy
+2012-07-26 09:05:59	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-26 09:05:59	--	- the network!
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-26 09:05:59	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-26 09:05:59	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-26 09:05:59	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-26 09:05:59	--	- [http://geeknic.org]
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-26 09:05:59	--	- a not for profit organisation registered in England and Wales.
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-26 09:05:59	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- Thank you for using freenode!
+2012-07-26 09:05:59	--	-
+2012-07-26 09:05:59	--	- ***************************************************************
+2012-07-26 09:05:59	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-26 09:05:59	--	- ***************************************************************
+2012-07-26 09:05:59	--	End of /MOTD command.
+2012-07-26 09:05:59	--	User mode [+i] by johnhamelink
+2012-07-26 09:06:00	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-26 21:10:52		irc: disconnected from server
+2012-07-27 11:37:18		irc: connecting to server development.illlo.eu/1337...
+2012-07-27 11:37:18		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-27 11:37:19	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-27 11:37:19	--	MSG(nickserv): identify ******
+2012-07-27 11:37:19	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-27 11:37:19	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-27 11:37:19	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-27 11:37:19	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-27 11:37:19	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-27 11:37:19	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-27 11:37:19	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-27 11:37:19	--	41 :IRC Operators online
+2012-07-27 11:37:19	--	38704 :channels formed
+2012-07-27 11:37:19	--	I have 6727 clients and 2 servers
+2012-07-27 11:37:19	--	6727 10199 :Current local users 6727, max 10199
+2012-07-27 11:37:19	--	66923 83501 :Current global users 66923, max 83501
+2012-07-27 11:37:19	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-27 11:37:19	--	- barjavel.freenode.net Message of the Day -
+2012-07-27 11:37:19	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-27 11:37:19	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-27 11:37:19	--	- this server!
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-27 11:37:19	--	- science-fiction author, a journalist and a critic. He is
+2012-07-27 11:37:19	--	- credited with having written the first novel to introduce
+2012-07-27 11:37:19	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-27 11:37:19	--	- 'Le Voyageur imprudent'.
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-27 11:37:19	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- By connecting to freenode you indicate that you have read
+2012-07-27 11:37:19	--	- and agree to adhere to our policies and procedures as per
+2012-07-27 11:37:19	--	- the website (http://freenode.net). We would like to remind
+2012-07-27 11:37:19	--	- you that unauthorized public logging of channels on the
+2012-07-27 11:37:19	--	- network is prohibited. Public channel logging should only
+2012-07-27 11:37:19	--	- take place where the channel owner(s) has requested this
+2012-07-27 11:37:19	--	- and users of the channel are all made aware (if you are
+2012-07-27 11:37:19	--	- publically logging your channel, you may wish to keep a
+2012-07-27 11:37:19	--	- notice in topic and perhaps as a on-join message).
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-27 11:37:19	--	- indicates your acceptance of this policy. For details on
+2012-07-27 11:37:19	--	- freenode network policy, please take a look at our policy
+2012-07-27 11:37:19	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-27 11:37:19	--	- the network!
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-27 11:37:19	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-27 11:37:19	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-27 11:37:19	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-27 11:37:19	--	- [http://geeknic.org]
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-27 11:37:19	--	- a not for profit organisation registered in England and Wales.
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-27 11:37:19	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- Thank you for using freenode!
+2012-07-27 11:37:19	--	-
+2012-07-27 11:37:19	--	- ***************************************************************
+2012-07-27 11:37:19	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-27 11:37:19	--	- ***************************************************************
+2012-07-27 11:37:19	--	End of /MOTD command.
+2012-07-27 11:37:19	--	User mode [+i] by johnhamelink
+2012-07-27 11:37:19	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-27 11:45:06		irc: disconnected from server
+2012-07-27 13:21:40		irc: connecting to server development.illlo.eu/1337...
+2012-07-27 13:21:40		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-07-27 13:21:41	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-07-27 13:21:41	--	MSG(nickserv): identify ******
+2012-07-27 13:21:41	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-07-27 13:21:41	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-07-27 13:21:41	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-07-27 13:21:41	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-07-27 13:21:41	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-07-27 13:21:41	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-07-27 13:21:41	--	There are 244 users and 66679 invisible on 33 servers
+2012-07-27 13:21:41	--	41 :IRC Operators online
+2012-07-27 13:21:41	--	38704 :channels formed
+2012-07-27 13:21:41	--	I have 6727 clients and 2 servers
+2012-07-27 13:21:41	--	6727 10199 :Current local users 6727, max 10199
+2012-07-27 13:21:41	--	66923 83501 :Current global users 66923, max 83501
+2012-07-27 13:21:41	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-07-27 13:21:41	--	- barjavel.freenode.net Message of the Day -
+2012-07-27 13:21:41	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-07-27 13:21:41	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-07-27 13:21:41	--	- this server!
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-07-27 13:21:41	--	- science-fiction author, a journalist and a critic. He is
+2012-07-27 13:21:41	--	- credited with having written the first novel to introduce
+2012-07-27 13:21:41	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-07-27 13:21:41	--	- 'Le Voyageur imprudent'.
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- You're using freenode, a service of Peer-Directed Projects
+2012-07-27 13:21:41	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- By connecting to freenode you indicate that you have read
+2012-07-27 13:21:41	--	- and agree to adhere to our policies and procedures as per
+2012-07-27 13:21:41	--	- the website (http://freenode.net). We would like to remind
+2012-07-27 13:21:41	--	- you that unauthorized public logging of channels on the
+2012-07-27 13:21:41	--	- network is prohibited. Public channel logging should only
+2012-07-27 13:21:41	--	- take place where the channel owner(s) has requested this
+2012-07-27 13:21:41	--	- and users of the channel are all made aware (if you are
+2012-07-27 13:21:41	--	- publically logging your channel, you may wish to keep a
+2012-07-27 13:21:41	--	- notice in topic and perhaps as a on-join message).
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- freenode runs an open proxy scanner. Your use of the network
+2012-07-27 13:21:41	--	- indicates your acceptance of this policy. For details on
+2012-07-27 13:21:41	--	- freenode network policy, please take a look at our policy
+2012-07-27 13:21:41	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-07-27 13:21:41	--	- the network!
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-07-27 13:21:41	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-07-27 13:21:41	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-07-27 13:21:41	--	- success with Picnics for Geeks across the globe, more info at
+2012-07-27 13:21:41	--	- [http://geeknic.org]
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-07-27 13:21:41	--	- a not for profit organisation registered in England and Wales.
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- If you support the work we do and wish to donate to the PDPC,
+2012-07-27 13:21:41	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- Thank you for using freenode!
+2012-07-27 13:21:41	--	-
+2012-07-27 13:21:41	--	- ***************************************************************
+2012-07-27 13:21:41	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-07-27 13:21:41	--	- ***************************************************************
+2012-07-27 13:21:41	--	End of /MOTD command.
+2012-07-27 13:21:41	--	User mode [+i] by johnhamelink
+2012-07-27 13:21:41	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-07-27 17:54:28		irc: disconnected from server
+2012-08-03 11:22:07		irc: connecting to server development.illlo.eu/1337...
+2012-08-03 11:22:09		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-03 11:22:09	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-08-03 11:22:09	--	MSG(nickserv): identify ******
+2012-08-03 11:22:09	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-08-03 11:22:09	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-08-03 11:22:09	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-03 11:22:09	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-03 11:22:09	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-03 11:22:09	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-03 11:22:09	--	There are 244 users and 66679 invisible on 33 servers
+2012-08-03 11:22:09	--	41 :IRC Operators online
+2012-08-03 11:22:09	--	38704 :channels formed
+2012-08-03 11:22:09	--	I have 6727 clients and 2 servers
+2012-08-03 11:22:09	--	6727 10199 :Current local users 6727, max 10199
+2012-08-03 11:22:09	--	66923 83501 :Current global users 66923, max 83501
+2012-08-03 11:22:09	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-08-03 11:22:09	--	- barjavel.freenode.net Message of the Day -
+2012-08-03 11:22:09	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-08-03 11:22:09	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-08-03 11:22:09	--	- this server!
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-08-03 11:22:09	--	- science-fiction author, a journalist and a critic. He is
+2012-08-03 11:22:09	--	- credited with having written the first novel to introduce
+2012-08-03 11:22:09	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-08-03 11:22:09	--	- 'Le Voyageur imprudent'.
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-03 11:22:09	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- By connecting to freenode you indicate that you have read
+2012-08-03 11:22:09	--	- and agree to adhere to our policies and procedures as per
+2012-08-03 11:22:09	--	- the website (http://freenode.net). We would like to remind
+2012-08-03 11:22:09	--	- you that unauthorized public logging of channels on the
+2012-08-03 11:22:09	--	- network is prohibited. Public channel logging should only
+2012-08-03 11:22:09	--	- take place where the channel owner(s) has requested this
+2012-08-03 11:22:09	--	- and users of the channel are all made aware (if you are
+2012-08-03 11:22:09	--	- publically logging your channel, you may wish to keep a
+2012-08-03 11:22:09	--	- notice in topic and perhaps as a on-join message).
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-03 11:22:09	--	- indicates your acceptance of this policy. For details on
+2012-08-03 11:22:09	--	- freenode network policy, please take a look at our policy
+2012-08-03 11:22:09	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-03 11:22:09	--	- the network!
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-03 11:22:09	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-03 11:22:09	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-03 11:22:09	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-03 11:22:09	--	- [http://geeknic.org]
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-03 11:22:09	--	- a not for profit organisation registered in England and Wales.
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-03 11:22:09	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- Thank you for using freenode!
+2012-08-03 11:22:09	--	-
+2012-08-03 11:22:09	--	- ***************************************************************
+2012-08-03 11:22:09	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-03 11:22:09	--	- ***************************************************************
+2012-08-03 11:22:09	--	End of /MOTD command.
+2012-08-03 11:22:09	--	User mode [+i] by johnhamelink
+2012-08-03 11:22:10	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-03 14:14:29	=!=	irc: reading data on socket: error 104 Connection reset by peer
+2012-08-03 14:14:29		irc: disconnecting from server...
+2012-08-03 14:14:29		irc: disconnected from server
+2012-08-03 14:14:29		irc: reconnecting to server in 10 seconds
+2012-08-03 14:14:39		irc: reconnecting to server...
+2012-08-03 14:14:39		irc: connecting to server development.illlo.eu/1337...
+2012-08-03 14:14:39		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-03 14:14:39	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink_
+2012-08-03 14:14:39	--	MSG(nickserv): identify ******
+2012-08-03 14:14:39	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2012-08-03 14:14:39	--	This server was created Mon Feb 6 2012 at 21:33:23 CET
+2012-08-03 14:14:39	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-03 14:14:39	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-03 14:14:39	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-03 14:14:39	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-03 14:14:39	--	There are 244 users and 66679 invisible on 33 servers
+2012-08-03 14:14:39	--	41 :IRC Operators online
+2012-08-03 14:14:39	--	38704 :channels formed
+2012-08-03 14:14:39	--	I have 6727 clients and 2 servers
+2012-08-03 14:14:39	--	6727 10199 :Current local users 6727, max 10199
+2012-08-03 14:14:39	--	66923 83501 :Current global users 66923, max 83501
+2012-08-03 14:14:39	--	Highest connection count: 10200 (10199 clients) (1570666 connections received)
+2012-08-03 14:14:39	--	- barjavel.freenode.net Message of the Day -
+2012-08-03 14:14:39	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2012-08-03 14:14:39	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2012-08-03 14:14:39	--	- this server!
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2012-08-03 14:14:39	--	- science-fiction author, a journalist and a critic. He is
+2012-08-03 14:14:39	--	- credited with having written the first novel to introduce
+2012-08-03 14:14:39	--	- the Grandfather Paradox in time travel, in his 1943 work
+2012-08-03 14:14:39	--	- 'Le Voyageur imprudent'.
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-03 14:14:39	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- By connecting to freenode you indicate that you have read
+2012-08-03 14:14:39	--	- and agree to adhere to our policies and procedures as per
+2012-08-03 14:14:39	--	- the website (http://freenode.net). We would like to remind
+2012-08-03 14:14:39	--	- you that unauthorized public logging of channels on the
+2012-08-03 14:14:39	--	- network is prohibited. Public channel logging should only
+2012-08-03 14:14:39	--	- take place where the channel owner(s) has requested this
+2012-08-03 14:14:39	--	- and users of the channel are all made aware (if you are
+2012-08-03 14:14:39	--	- publically logging your channel, you may wish to keep a
+2012-08-03 14:14:39	--	- notice in topic and perhaps as a on-join message).
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-03 14:14:39	--	- indicates your acceptance of this policy. For details on
+2012-08-03 14:14:39	--	- freenode network policy, please take a look at our policy
+2012-08-03 14:14:39	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-03 14:14:39	--	- the network!
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-03 14:14:39	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-03 14:14:39	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-03 14:14:39	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-03 14:14:39	--	- [http://geeknic.org]
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-03 14:14:39	--	- a not for profit organisation registered in England and Wales.
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-03 14:14:39	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- Thank you for using freenode!
+2012-08-03 14:14:39	--	-
+2012-08-03 14:14:39	--	- ***************************************************************
+2012-08-03 14:14:39	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-03 14:14:39	--	- ***************************************************************
+2012-08-03 14:14:39	--	End of /MOTD command.
+2012-08-03 14:14:39	--	User mode [+i] by johnhamelink
+2012-08-03 14:14:40	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-03 17:12:12		irc: disconnected from server
+2012-08-13 08:16:53		irc: connecting to server development.illlo.eu/1337...
+2012-08-13 08:16:53		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-13 08:16:54	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink
+2012-08-13 08:16:54	--	MSG(nickserv): identify ******
+2012-08-13 08:16:54	--	Your host is moorcock.freenode.net[50.22.136.18/6667], running version ircd-seven-1.1.3
+2012-08-13 08:16:54	--	This server was created Tue Feb 7 2012 at 15:05:50 CST
+2012-08-13 08:16:54	--	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-13 08:16:54	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-13 08:16:54	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-13 08:16:54	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-13 08:16:54	--	There are 215 users and 63246 invisible on 33 servers
+2012-08-13 08:16:54	--	49 :IRC Operators online
+2012-08-13 08:16:54	--	35059 :channels formed
+2012-08-13 08:16:54	--	I have 5117 clients and 1 servers
+2012-08-13 08:16:54	--	5117 7222 :Current local users 5117, max 7222
+2012-08-13 08:16:54	--	63461 81621 :Current global users 63461, max 81621
+2012-08-13 08:16:54	--	Highest connection count: 7223 (7222 clients) (1327074 connections received)
+2012-08-13 08:16:54	--	- moorcock.freenode.net Message of the Day -
+2012-08-13 08:16:54	--	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2012-08-13 08:16:54	--	- Kodingen (http://kodingen.com) for sponsoring this server!
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2012-08-13 08:16:54	--	- author, Michael Moorcock began his writing career at the
+2012-08-13 08:16:54	--	- age of 16 and, via a number of pseudonyms, has become
+2012-08-13 08:16:54	--	- a widely published and highly praised author.
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-13 08:16:54	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- By connecting to freenode you indicate that you have read
+2012-08-13 08:16:54	--	- and agree to adhere to our policies and procedures as per
+2012-08-13 08:16:54	--	- the website (http://freenode.net). We would like to remind
+2012-08-13 08:16:54	--	- you that unauthorized public logging of channels on the
+2012-08-13 08:16:54	--	- network is prohibited. Public channel logging should only
+2012-08-13 08:16:54	--	- take place where the channel owner(s) has requested this
+2012-08-13 08:16:54	--	- and users of the channel are all made aware (if you are
+2012-08-13 08:16:54	--	- publically logging your channel, you may wish to keep a
+2012-08-13 08:16:54	--	- notice in topic and perhaps as a on-join message).
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-13 08:16:54	--	- indicates your acceptance of this policy. For details on
+2012-08-13 08:16:54	--	- freenode network policy, please take a look at our policy
+2012-08-13 08:16:54	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-13 08:16:54	--	- the network!
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-13 08:16:54	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-13 08:16:54	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-13 08:16:54	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-13 08:16:54	--	- [http://geeknic.org]
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-13 08:16:54	--	- a not for profit organisation registered in England and Wales.
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-13 08:16:54	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- Thank you for using freenode!
+2012-08-13 08:16:54	--	-
+2012-08-13 08:16:54	--	- ***************************************************************
+2012-08-13 08:16:54	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-13 08:16:54	--	- ***************************************************************
+2012-08-13 08:16:54	--	End of /MOTD command.
+2012-08-13 08:16:54	--	User mode [+i] by JohnHamelink
+2012-08-13 08:16:54	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-13 11:17:09		irc: disconnected from server
+2012-08-13 11:17:24		irc: connecting to server development.illlo.eu/1337...
+2012-08-13 11:17:24		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-13 11:17:24	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink
+2012-08-13 11:17:24	--	MSG(nickserv): identify ******
+2012-08-13 11:17:24	--	Your host is moorcock.freenode.net[50.22.136.18/6667], running version ircd-seven-1.1.3
+2012-08-13 11:17:24	--	This server was created Tue Feb 7 2012 at 15:05:50 CST
+2012-08-13 11:17:24	--	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-13 11:17:24	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-13 11:17:24	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-13 11:17:24	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-13 11:17:24	--	There are 215 users and 63246 invisible on 33 servers
+2012-08-13 11:17:24	--	49 :IRC Operators online
+2012-08-13 11:17:24	--	35059 :channels formed
+2012-08-13 11:17:24	--	I have 5117 clients and 1 servers
+2012-08-13 11:17:24	--	5117 7222 :Current local users 5117, max 7222
+2012-08-13 11:17:24	--	63461 81621 :Current global users 63461, max 81621
+2012-08-13 11:17:24	--	Highest connection count: 7223 (7222 clients) (1327074 connections received)
+2012-08-13 11:17:24	--	- moorcock.freenode.net Message of the Day -
+2012-08-13 11:17:24	--	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2012-08-13 11:17:24	--	- Kodingen (http://kodingen.com) for sponsoring this server!
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2012-08-13 11:17:24	--	- author, Michael Moorcock began his writing career at the
+2012-08-13 11:17:24	--	- age of 16 and, via a number of pseudonyms, has become
+2012-08-13 11:17:24	--	- a widely published and highly praised author.
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-13 11:17:24	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- By connecting to freenode you indicate that you have read
+2012-08-13 11:17:24	--	- and agree to adhere to our policies and procedures as per
+2012-08-13 11:17:24	--	- the website (http://freenode.net). We would like to remind
+2012-08-13 11:17:24	--	- you that unauthorized public logging of channels on the
+2012-08-13 11:17:24	--	- network is prohibited. Public channel logging should only
+2012-08-13 11:17:24	--	- take place where the channel owner(s) has requested this
+2012-08-13 11:17:24	--	- and users of the channel are all made aware (if you are
+2012-08-13 11:17:24	--	- publically logging your channel, you may wish to keep a
+2012-08-13 11:17:24	--	- notice in topic and perhaps as a on-join message).
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-13 11:17:24	--	- indicates your acceptance of this policy. For details on
+2012-08-13 11:17:24	--	- freenode network policy, please take a look at our policy
+2012-08-13 11:17:24	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-13 11:17:24	--	- the network!
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-13 11:17:24	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-13 11:17:24	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-13 11:17:24	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-13 11:17:24	--	- [http://geeknic.org]
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-13 11:17:24	--	- a not for profit organisation registered in England and Wales.
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-13 11:17:24	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- Thank you for using freenode!
+2012-08-13 11:17:24	--	-
+2012-08-13 11:17:24	--	- ***************************************************************
+2012-08-13 11:17:24	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-13 11:17:24	--	- ***************************************************************
+2012-08-13 11:17:24	--	End of /MOTD command.
+2012-08-13 11:17:24	--	User mode [+i] by JohnHamelink
+2012-08-13 11:17:24	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-13 16:51:09		irc: disconnected from server
+2012-08-13 16:52:33		irc: connecting to server development.illlo.eu/1337...
+2012-08-13 16:52:33		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-13 16:52:34	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink
+2012-08-13 16:52:34	--	MSG(nickserv): identify ******
+2012-08-13 16:52:34	--	Your host is moorcock.freenode.net[50.22.136.18/6667], running version ircd-seven-1.1.3
+2012-08-13 16:52:34	--	This server was created Tue Feb 7 2012 at 15:05:50 CST
+2012-08-13 16:52:34	--	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-13 16:52:34	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-13 16:52:34	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-13 16:52:34	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-13 16:52:34	--	There are 215 users and 63246 invisible on 33 servers
+2012-08-13 16:52:34	--	49 :IRC Operators online
+2012-08-13 16:52:34	--	35059 :channels formed
+2012-08-13 16:52:34	--	I have 5117 clients and 1 servers
+2012-08-13 16:52:34	--	5117 7222 :Current local users 5117, max 7222
+2012-08-13 16:52:34	--	63461 81621 :Current global users 63461, max 81621
+2012-08-13 16:52:34	--	Highest connection count: 7223 (7222 clients) (1327074 connections received)
+2012-08-13 16:52:34	--	- moorcock.freenode.net Message of the Day -
+2012-08-13 16:52:34	--	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2012-08-13 16:52:34	--	- Kodingen (http://kodingen.com) for sponsoring this server!
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2012-08-13 16:52:34	--	- author, Michael Moorcock began his writing career at the
+2012-08-13 16:52:34	--	- age of 16 and, via a number of pseudonyms, has become
+2012-08-13 16:52:34	--	- a widely published and highly praised author.
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-13 16:52:34	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- By connecting to freenode you indicate that you have read
+2012-08-13 16:52:34	--	- and agree to adhere to our policies and procedures as per
+2012-08-13 16:52:34	--	- the website (http://freenode.net). We would like to remind
+2012-08-13 16:52:34	--	- you that unauthorized public logging of channels on the
+2012-08-13 16:52:34	--	- network is prohibited. Public channel logging should only
+2012-08-13 16:52:34	--	- take place where the channel owner(s) has requested this
+2012-08-13 16:52:34	--	- and users of the channel are all made aware (if you are
+2012-08-13 16:52:34	--	- publically logging your channel, you may wish to keep a
+2012-08-13 16:52:34	--	- notice in topic and perhaps as a on-join message).
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-13 16:52:34	--	- indicates your acceptance of this policy. For details on
+2012-08-13 16:52:34	--	- freenode network policy, please take a look at our policy
+2012-08-13 16:52:34	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-13 16:52:34	--	- the network!
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-13 16:52:34	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-13 16:52:34	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-13 16:52:34	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-13 16:52:34	--	- [http://geeknic.org]
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-13 16:52:34	--	- a not for profit organisation registered in England and Wales.
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-13 16:52:34	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- Thank you for using freenode!
+2012-08-13 16:52:34	--	-
+2012-08-13 16:52:34	--	- ***************************************************************
+2012-08-13 16:52:34	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-13 16:52:34	--	- ***************************************************************
+2012-08-13 16:52:34	--	End of /MOTD command.
+2012-08-13 16:52:34	--	User mode [+i] by JohnHamelink
+2012-08-13 16:52:34	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-13 21:36:06		irc: disconnected from server
+2012-08-14 08:53:54		irc: connecting to server development.illlo.eu/1337...
+2012-08-14 08:53:55	=!=	irc: address "development.illlo.eu" not found
+2012-08-14 08:53:55		irc: reconnecting to server in 10 seconds
+2012-08-14 08:54:05		irc: reconnecting to server...
+2012-08-14 08:54:05		irc: connecting to server development.illlo.eu/1337...
+2012-08-14 08:54:05	=!=	irc: address "development.illlo.eu" not found
+2012-08-14 08:54:05		irc: reconnecting to server in 20 seconds
+2012-08-14 08:54:25		irc: reconnecting to server...
+2012-08-14 08:54:25		irc: connecting to server development.illlo.eu/1337...
+2012-08-14 08:54:25	=!=	irc: address "development.illlo.eu" not found
+2012-08-14 08:54:25		irc: reconnecting to server in 40 seconds
+2012-08-14 08:55:05		irc: reconnecting to server...
+2012-08-14 08:55:05		irc: connecting to server development.illlo.eu/1337...
+2012-08-14 08:55:25	=!=	irc: address "development.illlo.eu" not found
+2012-08-14 08:55:25		irc: reconnecting to server in 1 minute, 20 seconds
+2012-08-14 08:56:45		irc: reconnecting to server...
+2012-08-14 08:56:45		irc: connecting to server development.illlo.eu/1337...
+2012-08-14 08:56:50		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-14 08:56:50	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink
+2012-08-14 08:56:50	--	MSG(nickserv): identify ******
+2012-08-14 08:56:50	--	Your host is moorcock.freenode.net[50.22.136.18/6667], running version ircd-seven-1.1.3
+2012-08-14 08:56:50	--	This server was created Tue Feb 7 2012 at 15:05:50 CST
+2012-08-14 08:56:50	--	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-14 08:56:50	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-14 08:56:50	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-14 08:56:50	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-14 08:56:50	--	There are 215 users and 63246 invisible on 33 servers
+2012-08-14 08:56:50	--	49 :IRC Operators online
+2012-08-14 08:56:50	--	35059 :channels formed
+2012-08-14 08:56:50	--	I have 5117 clients and 1 servers
+2012-08-14 08:56:50	--	5117 7222 :Current local users 5117, max 7222
+2012-08-14 08:56:50	--	63461 81621 :Current global users 63461, max 81621
+2012-08-14 08:56:50	--	Highest connection count: 7223 (7222 clients) (1327074 connections received)
+2012-08-14 08:56:50	--	- moorcock.freenode.net Message of the Day -
+2012-08-14 08:56:50	--	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2012-08-14 08:56:50	--	- Kodingen (http://kodingen.com) for sponsoring this server!
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2012-08-14 08:56:50	--	- author, Michael Moorcock began his writing career at the
+2012-08-14 08:56:50	--	- age of 16 and, via a number of pseudonyms, has become
+2012-08-14 08:56:50	--	- a widely published and highly praised author.
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-14 08:56:50	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- By connecting to freenode you indicate that you have read
+2012-08-14 08:56:50	--	- and agree to adhere to our policies and procedures as per
+2012-08-14 08:56:50	--	- the website (http://freenode.net). We would like to remind
+2012-08-14 08:56:50	--	- you that unauthorized public logging of channels on the
+2012-08-14 08:56:50	--	- network is prohibited. Public channel logging should only
+2012-08-14 08:56:50	--	- take place where the channel owner(s) has requested this
+2012-08-14 08:56:50	--	- and users of the channel are all made aware (if you are
+2012-08-14 08:56:50	--	- publically logging your channel, you may wish to keep a
+2012-08-14 08:56:50	--	- notice in topic and perhaps as a on-join message).
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-14 08:56:50	--	- indicates your acceptance of this policy. For details on
+2012-08-14 08:56:50	--	- freenode network policy, please take a look at our policy
+2012-08-14 08:56:50	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-14 08:56:50	--	- the network!
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-14 08:56:50	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-14 08:56:50	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-14 08:56:50	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-14 08:56:50	--	- [http://geeknic.org]
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-14 08:56:50	--	- a not for profit organisation registered in England and Wales.
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-14 08:56:50	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- Thank you for using freenode!
+2012-08-14 08:56:50	--	-
+2012-08-14 08:56:50	--	- ***************************************************************
+2012-08-14 08:56:50	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-14 08:56:50	--	- ***************************************************************
+2012-08-14 08:56:50	--	End of /MOTD command.
+2012-08-14 08:56:50	--	User mode [+i] by JohnHamelink
+2012-08-14 08:56:50	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-14 10:54:15		irc: disconnected from server
+2012-08-18 14:57:46		irc: connecting to server development.illlo.eu/1337...
+2012-08-18 14:57:46		irc: connected to development.illlo.eu/1337 (176.31.113.180)
+2012-08-18 14:57:46	--	Welcome to the freenode Internet Relay Chat Network JohnHamelink
+2012-08-18 14:57:46	--	MSG(nickserv): identify ******
+2012-08-18 14:57:46	--	Your host is moorcock.freenode.net[50.22.136.18/6667], running version ircd-seven-1.1.3
+2012-08-18 14:57:46	--	This server was created Tue Feb 7 2012 at 15:05:50 CST
+2012-08-18 14:57:46	--	moorcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+2012-08-18 14:57:46	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2012-08-18 14:57:46	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2012-08-18 14:57:46	--	EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2012-08-18 14:57:46	--	There are 215 users and 63246 invisible on 33 servers
+2012-08-18 14:57:46	--	49 :IRC Operators online
+2012-08-18 14:57:46	--	35059 :channels formed
+2012-08-18 14:57:46	--	I have 5117 clients and 1 servers
+2012-08-18 14:57:46	--	5117 7222 :Current local users 5117, max 7222
+2012-08-18 14:57:46	--	63461 81621 :Current global users 63461, max 81621
+2012-08-18 14:57:46	--	Highest connection count: 7223 (7222 clients) (1327074 connections received)
+2012-08-18 14:57:46	--	- moorcock.freenode.net Message of the Day -
+2012-08-18 14:57:46	--	- Welcome to moorcock.freenode.net in Texas, USA. Thanks to
+2012-08-18 14:57:46	--	- Kodingen (http://kodingen.com) for sponsoring this server!
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- MOORCOCK, MICHAEL (1939-). A British Sci-fi and Fantasy
+2012-08-18 14:57:46	--	- author, Michael Moorcock began his writing career at the
+2012-08-18 14:57:46	--	- age of 16 and, via a number of pseudonyms, has become
+2012-08-18 14:57:46	--	- a widely published and highly praised author.
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- You're using freenode, a service of Peer-Directed Projects
+2012-08-18 14:57:46	--	- Center Ltd (http://freenode.net/pdpc.shtml).
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- By connecting to freenode you indicate that you have read
+2012-08-18 14:57:46	--	- and agree to adhere to our policies and procedures as per
+2012-08-18 14:57:46	--	- the website (http://freenode.net). We would like to remind
+2012-08-18 14:57:46	--	- you that unauthorized public logging of channels on the
+2012-08-18 14:57:46	--	- network is prohibited. Public channel logging should only
+2012-08-18 14:57:46	--	- take place where the channel owner(s) has requested this
+2012-08-18 14:57:46	--	- and users of the channel are all made aware (if you are
+2012-08-18 14:57:46	--	- publically logging your channel, you may wish to keep a
+2012-08-18 14:57:46	--	- notice in topic and perhaps as a on-join message).
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- freenode runs an open proxy scanner. Your use of the network
+2012-08-18 14:57:46	--	- indicates your acceptance of this policy. For details on
+2012-08-18 14:57:46	--	- freenode network policy, please take a look at our policy
+2012-08-18 14:57:46	--	- page (http://freenode.net/policy.shtml). Thank you for using
+2012-08-18 14:57:46	--	- the network!
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- Don't forget to check out these other Peer-Directed Projects:
+2012-08-18 14:57:46	--	- FOSSCON [http://www.fosscon.org] and fossevents
+2012-08-18 14:57:46	--	- [http://www.fossevents.org], and soon we'll repeat last years
+2012-08-18 14:57:46	--	- success with Picnics for Geeks across the globe, more info at
+2012-08-18 14:57:46	--	- [http://geeknic.org]
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- freenode is a service of Peer-Directed Projects Center Ltd,
+2012-08-18 14:57:46	--	- a not for profit organisation registered in England and Wales.
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- If you support the work we do and wish to donate to the PDPC,
+2012-08-18 14:57:46	--	- you may do so over at http://freenode.net/pdpc_donations.shtml
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- Thank you for using freenode!
+2012-08-18 14:57:46	--	-
+2012-08-18 14:57:46	--	- ***************************************************************
+2012-08-18 14:57:46	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2012-08-18 14:57:46	--	- ***************************************************************
+2012-08-18 14:57:46	--	End of /MOTD command.
+2012-08-18 14:57:46	--	User mode [+i] by JohnHamelink
+2012-08-18 14:57:47	--	NickServ (NickServ@services.): You are already logged in as johnhamelink.
+2012-08-18 14:58:10	--	ChanServ (ChanServ@services.): [#ubuntu] Welcome to #ubuntu! Please read the channel topic. This channel is logged. Use of this channel implies acceptance of terms at https://wiki.ubuntu.com/IRC/TermsOfService
+2012-08-18 16:12:00		irc: disconnected from server
